@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Biblioteca de Videos Automática</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .video-card:hover { transform: scale(1.02); transition: all 0.2s; }
+    </style>
+</head>
+<body class="bg-gray-900 text-white font-sans">
+
+    <header class="py-10 text-center">
+        <h1 class="text-4xl font-bold text-red-500">📺 Mi Videoteca Pro</h1>
+        <p class="text-gray-400 mt-2">Actualizado automáticamente desde YouTube</p>
+    </header>
+
+    <main class="container mx-auto px-4">
+        <section>
+            <h2 class="text-2xl font-semibold mb-6 border-b border-gray-700 pb-2">🔥 Últimas Novedades (Top 10)</h2>
+            <div id="destacados" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6">
+                </div>
+        </section>
+
+        <hr class="my-12 border-gray-800">
+
+        <section class="pb-20">
+            <h2 class="text-2xl font-semibold mb-6 border-b border-gray-700 pb-2">📂 Otros Canales</h2>
+            <div id="anteriores" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
+                </div>
+        </section>
+    </main>
+
+    <script>
+        async function cargarVideos() {
+            try {
+                // Buscamos el JSON generado por el script de Python
+                const response = await fetch('videos.json');
+                const videos = await response.json();
+
+                const destacadosDiv = document.getElementById('destacados');
+                const anterioresDiv = document.getElementById('anteriores');
+
+                videos.forEach((video, index) => {
+                    // Plantilla del Video
+                    const videoHTML = `
+                        <div class="video-card bg-gray-800 rounded-lg overflow-hidden shadow-lg">
+                            <a href="${video.url}" target="_blank">
+                                <img src="${video.thumbnail}" alt="${video.title}" class="w-full aspect-video object-cover">
+                                <div class="p-3">
+                                    <h3 class="text-sm font-bold line-clamp-2 mb-1">${video.title}</h3>
+                                    <p class="text-xs text-red-400 font-medium">${video.channelTitle}</p>
+                                    ${index < 10 ? `<p class="text-xs text-gray-500 mt-2 line-clamp-2">${video.description}</p>` : ''}
+                                </div>
+                            </a>
+                        </div>
+                    `;
+
+                    if (index < 10) {
+                        destacadosDiv.innerHTML += videoHTML;
+                    } else {
+                        anterioresDiv.innerHTML += videoHTML;
+                    }
+                });
+            } catch (error) {
+                console.error("Error cargando el JSON:", error);
+                document.body.innerHTML += '<p class="text-center text-red-500">Error al cargar la biblioteca. Asegúrate de que videos.json exista.</p>';
+            }
+        }
+
+        cargarVideos();
+    </script>
+</body>
+</html>
