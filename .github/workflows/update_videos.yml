@@ -1,0 +1,31 @@
+name: Actualizador Automático de Videos
+on:
+  schedule:
+    - cron: '59 */23 * * *' # Se ejecuta cada 12 horas
+  workflow_dispatch:      # Permite ejecutarlo a mano con un botón
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout del código
+        uses: actions/checkout@v3
+
+      - name: Configurar Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Instalar librerías
+        run: pip install -r requirements.txt
+
+      - name: Ejecutar script de recolección
+        run: python fetch_videos.py
+
+      - name: Guardar cambios en GitHub
+        run: |
+          git config --global user.name 'VideoBot'
+          git config --global user.email 'bot@github.com'
+          git add videos.json
+          git commit -m "Lista de videos actualizada" || exit 0
+          git push
