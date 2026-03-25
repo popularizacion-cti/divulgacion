@@ -43,22 +43,26 @@
                 const anterioresDiv = document.getElementById('anteriores');
 
                 videos.forEach((video, index) => {
-                    // Plantilla del Video
-                        const videoHTML = `
-                            <div class="video-card bg-gray-800 rounded-lg overflow-hidden shadow-lg border border-gray-700">
-                                <a href="${video.url}" target="_blank">
+                    // Definimos la plantilla HTML para cada video
+                    const videoHTML = `
+                        <div class="video-card bg-gray-800 rounded-lg overflow-hidden shadow-lg border border-gray-700 h-full flex flex-col">
+                            <a href="${video.url}" target="_blank" class="block flex-grow">
+                                <div class="relative aspect-video bg-gray-700 overflow-hidden">
                                     <img src="${video.thumbnail}" 
-                                         onerror="this.onerror=null;this.src='${video.backup_thumb}';" 
+                                         onerror="this.onerror=null; this.src='${video.backup_thumb}'; this.parentElement.classList.add('using-backup');" 
                                          alt="${video.title}" 
-                                         class="w-full aspect-video object-cover">
-                                    <div class="p-3">
-                                        <h3 class="text-sm font-bold line-clamp-2 mb-1 text-white">${video.title}</h3>
-                                        <p class="text-xs text-red-400 font-bold uppercase tracking-wider">${video.channelTitle}</p>
-                                        ${index < 10 ? `<p class="text-xs text-gray-400 mt-2 line-clamp-2">${video.description}</p>` : ''}
-                                    </div>
-                                </a>
-                            </div>
-                        `;
+                                         class="w-full h-full object-cover transition-opacity duration-300"
+                                         loading="lazy">
+                                </div>
+                                <div class="p-3">
+                                    <h3 class="text-sm font-bold line-clamp-2 mb-1 text-white group-hover:text-red-400">${video.title}</h3>
+                                    <p class="text-xs text-red-400 font-bold uppercase tracking-wider">${video.channelTitle}</p>
+                                    ${index < 10 ? `<p class="text-xs text-gray-400 mt-2 line-clamp-2">${video.description}</p>` : ''}
+                                </div>
+                            </a>
+                        </div>
+                    `;
+                    // Insertar en la sección correspondiente
                     if (index < 10) {
                         destacadosDiv.innerHTML += videoHTML;
                     } else {
