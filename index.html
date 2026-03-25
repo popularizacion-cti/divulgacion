@@ -96,7 +96,7 @@
 
             if (items.length > columns * 2) {
                 const targetItem = items[columns * 2]; // Primer item de la fila 3
-                const gapOffset = 15; // Margen para que no se vea el borde superior de la fila 3
+                const gapOffset = 5; // Margen para que no se vea el borde superior de la fila 3
                 const heightLimit = targetItem.offsetTop - grid.offsetTop - gapOffset;
                 grid.style.maxHeight = heightLimit + "px";
             } else {
