@@ -44,19 +44,21 @@
 
                 videos.forEach((video, index) => {
                     // Plantilla del Video
-                    const videoHTML = `
-                        <div class="video-card bg-gray-800 rounded-lg overflow-hidden shadow-lg">
-                            <a href="${video.url}" target="_blank">
-                                <img src="${video.thumbnail}" alt="${video.title}" class="w-full aspect-video object-cover">
-                                <div class="p-3">
-                                    <h3 class="text-sm font-bold line-clamp-2 mb-1">${video.title}</h3>
-                                    <p class="text-xs text-red-400 font-medium">${video.channelTitle}</p>
-                                    ${index < 10 ? `<p class="text-xs text-gray-500 mt-2 line-clamp-2">${video.description}</p>` : ''}
-                                </div>
-                            </a>
-                        </div>
-                    `;
-
+                        const videoHTML = `
+                            <div class="video-card bg-gray-800 rounded-lg overflow-hidden shadow-lg border border-gray-700">
+                                <a href="${video.url}" target="_blank">
+                                    <img src="${video.thumbnail}" 
+                                         onerror="this.onerror=null;this.src='${video.backup_thumb}';" 
+                                         alt="${video.title}" 
+                                         class="w-full aspect-video object-cover">
+                                    <div class="p-3">
+                                        <h3 class="text-sm font-bold line-clamp-2 mb-1 text-white">${video.title}</h3>
+                                        <p class="text-xs text-red-400 font-bold uppercase tracking-wider">${video.channelTitle}</p>
+                                        ${index < 10 ? `<p class="text-xs text-gray-400 mt-2 line-clamp-2">${video.description}</p>` : ''}
+                                    </div>
+                                </a>
+                            </div>
+                        `;
                     if (index < 10) {
                         destacadosDiv.innerHTML += videoHTML;
                     } else {
