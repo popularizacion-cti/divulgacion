@@ -7,52 +7,55 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
     <style>
-        body { font-family: 'Poppins', sans-serif; background-color: #1e6c93; color: white; }
-        .accent-line { background-color: #ffd700; } /* Dorado/Amarillo para resaltar en azul */
-        .card-video { background-color: rgba(255, 255, 255, 0.1); backdrop-filter: blur(5px); border: 1px solid rgba(255,255,255,0.2); transition: 0.3s; }
+        body { font-family: 'Poppins', sans-serif; background-color: #1e6c93; color: white; margin: 0; padding: 0; }
+        .accent-line { background-color: #ffd700; } 
+        .card-video { background-color: rgba(255, 255, 255, 0.1); backdrop-filter: blur(5px); border: 1px solid rgba(255,255,255,0.2); transition: 0.3s; height: 100%; }
         .card-video:hover { background-color: rgba(255, 255, 255, 0.15); transform: translateY(-3px); }
         
-        /* Control de filas: 2 filas por defecto */
-        .grid-limited { max-height: 22rem; overflow: hidden; transition: max-height 0.5s ease-in-out; }
-        #grid-shorts.grid-limited { max-height: 30rem; }
-        .grid-expanded { max-height: 5000px !important; }
+        /* Contenedores con desbordamiento oculto para el corte limpio */
+        .grid-limited { overflow: hidden; transition: max-height 0.6s cubic-bezier(0.4, 0, 0.2, 1); }
+        .grid-expanded { max-height: 10000px !important; }
+        
         .section-content { transition: all 0.4s ease; }
         .hidden-section { display: none; }
         
-        .btn-toggle { cursor: pointer; color: #ffd700; font-weight: 600; text-decoration: underline; margin-top: 20px; display: inline-block; }
-        .section-header { cursor: pointer; user-select: none; }
+        .btn-toggle { cursor: pointer; color: #ffd700; font-weight: 600; text-decoration: underline; margin-top: 25px; display: inline-block; background: none; border: none; font-size: 1rem; }
+        .section-header { cursor: pointer; user-select: none; display: flex; align-items: center; }
+        
+        /* Imagen de Short con proporción vertical */
+        .img-short { aspect-ratio: 9/16; object-fit: cover; }
     </style>
 </head>
-<body class="p-4 md:p-8">
+<body class="p-4 md:p-10">
 
-    <header class="max-w-7xl mx-auto text-center mb-12 border-b border-white/20 pb-10">
+    <header class="max-w-7xl mx-auto text-center mb-12 border-b border-white/10 pb-10">
         <h1 class="text-4xl md:text-5xl font-bold mb-4 text-white">Canales de divulgación científica</h1>
-        <p class="text-xl text-blue-100 font-light">Videos más recientes de los canales de divulgación científica más reconocidos y populares.</p>
+        <p class="text-xl text-blue-100 font-light max-w-3xl mx-auto">Videos más recientes de los canales de divulgación científica más reconocidos y populares.</p>
     </header>
 
     <main class="max-w-7xl mx-auto">
         
-        <section class="mb-16">
-            <div class="section-header flex items-center mb-6 group" onclick="toggleSection('content-videos')">
+        <section class="mb-20">
+            <div class="section-header group" onclick="toggleSection('content-videos')">
                 <div class="accent-line w-2 h-10 mr-4 rounded-full"></div>
-                <h2 class="text-3xl font-bold">Videos Recientes</h2>
+                <h2 class="text-3xl font-bold">Videos Recientes <span class="text-xs font-normal opacity-40 ml-2 group-hover:opacity-100 italic">(Click para contraer)</span></h2>
             </div>
             
-            <div id="content-videos" class="section-content">
-                <div id="grid-videos" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 grid-limited">
+            <div id="content-videos" class="section-content mt-8">
+                <div id="grid-videos" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 grid-limited">
                     </div>
                 <button id="btn-more-videos" class="btn-toggle" onclick="expandGrid('grid-videos', this)">Ver más videos</button>
             </div>
         </section>
 
         <section class="mb-20">
-            <div class="section-header flex items-center mb-6 group" onclick="toggleSection('content-shorts')">
-                <div class="accent-line w-2 h-10 mr-4 rounded-full" style="background-color: #ff8c00;"></div>
-                <h2 class="text-3xl font-bold">YouTube Shorts</h2>
+            <div class="section-header group" onclick="toggleSection('content-shorts')">
+                <div class="w-2 h-10 mr-4 rounded-full" style="background-color: #ff8c00;"></div>
+                <h2 class="text-3xl font-bold">YouTube Shorts <span class="text-xs font-normal opacity-40 ml-2 group-hover:opacity-100 italic">(Click para contraer)</span></h2>
             </div>
 
-            <div id="content-shorts" class="section-content">
-                <div id="grid-shorts" class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4 grid-limited" style="max-height: 700px;">
+            <div id="content-shorts" class="section-content mt-8">
+                <div id="grid-shorts" class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-5 grid-limited">
                     </div>
                 <button id="btn-more-shorts" class="btn-toggle" onclick="expandGrid('grid-shorts', this)">Ver más shorts</button>
             </div>
@@ -70,8 +73,34 @@
         // Función para expandir/colapsar filas
         function expandGrid(gridId, btn) {
             const grid = document.getElementById(gridId);
-            grid.classList.toggle('grid-expanded');
-            btn.innerText = grid.classList.contains('grid-expanded') ? "Ocultar" : (gridId.includes('videos') ? "Ver más videos" : "Ver más shorts");
+            const isExpanded = grid.classList.toggle('grid-expanded');
+            
+            if (!isExpanded) {
+                // Si colapsamos, volvemos a calcular el corte limpio
+                ajustarCorteLimpio(grid);
+                window.scrollTo({ top: grid.parentElement.offsetTop - 50, behavior: 'smooth' });
+            }
+            
+            btn.innerText = isExpanded ? "Ocultar" : (gridId.includes('videos') ? "Ver más videos" : "Ver más shorts");
+        }
+
+        // FUNCIÓN CLAVE: Calcula dónde terminan exactamente 2 filas
+        function ajustarCorteLimpio(grid) {
+            const items = grid.children;
+            const isVideo = grid.id.includes('videos');
+            const columns = window.innerWidth < 768 ? (isVideo ? 1 : 2) : (window.innerWidth < 1024 ? (isVideo ? 2 : 4) : (isVideo ? 3 : 6));
+            
+            if (items.length > columns * 2) {
+                // El video que inicia la 3ra fila
+                const targetItem = items[columns * 2];
+                const gap = 32; // Espacio entre filas (gap-8 de tailwind)
+                const heightLimit = targetItem.offsetTop - grid.offsetTop - (gap / 2);
+                grid.style.maxHeight = heightLimit + "px";
+            } else {
+                grid.style.maxHeight = "none";
+                const btnId = isVideo ? 'btn-more-videos' : 'btn-more-shorts';
+                document.getElementById(btnId).style.display = 'none';
+            }
         }
 
         async function init() {
@@ -82,16 +111,16 @@
                 const videoGrid = document.getElementById('grid-videos');
                 const shortGrid = document.getElementById('grid-shorts');
 
-                // Render Videos
+                // Render Videos (Sin descripción)
                 data.videos.forEach(v => {
                     videoGrid.innerHTML += `
-                        <div class="card-video rounded-xl overflow-hidden shadow-xl flex flex-col h-full">
-                            <a href="${v.url}" target="_blank">
-                                <img src="${v.backup_thumb}" onerror="this.src='${v.thumbnail}'" class="w-full aspect-video object-cover">
-                                <div class="p-5">
-                                    <p class="text-xs font-bold text-yellow-400 uppercase mb-1">${v.channelTitle}</p>
-                                    <h3 class="text-lg font-semibold leading-tight mb-2 text-white">${v.title}</h3>
-                                    <p class="text-[11px] text-blue-200 mb-3 italic">Publicado: ${v.publishedAt}</p>
+                        <div class="card-video rounded-xl overflow-hidden shadow-2xl flex flex-col">
+                            <a href="${v.url}" target="_blank" class="flex flex-col h-full">
+                                <img src="${v.thumbnail}" onerror="this.src='${v.backup_thumb}'" class="w-full aspect-video object-cover">
+                                <div class="p-5 flex-grow">
+                                    <p class="text-[11px] font-bold text-yellow-400 uppercase tracking-widest mb-2">${v.channelTitle}</p>
+                                    <h3 class="text-base font-semibold leading-tight text-white mb-3">${v.title}</h3>
+                                    <p class="text-[10px] text-blue-200 opacity-70 italic mt-auto">Publicado: ${v.publishedAt}</p>
                                 </div>
                             </a>
                         </div>
@@ -101,21 +130,34 @@
                 // Render Shorts
                 data.shorts.forEach(s => {
                     shortGrid.innerHTML += `
-                        <div class="card-video rounded-lg overflow-hidden flex flex-col h-full">
+                        <div class="card-video rounded-lg overflow-hidden flex flex-col">
                             <a href="${s.url}" target="_blank">
-                                <img src="${s.backup_thumb}" class="w-full aspect-[9/16] object-cover opacity-90">
+                                <img src="${s.backup_thumb}" class="w-full img-short opacity-90">
                                 <div class="p-3">
-                                    <p class="text-[10px] font-bold text-orange-400 uppercase truncate">${s.channelTitle}</p>
-                                    <h3 class="text-[11px] font-medium leading-tight line-clamp-2 mt-1 text-white">${s.title}</h3>
-                                    <p class="text-[9px] text-blue-200 mt-1">${s.publishedAt}</p>
+                                    <p class="text-[9px] font-bold text-orange-400 uppercase truncate">${s.channelTitle}</p>
+                                    <h3 class="text-[10px] font-medium leading-tight line-clamp-2 mt-1 text-white">${s.title}</h3>
+                                    <p class="text-[9px] text-blue-200 opacity-60 mt-1">${s.publishedAt}</p>
                                 </div>
                             </a>
                         </div>
                     `;
                 });
 
-            } catch (e) { console.error(e); }
+                // Ajustar el corte inicial después de que las imágenes carguen
+                window.onload = () => {
+                    ajustarCorteLimpio(videoGrid);
+                    ajustarCorteLimpio(shortGrid);
+                };
+                
+                // Re-ajustar si cambian el tamaño de la ventana
+                window.onresize = () => {
+                    ajustarCorteLimpio(videoGrid);
+                    ajustarCorteLimpio(shortGrid);
+                };
+
+            } catch (e) { console.error("Error cargando videos:", e); }
         }
+
         init();
     </script>
 </body>
