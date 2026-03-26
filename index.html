@@ -81,7 +81,7 @@
             
             // Calcular columnas actuales (responsivo)
             let columns = 1;
-            if (window.innerWidth >= 1024) columns = isVideo ? 3 : 6;
+            if (window.innerWidth >= 1024) columns = isVideo ? 2 : 4;
             else if (window.innerWidth >= 768) columns = isVideo ? 2 : 4;
             else columns = isVideo ? 1 : 2;
         
@@ -140,7 +140,7 @@
             const isVideo = grid.id.includes('videos');
             
             let columns = 1;
-            if (window.innerWidth >= 1024) columns = isVideo ? 2 : 4;
+            if (window.innerWidth >= 1024) columns = isVideo ? 3 : 6;
             else if (window.innerWidth >= 768) columns = isVideo ? 2 : 4;
             else columns = isVideo ? 1 : 2;
 
