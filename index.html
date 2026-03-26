@@ -11,9 +11,12 @@
         .accent-line { background-color: #ffd700; } 
         .card-video { background-color: rgba(255, 255, 255, 0.08); backdrop-filter: blur(8px); border: 1px solid rgba(255,255,255,0.15); transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); height: 100%; display: flex; flex-direction: column; box-shadow: 0 4px 15px rgba(0,0,0,0.2); }
         .card-video:hover { background-color: rgba(255, 255, 255, 0.12); transform: translateY(-8px); border-color: #ffd700; box-shadow: 0 0 20px rgba(255, 215, 0, 0.3); }
-        .grid-limited { overflow: hidden; transition: max-height 0.7s ease-in-out; max-height: 0; padding-top: 0.75rem; }
-        .btn-toggle { cursor: pointer; color: #ffd700; font-weight: 600; text-decoration: underline; margin-top: 20px; display: inline-block; background: none; border: none; font-size: 0.95rem; }
-        .section-header { cursor: pointer; user-select: none; display: flex; align-items: center; }
+        
+        /* Contenedores con espacio para la elevación de la primera fila */
+        .grid-limited { overflow: hidden; transition: max-height 0.7s ease-in-out; max-height: 0; padding-top: 0.8rem; }
+        .btn-toggle { cursor: pointer; color: #ffd700; font-weight: 600; text-decoration: underline; margin-top: 15px; display: inline-block; background: none; border: none; font-size: 0.95rem; }
+        .section-header { cursor: pointer; user-select: none; display: flex; align-items: center; padding: 10px 0; }
+        .section-header:hover h2 { color: #ffd700; }
     </style>
 </head>
 <body class="p-4 md:p-8">
@@ -23,45 +26,45 @@
     </header>
 
     <main class="max-w-5xl mx-auto">
-        <section class="mb-10">
+        <section class="mb-8" id="sec-videos">
             <div class="section-header group" onclick="toggleSection('content-videos')">
-                <div class="accent-line w-2 h-6 mr-4 rounded-full"></div>
-                <h2 class="text-xl font-bold tracking-wide">Videos más recientes</h2>
+                <div class="accent-line w-2 h-6 mr-4 rounded-full shadow-[0_0_10px_rgba(255,215,0,0.5)]"></div>
+                <h2 class="text-lg font-bold tracking-wide transition-colors">Videos Recientes</h2>
             </div>
-            <div id="content-videos" class="section-content mt-6">
+            <div id="content-videos" class="section-content">
                 <div id="grid-videos" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 grid-limited"></div>
                 <button id="btn-more-videos" class="btn-toggle" onclick="expandGrid('grid-videos', this)">Ver más videos</button>
             </div>
         </section>
 
-        <section class="mb-10">
+        <section class="mb-8" id="sec-shorts">
             <div class="section-header group" onclick="toggleSection('content-shorts')">
-                <div class="w-2 h-6 mr-4 rounded-full bg-orange-500"></div>
-                <h2 class="text-xl font-bold tracking-wide">Shorts</h2>
+                <div class="w-2 h-6 mr-4 rounded-full bg-orange-500 shadow-[0_0_10px_rgba(255,165,0,0.5)]"></div>
+                <h2 class="text-lg font-bold tracking-wide transition-colors">YouTube Shorts</h2>
             </div>
-            <div id="content-shorts" class="section-content mt-6">
+            <div id="content-shorts" class="section-content">
                 <div id="grid-shorts" class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-4 grid-limited"></div>
                 <button id="btn-more-shorts" class="btn-toggle" onclick="expandGrid('grid-shorts', this)">Ver más shorts</button>
             </div>
         </section>
 
-        <section class="mb-10">
+        <section class="mb-8" id="sec-ingles-v">
             <div class="section-header group" onclick="toggleSection('content-ingles-v')">
-                <div class="w-2 h-6 mr-4 rounded-full bg-white"></div>
-                <h2 class="text-xl font-bold tracking-wide">Videos en Inglés</h2>
+                <div class="w-2 h-6 mr-4 rounded-full bg-white shadow-[0_0_10px_rgba(255,255,255,0.3)]"></div>
+                <h2 class="text-lg font-bold tracking-wide transition-colors">Videos en Inglés</h2>
             </div>
-            <div id="content-ingles-v" class="section-content mt-6">
+            <div id="content-ingles-v" class="section-content">
                 <div id="grid-ingles-v" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 grid-limited"></div>
                 <button id="btn-more-ingles-v" class="btn-toggle" onclick="expandGrid('grid-ingles-v', this)">Ver más videos (EN)</button>
             </div>
         </section>
 
-        <section class="mb-10">
+        <section class="mb-8" id="sec-ingles-s">
             <div class="section-header group" onclick="toggleSection('content-ingles-s')">
-                <div class="w-2 h-6 mr-4 rounded-full bg-blue-300"></div>
-                <h2 class="text-xl font-bold tracking-wide">Shorts en Inglés</h2>
+                <div class="w-2 h-6 mr-4 rounded-full bg-blue-300 shadow-[0_0_10px_rgba(147,197,253,0.5)]"></div>
+                <h2 class="text-lg font-bold tracking-wide transition-colors">Shorts en Inglés</h2>
             </div>
-            <div id="content-ingles-s" class="section-content mt-6">
+            <div id="content-ingles-s" class="section-content">
                 <div id="grid-ingles-s" class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-4 grid-limited"></div>
                 <button id="btn-more-ingles-s" class="btn-toggle" onclick="expandGrid('grid-ingles-s', this)">Ver más shorts (EN)</button>
             </div>
@@ -69,11 +72,23 @@
     </main>
 
     <script>
-        // Rastreadores de filas independientes
         const trackFilas = { "grid-videos": 2, "grid-shorts": 1, "grid-ingles-v": 2, "grid-ingles-s": 1 };
         let videoActivo = null;
 
-        function toggleSection(id) { document.getElementById(id).classList.toggle('hidden-section'); }
+        function toggleSection(id) {
+            const content = document.getElementById(id);
+            const btn = document.getElementById('btn-more-' + id.replace('content-', ''));
+            
+            if (content.style.display === "none") {
+                content.style.display = "block";
+                if(btn) btn.style.visibility = "visible";
+                const grid = content.querySelector('.grid-limited');
+                ajustarCorteLimpio(grid);
+            } else {
+                content.style.display = "none";
+                if(btn) btn.style.visibility = "hidden";
+            }
+        }
 
         function expandGrid(gridId, btn) {
             const grid = document.getElementById(gridId);
@@ -83,7 +98,7 @@
                 trackFilas[gridId] = isVideo ? 2 : 1;
                 ajustarCorteLimpio(grid);
                 btn.innerText = isVideo ? "Ver más videos" : "Ver más shorts";
-                window.scrollTo({ top: grid.parentElement.offsetTop - 50, behavior: 'smooth' });
+                window.scrollTo({ top: grid.parentElement.parentElement.offsetTop - 50, behavior: 'smooth' });
                 return;
             }
 
@@ -98,7 +113,9 @@
                 btn.innerText = "Ocultar";
             } else {
                 const indiceTarget = columns * trackFilas[gridId];
-                grid.style.maxHeight = (items[indiceTarget].offsetTop - grid.offsetTop - 20) + "px";
+                if(items[indiceTarget]) {
+                    grid.style.maxHeight = (items[indiceTarget].offsetTop - grid.offsetTop - 20) + "px";
+                }
             }
         }
 
@@ -137,6 +154,10 @@
                 
                 const render = (containerId, list, isShort) => {
                     const grid = document.getElementById(containerId);
+                    if(!list || list.length === 0) {
+                        grid.parentElement.parentElement.style.display = 'none';
+                        return;
+                    }
                     list.forEach(v => {
                         grid.innerHTML += `
                             <div class="card-video rounded-xl overflow-hidden shadow-lg">
@@ -159,7 +180,10 @@
                 render('grid-ingles-s', data.ingles_s, true);
 
                 setTimeout(() => { 
-                    ['grid-videos', 'grid-shorts', 'grid-ingles-v', 'grid-ingles-s'].forEach(id => ajustarCorteLimpio(document.getElementById(id)));
+                    ['grid-videos', 'grid-shorts', 'grid-ingles-v', 'grid-ingles-s'].forEach(id => {
+                        const grid = document.getElementById(id);
+                        if(grid.innerHTML !== "") ajustarCorteLimpio(grid);
+                    });
                 }, 600);
             } catch (e) { console.error(e); }
         }
