@@ -125,16 +125,18 @@
                                     title="${v.title}" 
                                     frameborder="0" 
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                                    allowfullscreen>
-                                </iframe>
+                                    allowfullscreen
+                                    loading="lazy"> </iframe>
                             </div>
                             <div class="p-4 flex-grow flex flex-col">
                                 <p class="text-[9px] font-bold text-yellow-400 uppercase tracking-[0.2em] mb-1 opacity-90">
                                     ${v.channelTitle}
                                 </p>
-                                <h3 class="text-sm font-semibold leading-tight text-white mb-2 line-clamp-2">
-                                    ${v.title}
-                                </h3>
+                                <a href="${v.url}" target="_blank">
+                                    <h3 class="text-sm font-semibold leading-tight text-white mb-2 line-clamp-2 hover:text-yellow-400 transition-colors">
+                                        ${v.title}
+                                    </h3>
+                                </a>
                                 <div class="mt-auto pt-2 border-t border-white/5">
                                     <p class="text-[9px] text-blue-200 font-light italic">Publicado: ${v.publishedAt}</p>
                                 </div>
