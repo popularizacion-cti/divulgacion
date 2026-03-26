@@ -9,12 +9,27 @@
     <style>
         body { font-family: 'Poppins', sans-serif; background-color: #1e6c93; color: white; margin: 0; padding: 0; scroll-behavior: smooth; }
         .accent-line { background-color: #ffd700; } 
-        .card-video { background-color: rgba(255, 255, 255, 0.08); backdrop-filter: blur(8px); border: 1px solid rgba(255,255,255,0.15); transition: 0.3s; height: 100%; display: flex; flex-direction: column; }
-        .card-video:hover { background-color: rgba(255, 255, 255, 0.15); transform: translateY(-4px); border-color: rgba(255,255,255,0.4); }
         
-        .grid-limited { overflow: hidden; transition: max-height 0.7s cubic-bezier(0.4, 0, 0.2, 1); max-height: 0; }
-        .grid-expanded { max-height: 20000px !important; }
+        /* Efecto Moderno de Tarjetas */
+        .card-video { 
+            background-color: rgba(255, 255, 255, 0.08); 
+            backdrop-filter: blur(8px); 
+            border: 1px solid rgba(255,255,255,0.15); 
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); 
+            height: 100%; 
+            display: flex; 
+            flex-direction: column; 
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
         
+        .card-video:hover { 
+            background-color: rgba(255, 255, 255, 0.12); 
+            transform: translateY(-8px); 
+            border-color: #ffd700; 
+            box-shadow: 0 0 20px rgba(255, 215, 0, 0.3);
+        }
+        
+        .grid-limited { overflow: hidden; transition: max-height 0.7s ease-in-out; max-height: 0; }
         .section-content { transition: all 0.4s ease; }
         .hidden-section { display: none; }
         
@@ -26,9 +41,9 @@
 </head>
 <body class="p-4 md:p-8">
 
-    <header class="max-w-5xl mx-auto text-center mb-6 border-b border-white/10 pb-4">
+    <header class="max-w-4xl mx-auto text-center mb-6 border-b border-white/10 pb-4">
         <h1 class="text-2xl md:text-3xl font-bold mb-2 text-white uppercase tracking-tight">Canales de divulgación científica</h1>
-        <p class="text-xs md:text-sm text-blue-100 opacity-80 font-light">Videos más recientes de los canales de divulgación científica más reconocidos.</p>
+        <p class="text-xs md:text-sm text-blue-100 opacity-80 font-light italic">Videos más recientes de los canales de divulgación científica más reconocidos.</p>
     </header>
 
     <main class="max-w-5xl mx-auto">
@@ -40,7 +55,7 @@
             </div>
             
             <div id="content-videos" class="section-content mt-6">
-                <div id="grid-videos" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 grid-limited"></div>
+                <div id="grid-videos" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 grid-limited"></div>
                 <button id="btn-more-videos" class="btn-toggle" onclick="expandGrid('grid-videos', this)">Ver más videos</button>
             </div>
         </section>
@@ -52,7 +67,7 @@
             </div>
 
             <div id="content-shorts" class="section-content mt-6">
-                <div id="grid-shorts" class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4 grid-limited"></div>
+                <div id="grid-shorts" class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-4 grid-limited"></div>
                 <button id="btn-more-shorts" class="btn-toggle" onclick="expandGrid('grid-shorts', this)">Ver más shorts</button>
             </div>
         </section>
@@ -61,7 +76,8 @@
 
     <script>
         let filasVisiblesVideos = 2;
-        let filasVisiblesShorts = 2;
+        let filasVisiblesShorts = 1; // Solo una fila de shorts al inicio
+        let videoActivo = null;
 
         function toggleSection(id) {
             document.getElementById(id).classList.toggle('hidden-section');
@@ -77,7 +93,7 @@
             }
 
             const items = grid.children;
-            let columns = window.innerWidth >= 1024 ? (isVideo ? 3 : 6) : (window.innerWidth >= 768 ? (isVideo ? 2 : 4) : (isVideo ? 1 : 2));
+            let columns = window.innerWidth >= 1024 ? (isVideo ? 2 : 4) : (window.innerWidth >= 768 ? (isVideo ? 2 : 4) : (isVideo ? 1 : 2));
             const totalFilas = Math.ceil(items.length / columns);
             
             if (isVideo) {
@@ -85,7 +101,7 @@
                 if (filasVisiblesVideos >= totalFilas) finalizarExpansion(grid, btn);
                 else aplicarCortePorFilas(grid, columns, filasVisiblesVideos);
             } else {
-                filasVisiblesShorts += 2;
+                filasVisiblesShorts += 1; // Expansión de 1 en 1 para shorts
                 if (filasVisiblesShorts >= totalFilas) finalizarExpansion(grid, btn);
                 else aplicarCortePorFilas(grid, columns, filasVisiblesShorts);
             }
@@ -95,7 +111,7 @@
             const items = grid.children;
             const indiceTarget = columns * numFilas;
             if (items[indiceTarget]) {
-                grid.style.maxHeight = (items[indiceTarget].offsetTop - grid.offsetTop - 10) + "px";
+                grid.style.maxHeight = (items[indiceTarget].offsetTop - grid.offsetTop - 5) + "px";
             } else {
                 grid.style.maxHeight = "none";
             }
@@ -107,7 +123,7 @@
         }
 
         function resetearGrid(grid, btn, isVideo) {
-            if (isVideo) filasVisiblesVideos = 2; else filasVisiblesShorts = 2;
+            if (isVideo) filasVisiblesVideos = 2; else filasVisiblesShorts = 1;
             ajustarCorteLimpio(grid);
             btn.innerText = isVideo ? "Ver más videos" : "Ver más shorts";
             const offset = grid.parentElement.getBoundingClientRect().top + window.pageYOffset - 50;
@@ -117,52 +133,36 @@
         function ajustarCorteLimpio(grid) {
             const isVideo = grid.id.includes('videos');
             const items = grid.children;
-            let columns = window.innerWidth >= 1024 ? (isVideo ? 3 : 6) : (window.innerWidth >= 768 ? (isVideo ? 2 : 4) : (isVideo ? 1 : 2));
+            let columns = window.innerWidth >= 1024 ? (isVideo ? 2 : 4) : (window.innerWidth >= 768 ? (isVideo ? 2 : 4) : (isVideo ? 1 : 2));
 
-            if (items.length > columns * 2) {
-                grid.style.maxHeight = (items[columns * 2].offsetTop - grid.offsetTop - 5) + "px";
+            const filasIniciales = isVideo ? 2 : 1; // 2 filas para videos, 1 para shorts
+
+            if (items.length > columns * filasIniciales) {
+                grid.style.maxHeight = (items[columns * filasIniciales].offsetTop - grid.offsetTop - 5) + "px";
             } else {
                 grid.style.maxHeight = "none";
                 document.getElementById(isVideo ? 'btn-more-videos' : 'btn-more-shorts').style.display = 'none';
             }
         }
 
-        // Variable para rastrear el video que se está reproduciendo actualmente
-        let videoActivo = null;
-        
         function reemplazarPorVideo(contenedor, videoId) {
-            // 1. Si ya había un video sonando en otro lado, lo volvemos a convertir en imagen
+            // Lógica de Gestión de Memoria: Limpiar video anterior si existe
             if (videoActivo && videoActivo !== contenedor) {
                 const viejoId = videoActivo.getAttribute('data-video-id');
                 const viejaThumb = videoActivo.getAttribute('data-thumb');
-                
                 videoActivo.innerHTML = `
                     <img src="${viejaThumb}" class="absolute w-full h-full object-cover opacity-70 group-hover:opacity-100 transition-opacity">
                     <div class="absolute inset-0 flex items-center justify-center">
-                        <div class="w-12 h-12 bg-red-600 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform">
-                            <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
-                        </div>
-                    </div>
-                `;
+                        <div class="w-12 h-12 bg-red-600 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform"><svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>
+                    </div>`;
             }
-        
-            // 2. Guardamos los datos necesarios para poder restaurarlo después
+
             if (!contenedor.getAttribute('data-video-id')) {
                 contenedor.setAttribute('data-video-id', videoId);
                 contenedor.setAttribute('data-thumb', contenedor.querySelector('img').src);
             }
-        
-            // 3. Insertamos el nuevo video
-            contenedor.innerHTML = `
-                <iframe class="absolute top-0 left-0 w-full h-full" 
-                        src="https://www.youtube.com/embed/${videoId}?autoplay=1" 
-                        frameborder="0" 
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                        allowfullscreen>
-                </iframe>
-            `;
-        
-            // 4. Marcamos este como el nuevo video activo
+
+            contenedor.innerHTML = `<iframe class="absolute top-0 left-0 w-full h-full" src="https://www.youtube.com/embed/${videoId}?autoplay=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
             videoActivo = contenedor;
         }
 
@@ -181,7 +181,7 @@
                                 <div class="absolute inset-0 flex items-center justify-center"><div class="w-12 h-12 bg-red-600 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform"><svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div></div>
                             </div>
                             <div class="p-4 flex-grow flex flex-col">
-                                <p class="text-[9px] font-bold text-yellow-400 uppercase mb-1">${v.channelTitle}</p>
+                                <p class="text-[9px] font-bold text-yellow-400 uppercase mb-1 tracking-wider">${v.channelTitle}</p>
                                 <a href="${v.url}" target="_blank" class="hover:text-yellow-400"><h3 class="text-sm font-semibold leading-tight line-clamp-2 mb-2">${v.title}</h3></a>
                                 <p class="text-[9px] text-blue-200 italic mt-auto border-t border-white/5 pt-2">Publicado: ${v.publishedAt}</p>
                             </div>
