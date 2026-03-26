@@ -9,34 +9,11 @@
     <style>
         body { font-family: 'Poppins', sans-serif; background-color: #1e6c93; color: white; margin: 0; padding: 0; scroll-behavior: smooth; }
         .accent-line { background-color: #ffd700; } 
-        
-        /* Efecto Moderno de Tarjetas */
-        .card-video { 
-            background-color: rgba(255, 255, 255, 0.08); 
-            backdrop-filter: blur(8px); 
-            border: 1px solid rgba(255,255,255,0.15); 
-            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); 
-            height: 100%; 
-            display: flex; 
-            flex-direction: column; 
-            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
-        }
-        
-        .card-video:hover { 
-            background-color: rgba(255, 255, 255, 0.12); 
-            transform: translateY(-8px); 
-            border-color: #ffd700; 
-            box-shadow: 0 0 20px rgba(255, 215, 0, 0.3);
-        }
-        
-        .grid-limited { overflow: hidden; transition: max-height 0.7s ease-in-out; max-height: 0; padding-top: 0.75rem;/* Crea el espacio para la elevación de la primera fila*/ } 
-        .section-content { transition: all 0.4s ease; }
-        .hidden-section { display: none; }
-        
+        .card-video { background-color: rgba(255, 255, 255, 0.08); backdrop-filter: blur(8px); border: 1px solid rgba(255,255,255,0.15); transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); height: 100%; display: flex; flex-direction: column; box-shadow: 0 4px 15px rgba(0,0,0,0.2); }
+        .card-video:hover { background-color: rgba(255, 255, 255, 0.12); transform: translateY(-8px); border-color: #ffd700; box-shadow: 0 0 20px rgba(255, 215, 0, 0.3); }
+        .grid-limited { overflow: hidden; transition: max-height 0.7s ease-in-out; max-height: 0; padding-top: 0.75rem; }
         .btn-toggle { cursor: pointer; color: #ffd700; font-weight: 600; text-decoration: underline; margin-top: 20px; display: inline-block; background: none; border: none; font-size: 0.95rem; }
         .section-header { cursor: pointer; user-select: none; display: flex; align-items: center; }
-        
-        .video-facade:focus { outline: 3px solid #ffd700; outline-offset: 2px; }
     </style>
 </head>
 <body class="p-4 md:p-8">
@@ -46,13 +23,11 @@
     </header>
 
     <main class="max-w-5xl mx-auto">
-        
         <section class="mb-10">
             <div class="section-header group" onclick="toggleSection('content-videos')">
-                <div class="accent-line w-2 h-6 mr-4 rounded-full shadow-[0_0_10px_rgba(255,215,0,0.5)]"></div>
-                <h2 class="text-xl font-bold tracking-wide">Videos más recientes</h2>
+                <div class="accent-line w-2 h-6 mr-4 rounded-full"></div>
+                <h2 class="text-xl font-bold tracking-wide">Videos Recientes</h2>
             </div>
-            
             <div id="content-videos" class="section-content mt-6">
                 <div id="grid-videos" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 grid-limited"></div>
                 <button id="btn-more-videos" class="btn-toggle" onclick="expandGrid('grid-videos', this)">Ver más videos</button>
@@ -61,107 +36,96 @@
 
         <section class="mb-10">
             <div class="section-header group" onclick="toggleSection('content-shorts')">
-                <div class="w-2 h-6 mr-4 rounded-full shadow-[0_0_10px_rgba(255,140,0,0.5)]" style="background-color: #ff8c00;"></div>
+                <div class="w-2 h-6 mr-4 rounded-full bg-orange-500"></div>
                 <h2 class="text-xl font-bold tracking-wide">YouTube Shorts</h2>
             </div>
-
             <div id="content-shorts" class="section-content mt-6">
                 <div id="grid-shorts" class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-4 grid-limited"></div>
                 <button id="btn-more-shorts" class="btn-toggle" onclick="expandGrid('grid-shorts', this)">Ver más shorts</button>
             </div>
         </section>
 
+        <section class="mb-10">
+            <div class="section-header group" onclick="toggleSection('content-ingles-v')">
+                <div class="w-2 h-6 mr-4 rounded-full bg-white"></div>
+                <h2 class="text-xl font-bold tracking-wide">Videos en Inglés</h2>
+            </div>
+            <div id="content-ingles-v" class="section-content mt-6">
+                <div id="grid-ingles-v" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 grid-limited"></div>
+                <button id="btn-more-ingles-v" class="btn-toggle" onclick="expandGrid('grid-ingles-v', this)">Ver más videos (EN)</button>
+            </div>
+        </section>
+
+        <section class="mb-10">
+            <div class="section-header group" onclick="toggleSection('content-ingles-s')">
+                <div class="w-2 h-6 mr-4 rounded-full bg-blue-300"></div>
+                <h2 class="text-xl font-bold tracking-wide">Shorts en Inglés</h2>
+            </div>
+            <div id="content-ingles-s" class="section-content mt-6">
+                <div id="grid-ingles-s" class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-4 grid-limited"></div>
+                <button id="btn-more-ingles-s" class="btn-toggle" onclick="expandGrid('grid-ingles-s', this)">Ver más shorts (EN)</button>
+            </div>
+        </section>
     </main>
 
     <script>
-        let filasVisiblesVideos = 2;
-        let filasVisiblesShorts = 1; // Solo una fila de shorts al inicio
+        // Rastreadores de filas independientes
+        const trackFilas = { "grid-videos": 2, "grid-shorts": 1, "grid-ingles-v": 2, "grid-ingles-s": 1 };
         let videoActivo = null;
 
-        function toggleSection(id) {
-            document.getElementById(id).classList.toggle('hidden-section');
-        }
+        function toggleSection(id) { document.getElementById(id).classList.toggle('hidden-section'); }
 
         function expandGrid(gridId, btn) {
             const grid = document.getElementById(gridId);
-            const isVideo = gridId.includes('videos');
+            const isVideo = gridId.includes('-v') || gridId === 'grid-videos';
             
             if (btn.innerText === "Ocultar") {
-                resetearGrid(grid, btn, isVideo);
+                trackFilas[gridId] = isVideo ? 2 : 1;
+                ajustarCorteLimpio(grid);
+                btn.innerText = isVideo ? "Ver más videos" : "Ver más shorts";
+                window.scrollTo({ top: grid.parentElement.offsetTop - 50, behavior: 'smooth' });
                 return;
             }
 
             const items = grid.children;
-            let columns = window.innerWidth >= 1024 ? (isVideo ? 2 : 4) : (window.innerWidth >= 768 ? (isVideo ? 2 : 4) : (isVideo ? 1 : 2));
+            const columns = window.innerWidth >= 1024 ? (isVideo ? 2 : 4) : (window.innerWidth >= 768 ? (isVideo ? 2 : 4) : (isVideo ? 1 : 2));
             const totalFilas = Math.ceil(items.length / columns);
             
-            if (isVideo) {
-                filasVisiblesVideos += 2;
-                if (filasVisiblesVideos >= totalFilas) finalizarExpansion(grid, btn);
-                else aplicarCortePorFilas(grid, columns, filasVisiblesVideos);
-            } else {
-                filasVisiblesShorts += 1; // Expansión de 1 en 1 para shorts
-                if (filasVisiblesShorts >= totalFilas) finalizarExpansion(grid, btn);
-                else aplicarCortePorFilas(grid, columns, filasVisiblesShorts);
-            }
-        }
-
-        function aplicarCortePorFilas(grid, columns, numFilas) {
-            const items = grid.children;
-            const indiceTarget = columns * numFilas;
-            if (items[indiceTarget]) {
-                grid.style.maxHeight = (items[indiceTarget].offsetTop - grid.offsetTop - 20) + "px";
-            } else {
+            trackFilas[gridId] += isVideo ? 2 : 1;
+            
+            if (trackFilas[gridId] >= totalFilas) {
                 grid.style.maxHeight = "none";
+                btn.innerText = "Ocultar";
+            } else {
+                const indiceTarget = columns * trackFilas[gridId];
+                grid.style.maxHeight = (items[indiceTarget].offsetTop - grid.offsetTop - 20) + "px";
             }
-        }
-
-        function finalizarExpansion(grid, btn) {
-            grid.style.maxHeight = "none";
-            btn.innerText = "Ocultar";
-        }
-
-        function resetearGrid(grid, btn, isVideo) {
-            if (isVideo) filasVisiblesVideos = 2; else filasVisiblesShorts = 1;
-            ajustarCorteLimpio(grid);
-            btn.innerText = isVideo ? "Ver más videos" : "Ver más shorts";
-            const offset = grid.parentElement.getBoundingClientRect().top + window.pageYOffset - 50;
-            window.scrollTo({ top: offset, behavior: 'smooth' });
         }
 
         function ajustarCorteLimpio(grid) {
-            const isVideo = grid.id.includes('videos');
+            const isVideo = grid.id.includes('-v') || grid.id === 'grid-videos';
             const items = grid.children;
-            let columns = window.innerWidth >= 1024 ? (isVideo ? 2 : 4) : (window.innerWidth >= 768 ? (isVideo ? 2 : 4) : (isVideo ? 1 : 2));
+            const columns = window.innerWidth >= 1024 ? (isVideo ? 2 : 4) : (window.innerWidth >= 768 ? (isVideo ? 2 : 4) : (isVideo ? 1 : 2));
+            const filasInicales = isVideo ? 2 : 1;
 
-            const filasIniciales = isVideo ? 2 : 1; // 2 filas para videos, 1 para shorts
-
-            if (items.length > columns * filasIniciales) {
-                const gapOffset = 18;
-                grid.style.maxHeight = (items[columns * filasIniciales].offsetTop - grid.offsetTop - gapOffset) + "px";
+            if (items.length > columns * filasInicales) {
+                grid.style.maxHeight = (items[columns * filasInicales].offsetTop - grid.offsetTop - 18) + "px";
             } else {
                 grid.style.maxHeight = "none";
-                document.getElementById(isVideo ? 'btn-more-videos' : 'btn-more-shorts').style.display = 'none';
+                const btn = document.getElementById('btn-more-' + grid.id.replace('grid-', ''));
+                if(btn) btn.style.display = 'none';
             }
         }
 
         function reemplazarPorVideo(contenedor, videoId) {
-            // Lógica de Gestión de Memoria: Limpiar video anterior si existe
             if (videoActivo && videoActivo !== contenedor) {
-                const viejoId = videoActivo.getAttribute('data-video-id');
-                const viejaThumb = videoActivo.getAttribute('data-thumb');
-                videoActivo.innerHTML = `
-                    <img src="${viejaThumb}" class="absolute w-full h-full object-cover opacity-70 group-hover:opacity-100 transition-opacity">
-                    <div class="absolute inset-0 flex items-center justify-center">
-                        <div class="w-12 h-12 bg-red-600 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform"><svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>
-                    </div>`;
+                const thumb = videoActivo.getAttribute('data-thumb');
+                videoActivo.innerHTML = `<img src="${thumb}" class="absolute w-full h-full object-cover opacity-70 group-hover:opacity-100 transition-opacity"><div class="absolute inset-0 flex items-center justify-center"><div class="w-12 h-12 bg-red-600 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform"><svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div></div>`;
             }
-
             if (!contenedor.getAttribute('data-video-id')) {
                 contenedor.setAttribute('data-video-id', videoId);
                 contenedor.setAttribute('data-thumb', contenedor.querySelector('img').src);
             }
-
             contenedor.innerHTML = `<iframe class="absolute top-0 left-0 w-full h-full" src="https://www.youtube.com/embed/${videoId}?autoplay=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
             videoActivo = contenedor;
         }
@@ -170,42 +134,33 @@
             try {
                 const response = await fetch('videos.json?v=' + new Date().getTime());
                 const data = await response.json();
-                const videoGrid = document.getElementById('grid-videos');
-                const shortGrid = document.getElementById('grid-shorts');
+                
+                const render = (containerId, list, isShort) => {
+                    const grid = document.getElementById(containerId);
+                    list.forEach(v => {
+                        grid.innerHTML += `
+                            <div class="card-video rounded-xl overflow-hidden shadow-lg">
+                                <div class="relative ${isShort ? 'aspect-[9/16]' : 'aspect-video'} bg-black cursor-pointer group video-facade" tabindex="0" onclick="reemplazarPorVideo(this, '${v.videoId}')">
+                                    <img src="${isShort ? v.backup_thumb : v.thumbnail}" onerror="this.src='${v.backup_thumb}'" class="absolute w-full h-full object-cover opacity-70 group-hover:opacity-100 transition-opacity">
+                                    <div class="absolute inset-0 flex items-center justify-center"><div class="${isShort ? 'w-8 h-8' : 'w-12 h-12'} bg-red-600 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform"><svg class="${isShort ? 'w-4 h-4' : 'w-6 h-6'} text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div></div>
+                                </div>
+                                <div class="p-4 flex-grow flex flex-col">
+                                    <p class="text-[9px] font-bold text-${isShort ? 'orange-400' : 'yellow-400'} uppercase mb-1 tracking-wider">${v.channelTitle}</p>
+                                    <a href="${v.url}" target="_blank" class="hover:text-yellow-400"><h3 class="text-sm font-semibold leading-tight line-clamp-2 mb-2">${v.title}</h3></a>
+                                    <p class="text-[9px] text-blue-200 italic mt-auto border-t border-white/5 pt-2">Publicado: ${v.publishedAt}</p>
+                                </div>
+                            </div>`;
+                    });
+                };
 
-                data.videos.forEach(v => {
-                    videoGrid.innerHTML += `
-                        <div class="card-video rounded-xl overflow-hidden shadow-lg">
-                            <div class="relative aspect-video bg-black cursor-pointer group video-facade" tabindex="0" onclick="reemplazarPorVideo(this, '${v.videoId}')" onkeypress="if(event.key==='Enter') reemplazarPorVideo(this, '${v.videoId}')">
-                                <img src="${v.backup_thumb}" onerror="this.src='${v.thumbnail}'" class="absolute w-full h-full object-cover opacity-70 group-hover:opacity-100 transition-opacity">
-                                <div class="absolute inset-0 flex items-center justify-center"><div class="w-12 h-12 bg-red-600 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform"><svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div></div>
-                            </div>
-                            <div class="p-4 flex-grow flex flex-col">
-                                <p class="text-[9px] font-bold text-yellow-400 uppercase mb-1 tracking-wider">${v.channelTitle}</p>
-                                <a href="${v.url}" target="_blank" class="hover:text-yellow-400"><h3 class="text-sm font-semibold leading-tight line-clamp-2 mb-2">${v.title}</h3></a>
-                                <p class="text-[9px] text-blue-200 italic mt-auto border-t border-white/5 pt-2">Publicado: ${v.publishedAt}</p>
-                            </div>
-                        </div>`;
-                });
+                render('grid-videos', data.videos, false);
+                render('grid-shorts', data.shorts, true);
+                render('grid-ingles-v', data.ingles_v, false);
+                render('grid-ingles-s', data.ingles_s, true);
 
-                data.shorts.forEach(s => {
-                    shortGrid.innerHTML += `
-                        <div class="card-video rounded-lg overflow-hidden shadow-md">
-                            <div class="relative aspect-[9/16] bg-black cursor-pointer group video-facade" tabindex="0" onclick="reemplazarPorVideo(this, '${s.videoId}')" onkeypress="if(event.key==='Enter') reemplazarPorVideo(this, '${s.videoId}')">
-                                <img src="${s.backup_thumb}" class="absolute w-full h-full object-cover opacity-70 group-hover:opacity-100">
-                                <div class="absolute inset-0 flex items-center justify-center"><div class="w-8 h-8 bg-red-600/90 rounded-full flex items-center justify-center"><svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div></div>
-                            </div>
-                            <div class="p-2 flex-grow flex flex-col">
-                                <p class="text-[8px] font-bold text-orange-400 uppercase truncate">${s.channelTitle}</p>
-                                <h3 class="text-[9px] font-medium leading-tight line-clamp-2 text-white/90 my-1">${s.title}</h3>
-                                <p class="text-[8px] text-blue-200 opacity-50 mt-auto">${s.publishedAt}</p>
-                            </div>
-                        </div>`;
-                });
-
-                setTimeout(() => { ajustarCorteLimpio(videoGrid); ajustarCorteLimpio(shortGrid); }, 500);
-                window.addEventListener('resize', () => { ajustarCorteLimpio(videoGrid); ajustarCorteLimpio(shortGrid); });
-
+                setTimeout(() => { 
+                    ['grid-videos', 'grid-shorts', 'grid-ingles-v', 'grid-ingles-s'].forEach(id => ajustarCorteLimpio(document.getElementById(id)));
+                }, 600);
             } catch (e) { console.error(e); }
         }
         init();
