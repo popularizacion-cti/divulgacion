@@ -79,7 +79,13 @@
             const isVideo = gridId.includes('videos');
             const items = grid.children;
             
-            // Calcular columnas actuales (responsivo)
+            // Si el botón ya dice "Ocultar", ejecutamos el reset y salimos de la función
+            if (btn.innerText === "Ocultar") {
+                resetearGrid(grid, btn, isVideo);
+                return; // Importante para que no ejecute lo de abajo
+            }
+        
+            // Calcular columnas actuales
             let columns = 1;
             if (window.innerWidth >= 1024) columns = isVideo ? 3 : 6;
             else if (window.innerWidth >= 768) columns = isVideo ? 2 : 4;
@@ -87,7 +93,6 @@
         
             const totalFilas = Math.ceil(items.length / columns);
             
-            // Incrementar el contador de filas
             if (isVideo) {
                 filasVisiblesVideos += 2;
                 if (filasVisiblesVideos >= totalFilas) {
@@ -102,11 +107,6 @@
                 } else {
                     aplicarCortePorFilas(grid, columns, filasVisiblesShorts);
                 }
-            }
-        
-            // Si el botón dice "Ocultar" y se presiona, resetear
-            if (btn.innerText === "Ocultar") {
-                resetearGrid(grid, btn, isVideo);
             }
         }
         
