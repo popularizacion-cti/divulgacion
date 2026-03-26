@@ -70,18 +70,68 @@
         }
 
         // Función para expandir/colapsar filas
+        // Variables globales para rastrear cuántas filas se muestran
+        let filasVisiblesVideos = 2;
+        let filasVisiblesShorts = 2;
+        
         function expandGrid(gridId, btn) {
             const grid = document.getElementById(gridId);
-            const isExpanded = grid.classList.toggle('grid-expanded');
+            const isVideo = gridId.includes('videos');
+            const items = grid.children;
             
-            if (!isExpanded) {
-                ajustarCorteLimpio(grid);
-                // Scroll suave hacia arriba de la sección al cerrar
-                const targetY = grid.parentElement.getBoundingClientRect().top + window.pageYOffset - 120;
-                window.scrollTo({ top: targetY, behavior: 'smooth' });
+            // Calcular columnas actuales (responsivo)
+            let columns = 1;
+            if (window.innerWidth >= 1024) columns = isVideo ? 3 : 6;
+            else if (window.innerWidth >= 768) columns = isVideo ? 2 : 4;
+            else columns = isVideo ? 1 : 2;
+        
+            const totalFilas = Math.ceil(items.length / columns);
+            
+            // Incrementar el contador de filas
+            if (isVideo) {
+                filasVisiblesVideos += 2;
+                if (filasVisiblesVideos >= totalFilas) {
+                    finalizarExpansion(grid, btn, "Ocultar");
+                } else {
+                    aplicarCortePorFilas(grid, columns, filasVisiblesVideos);
+                }
+            } else {
+                filasVisiblesShorts += 2;
+                if (filasVisiblesShorts >= totalFilas) {
+                    finalizarExpansion(grid, btn, "Ocultar");
+                } else {
+                    aplicarCortePorFilas(grid, columns, filasVisiblesShorts);
+                }
             }
+        
+            // Si el botón dice "Ocultar" y se presiona, resetear
+            if (btn.innerText === "Ocultar") {
+                resetearGrid(grid, btn, isVideo);
+            }
+        }
+        
+        function aplicarCortePorFilas(grid, columns, numFilas) {
+            const items = grid.children;
+            const indiceTarget = columns * numFilas;
             
-            btn.innerText = isExpanded ? "Ocultar" : (gridId.includes('videos') ? "Ver más videos" : "Ver más shorts");
+            if (items[indiceTarget]) {
+                const heightLimit = items[indiceTarget].offsetTop - grid.offsetTop - 10;
+                grid.style.maxHeight = heightLimit + "px";
+            } else {
+                grid.style.maxHeight = "none";
+            }
+        }
+        
+        function finalizarExpansion(grid, btn, texto) {
+            grid.style.maxHeight = "none";
+            btn.innerText = texto;
+        }
+        
+        function resetearGrid(grid, btn, isVideo) {
+            if (isVideo) filasVisiblesVideos = 2; else filasVisiblesShorts = 2;
+            ajustarCorteLimpio(grid); // Tu función original de corte inicial
+            btn.innerText = isVideo ? "Ver más videos" : "Ver más shorts";
+            window.scrollTo({ top: grid.parentElement.offsetTop - 100, behavior: 'smooth' });
         }
 
         // Función que calcula las 2 filas exactas
@@ -148,18 +198,28 @@
 
                 // Render Shorts
                 data.shorts.forEach(s => {
-                    shortGrid.innerHTML += `
-                        <div class="card-video rounded-xl overflow-hidden shadow-lg flex flex-col">
-                            <a href="${s.url}" target="_blank">
-                                <img src="${s.backup_thumb}" class="w-full img-short opacity-85 hover:opacity-100 transition-opacity">
-                                <div class="p-3">
-                                    <p class="text-[9px] font-bold text-orange-400 uppercase truncate mb-1">${s.channelTitle}</p>
-                                    <h3 class="text-[10px] font-medium leading-tight line-clamp-2 text-white/90 mb-1">${s.title}</h3>
-                                    <p class="text-[8px] text-blue-200 opacity-50">${s.publishedAt}</p>
+                shortGrid.innerHTML += `
+                    <div class="card-video rounded-xl overflow-hidden shadow-lg flex flex-col">
+                        <div class="relative aspect-[9/16] bg-black cursor-pointer group" 
+                             onclick="reemplazarPorVideo(this, '${s.videoId}')">
+                            
+                            <img src="${s.backup_thumb}" class="absolute w-full h-full object-cover opacity-85 group-hover:opacity-100 transition-opacity">
+                            
+                            <div class="absolute inset-0 flex items-center justify-center">
+                                <div class="w-10 h-10 bg-red-600/90 rounded-full flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">
+                                    <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M8 5v14l11-7z"/>
+                                    </svg>
                                 </div>
-                            </a>
+                            </div>
                         </div>
-                    `;
+                        <div class="p-3">
+                            <p class="text-[10px] font-bold text-orange-400 uppercase truncate mb-1">${s.channelTitle}</p>
+                            <h3 class="text-[11px] font-medium leading-tight line-clamp-2 text-white/90 mb-1">${s.title}</h3>
+                            <p class="text-[10px] text-blue-200 opacity-50">${s.publishedAt}</p>
+                        </div>
+                    </div>
+                `;
                 });
 
                 // FORZAR CORTE: Pequeño delay para asegurar que el navegador calculó offsetTop
