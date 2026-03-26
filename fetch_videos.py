@@ -1,7 +1,6 @@
 import pandas as pd
 import feedparser
 import json
-import re
 from datetime import datetime
 
 # CONFIGURACIÓN
@@ -25,10 +24,7 @@ def get_channel_data(channel_id):
     for entry in feed.entries:
         try:
             v_id = entry.yt_videoid if 'yt_videoid' in entry else entry.link.split('v=')[1].split('&')[0]
-            
-            # Detección de Shorts
             is_short = "/shorts/" in entry.link or "#shorts" in entry.title.lower() or "short" in entry.title.lower()
-
             raw_date = entry.published.replace('Z', '+00:00')
             fecha_obj = datetime.fromisoformat(raw_date)
             
@@ -42,65 +38,40 @@ def get_channel_data(channel_id):
                 "channelTitle": feed.feed.title,
                 "url": entry.link
             }
+            if is_short: shorts.append(data)
+            else: videos.append(data)
+        except: continue
 
-            if is_short:
-                shorts.append(data)
-            else:
-                videos.append(data)
-        except:
-            continue
-
-    # Obtenemos el más reciente de cada tipo por canal
     v = sorted(videos, key=lambda x: x['timestamp'], reverse=True)[0] if videos else None
     s = sorted(shorts, key=lambda x: x['timestamp'], reverse=True)[0] if shorts else None
     return v, s
 
 def main():
-    try:
-        df = pd.read_csv(SHEET_URL)
-        # Columna 8 (índice 7) es ID, Columna 3 (índice 2) es Idioma
-        canales_info = df.iloc[:, [7, 2]].dropna()
-    except Exception as e:
-        print(f"Error leyendo Google Sheets: {e}")
-        return
+    df = pd.read_csv(SHEET_URL)
+    canales_info = df.iloc[:, [7, 2]].dropna() # Columna 8 (ID) e índice 2 (Idioma/Col 3)
 
-    final_videos = []
-    final_shorts = []
-    final_ingles = []
+    res = {"videos": [], "shorts": [], "ingles_v": [], "ingles_s": []}
 
     for _, row in canales_info.iterrows():
         cid = str(row.iloc[0]).strip()
         idioma = str(row.iloc[1]).lower().strip()
-        
-        print(f"Procesando: {cid} | Idioma: {idioma}")
         v, s = get_channel_data(cid)
         
-        if v or s:
-            # Si el idioma es inglés, mandamos el video a la lista de inglés
-            if "inglés" in idioma or "ingles" in idioma or "english" in idioma:
-                if v: final_ingles.append(v)
-                # Si quisieras shorts en inglés por separado, podrías crear otra lista
-            else:
-                # Si es español u otro, va a las secciones normales
-                if v: final_videos.append(v)
-                if s: final_shorts.append(s)
+        is_en = any(x in idioma for x in ["Inglés", "Ingles", "English", "en"])
 
-    # Ordenar todas las listas por fecha (lo más nuevo primero)
-    final_videos.sort(key=lambda x: x['timestamp'], reverse=True)
-    final_shorts.sort(key=lambda x: x['timestamp'], reverse=True)
-    final_ingles.sort(key=lambda x: x['timestamp'], reverse=True)
+        if is_en:
+            if v: res["ingles_v"].append(v)
+            if s: res["ingles_s"].append(s)
+        else:
+            if v: res["videos"].append(v)
+            if s: res["shorts"].append(s)
 
-    # Guardar el JSON estructurado
-    resultado = {
-        "videos": final_videos,
-        "shorts": final_shorts,
-        "ingles": final_ingles
-    }
+    # Ordenar todas las listas
+    for key in res:
+        res[key].sort(key=lambda x: x['timestamp'], reverse=True)
 
     with open('videos.json', 'w', encoding='utf-8') as f:
-        json.dump(resultado, f, indent=4, ensure_ascii=False)
-    
-    print(f"Proceso completado. Videos: {len(final_videos)}, Shorts: {len(final_shorts)}, Inglés: {len(final_ingles)}")
+        json.dump(res, f, indent=4, ensure_ascii=False)
 
 if __name__ == "__main__":
     main()
