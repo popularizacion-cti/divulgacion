@@ -21,7 +21,7 @@
 </head>
 <body class="p-4 md:p-8">
 
-    <header class="max-w-7xl mx-auto text-center mb-6 border-b border-white/10 pb-4">
+    <header class="max-w-[90%] mx-auto text-center mb-6 border-b border-white/10 pb-4">
         <h1 class="text-2xl md:text-3xl font-bold mb-2 text-white uppercase tracking-tight">Canales de divulgación científica</h1>
     </header>
 
@@ -103,7 +103,7 @@
             }
 
             const items = grid.children;
-            const columns = window.innerWidth >= 1024 ? (isVideo ? 2 : 4) : (window.innerWidth >= 768 ? (isVideo ? 2 : 4) : (isVideo ? 1 : 2));
+            const columns = window.innerWidth >= 1024 ? (isVideo ? 3 : 6) : (window.innerWidth >= 768 ? (isVideo ? 2 : 4) : (isVideo ? 1 : 2));
             const totalFilas = Math.ceil(items.length / columns);
             
             trackFilas[gridId] += isVideo ? 2 : 1;
