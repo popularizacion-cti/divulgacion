@@ -122,7 +122,7 @@
         function ajustarCorteLimpio(grid) {
             const isVideo = grid.id.includes('-v') || grid.id === 'grid-videos';
             const items = grid.children;
-            const columns = window.innerWidth >= 1024 ? (isVideo ? 2 : 4) : (window.innerWidth >= 768 ? (isVideo ? 2 : 4) : (isVideo ? 1 : 2));
+            const columns = window.innerWidth >= 1024 ? (isVideo ? 3 : 6) : (window.innerWidth >= 768 ? (isVideo ? 2 : 4) : (isVideo ? 1 : 2));
             const filasInicales = isVideo ? 2 : 1;
 
             if (items.length > columns * filasInicales) {
