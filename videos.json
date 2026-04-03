@@ -183,34 +183,54 @@
     ],
     "shorts": [
         {
-            "title": "El truco militar para dormirse rápido",
-            "videoId": "YxcPZ5agKek",
-            "thumbnail": "https://img.youtube.com/vi/YxcPZ5agKek/maxresdefault.jpg",
-            "backup_thumb": "https://img.youtube.com/vi/YxcPZ5agKek/hqdefault.jpg",
-            "publishedAt": "01/04/2026",
-            "timestamp": 1775075642.0,
-            "channelTitle": "CdeCiencia",
-            "url": "https://www.youtube.com/shorts/YxcPZ5agKek"
-        },
-        {
-            "title": "Los Tardígrados NO van a colonizar Marte (y te explico por qué)",
-            "videoId": "RmcgaRxtJI8",
-            "thumbnail": "https://img.youtube.com/vi/RmcgaRxtJI8/maxresdefault.jpg",
-            "backup_thumb": "https://img.youtube.com/vi/RmcgaRxtJI8/hqdefault.jpg",
-            "publishedAt": "01/04/2026",
-            "timestamp": 1775060039.0,
-            "channelTitle": "Biología desde cero",
-            "url": "https://www.youtube.com/shorts/RmcgaRxtJI8"
-        },
-        {
-            "title": "HOY volvemos a la Luna (en directo)",
-            "videoId": "J7TKLFVkuoM",
-            "thumbnail": "https://img.youtube.com/vi/J7TKLFVkuoM/maxresdefault.jpg",
-            "backup_thumb": "https://img.youtube.com/vi/J7TKLFVkuoM/hqdefault.jpg",
-            "publishedAt": "01/04/2026",
-            "timestamp": 1775050336.0,
+            "title": "HOY humanos vuelven a la Luna",
+            "videoId": "VM7c6Q5zzzY",
+            "thumbnail": "https://img.youtube.com/vi/VM7c6Q5zzzY/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/VM7c6Q5zzzY/hqdefault.jpg",
+            "publishedAt": "02/04/2026",
+            "timestamp": 1775172502.0,
             "channelTitle": "Date un Vlog",
-            "url": "https://www.youtube.com/shorts/J7TKLFVkuoM"
+            "url": "https://www.youtube.com/shorts/VM7c6Q5zzzY"
+        },
+        {
+            "title": "#Artemis II: Reacciones desde el Centro Espacial Kennedy",
+            "videoId": "2QtR95T6Fvg",
+            "thumbnail": "https://img.youtube.com/vi/2QtR95T6Fvg/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/2QtR95T6Fvg/hqdefault.jpg",
+            "publishedAt": "02/04/2026",
+            "timestamp": 1775169351.0,
+            "channelTitle": "NASA en Español",
+            "url": "https://www.youtube.com/shorts/2QtR95T6Fvg"
+        },
+        {
+            "title": "La araña que engaña a las luciérnagas",
+            "videoId": "2AUYwBoEEFc",
+            "thumbnail": "https://img.youtube.com/vi/2AUYwBoEEFc/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/2AUYwBoEEFc/hqdefault.jpg",
+            "publishedAt": "02/04/2026",
+            "timestamp": 1775158433.0,
+            "channelTitle": "CdeCiencia",
+            "url": "https://www.youtube.com/shorts/2AUYwBoEEFc"
+        },
+        {
+            "title": "Artemis II y el límite del cuerpo humano | Biología Desde Cero",
+            "videoId": "aoTldY3tOYY",
+            "thumbnail": "https://img.youtube.com/vi/aoTldY3tOYY/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/aoTldY3tOYY/hqdefault.jpg",
+            "publishedAt": "02/04/2026",
+            "timestamp": 1775154216.0,
+            "channelTitle": "Biología desde cero",
+            "url": "https://www.youtube.com/shorts/aoTldY3tOYY"
+        },
+        {
+            "title": "¡Fui a la NASA a Ver el Lanzamiento de Artemis!",
+            "videoId": "gWoTPtfpbvA",
+            "thumbnail": "https://img.youtube.com/vi/gWoTPtfpbvA/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/gWoTPtfpbvA/hqdefault.jpg",
+            "publishedAt": "02/04/2026",
+            "timestamp": 1775134957.0,
+            "channelTitle": "El Robot de Platón",
+            "url": "https://www.youtube.com/shorts/gWoTPtfpbvA"
         },
         {
             "title": "A @lauracamonbio le han Timado con el Efecto Coriolis",
@@ -243,16 +263,6 @@
             "url": "https://www.youtube.com/shorts/EVG1_yZbYFc"
         },
         {
-            "title": "#Artemis II: Sé parte de un momento histórico con nosotros",
-            "videoId": "zz7BJ4OOSpI",
-            "thumbnail": "https://img.youtube.com/vi/zz7BJ4OOSpI/maxresdefault.jpg",
-            "backup_thumb": "https://img.youtube.com/vi/zz7BJ4OOSpI/hqdefault.jpg",
-            "publishedAt": "29/03/2026",
-            "timestamp": 1774821412.0,
-            "channelTitle": "NASA en Español",
-            "url": "https://www.youtube.com/shorts/zz7BJ4OOSpI"
-        },
-        {
             "title": "¡Encuentran Vivos a Marsupiales que se Creían Extintos ￼Hace 6000 Años! 🤯",
             "videoId": "2cPlJrIloC8",
             "thumbnail": "https://img.youtube.com/vi/2cPlJrIloC8/maxresdefault.jpg",
@@ -261,16 +271,6 @@
             "timestamp": 1774735864.0,
             "channelTitle": "Noticias Robotitus",
             "url": "https://www.youtube.com/shorts/2cPlJrIloC8"
-        },
-        {
-            "title": "Si la Luz NO TIENE MASA, ¿Por qué se Curva?",
-            "videoId": "2snmjicuSsw",
-            "thumbnail": "https://img.youtube.com/vi/2snmjicuSsw/maxresdefault.jpg",
-            "backup_thumb": "https://img.youtube.com/vi/2snmjicuSsw/hqdefault.jpg",
-            "publishedAt": "28/03/2026",
-            "timestamp": 1774735399.0,
-            "channelTitle": "El Robot de Platón",
-            "url": "https://www.youtube.com/shorts/2snmjicuSsw"
         },
         {
             "title": "Qué Pasa con Este Caracol 😨",
@@ -355,14 +355,54 @@
     ],
     "ingles_v": [
         {
-            "title": "NASA’s Artemis II Postlaunch News Conference (April 1, 2026)",
-            "videoId": "BrhH05U_Zds",
-            "thumbnail": "https://img.youtube.com/vi/BrhH05U_Zds/maxresdefault.jpg",
-            "backup_thumb": "https://img.youtube.com/vi/BrhH05U_Zds/hqdefault.jpg",
+            "title": "Experience NASA's Artemis II Moon Launch in 360°",
+            "videoId": "9LFBFRH51Jo",
+            "thumbnail": "https://img.youtube.com/vi/9LFBFRH51Jo/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/9LFBFRH51Jo/hqdefault.jpg",
             "publishedAt": "02/04/2026",
-            "timestamp": 1775092331.0,
+            "timestamp": 1775167342.0,
             "channelTitle": "NASA",
-            "url": "https://www.youtube.com/watch?v=BrhH05U_Zds"
+            "url": "https://www.youtube.com/watch?v=9LFBFRH51Jo"
+        },
+        {
+            "title": "We thought we solved the Fermi Bubbles… then this happened",
+            "videoId": "et181HMN2EQ",
+            "thumbnail": "https://img.youtube.com/vi/et181HMN2EQ/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/et181HMN2EQ/hqdefault.jpg",
+            "publishedAt": "02/04/2026",
+            "timestamp": 1775156436.0,
+            "channelTitle": "Dr. Becky",
+            "url": "https://www.youtube.com/watch?v=et181HMN2EQ"
+        },
+        {
+            "title": "The Missions Bringing Us Back to the Moon",
+            "videoId": "j_AlXChA9F4",
+            "thumbnail": "https://img.youtube.com/vi/j_AlXChA9F4/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/j_AlXChA9F4/hqdefault.jpg",
+            "publishedAt": "02/04/2026",
+            "timestamp": 1775152282.0,
+            "channelTitle": "StarTalk",
+            "url": "https://www.youtube.com/watch?v=j_AlXChA9F4"
+        },
+        {
+            "title": "Antarctica Has An Accent and It's Weirder Than You Think",
+            "videoId": "E7wQD4wKwjs",
+            "thumbnail": "https://img.youtube.com/vi/E7wQD4wKwjs/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/E7wQD4wKwjs/hqdefault.jpg",
+            "publishedAt": "02/04/2026",
+            "timestamp": 1775149200.0,
+            "channelTitle": "SciShow",
+            "url": "https://www.youtube.com/watch?v=E7wQD4wKwjs"
+        },
+        {
+            "title": "Crash Course Geology Preview",
+            "videoId": "YokkwzdZX2A",
+            "thumbnail": "https://img.youtube.com/vi/YokkwzdZX2A/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/YokkwzdZX2A/hqdefault.jpg",
+            "publishedAt": "02/04/2026",
+            "timestamp": 1775145685.0,
+            "channelTitle": "CrashCourse",
+            "url": "https://www.youtube.com/watch?v=YokkwzdZX2A"
         },
         {
             "title": "Nothing Is Ever Lost",
@@ -373,16 +413,6 @@
             "timestamp": 1775075406.0,
             "channelTitle": "StarTalk Plus",
             "url": "https://www.youtube.com/watch?v=qFjt2oOpnH4"
-        },
-        {
-            "title": "We're Sending Our Audience Poop. You're Welcome.",
-            "videoId": "ji8wiRK0fVE",
-            "thumbnail": "https://img.youtube.com/vi/ji8wiRK0fVE/maxresdefault.jpg",
-            "backup_thumb": "https://img.youtube.com/vi/ji8wiRK0fVE/hqdefault.jpg",
-            "publishedAt": "01/04/2026",
-            "timestamp": 1775062800.0,
-            "channelTitle": "SciShow",
-            "url": "https://www.youtube.com/watch?v=ji8wiRK0fVE"
         },
         {
             "title": "There’s Really Only One Way To Die",
@@ -415,16 +445,6 @@
             "url": "https://www.youtube.com/watch?v=h3DCdWyb0cc"
         },
         {
-            "title": "The StarTalk Team Has More Questions for Neil | Burning Question Pt. 4",
-            "videoId": "DSu6xLc6WGQ",
-            "thumbnail": "https://img.youtube.com/vi/DSu6xLc6WGQ/maxresdefault.jpg",
-            "backup_thumb": "https://img.youtube.com/vi/DSu6xLc6WGQ/hqdefault.jpg",
-            "publishedAt": "28/03/2026",
-            "timestamp": 1774709069.0,
-            "channelTitle": "StarTalk",
-            "url": "https://www.youtube.com/watch?v=DSu6xLc6WGQ"
-        },
-        {
             "title": "What's Really Hiding In The Deepest Oceans",
             "videoId": "0HlLwG2xN_c",
             "thumbnail": "https://img.youtube.com/vi/0HlLwG2xN_c/maxresdefault.jpg",
@@ -445,16 +465,6 @@
             "url": "https://www.youtube.com/watch?v=31M3rlbMCNg"
         },
         {
-            "title": "Why doesn’t dark matter collapse into black holes?",
-            "videoId": "VmWNTlVFcJw",
-            "thumbnail": "https://img.youtube.com/vi/VmWNTlVFcJw/maxresdefault.jpg",
-            "backup_thumb": "https://img.youtube.com/vi/VmWNTlVFcJw/hqdefault.jpg",
-            "publishedAt": "26/03/2026",
-            "timestamp": 1774555232.0,
-            "channelTitle": "Dr. Becky",
-            "url": "https://www.youtube.com/watch?v=VmWNTlVFcJw"
-        },
-        {
             "title": "Gamma Ray Bursts, Cosmic Rays and the Sociology of Science – Álvaro de Rújula",
             "videoId": "sRLQF3WQ6R8",
             "thumbnail": "https://img.youtube.com/vi/sRLQF3WQ6R8/maxresdefault.jpg",
@@ -463,16 +473,6 @@
             "timestamp": 1773944641.0,
             "channelTitle": "Instituto de Física Teórica IFT",
             "url": "https://www.youtube.com/watch?v=sRLQF3WQ6R8"
-        },
-        {
-            "title": "What Happens When Science Clashes with the Public?: Crash Course Scientific Thinking #7",
-            "videoId": "NaMcw8_10Yg",
-            "thumbnail": "https://img.youtube.com/vi/NaMcw8_10Yg/maxresdefault.jpg",
-            "backup_thumb": "https://img.youtube.com/vi/NaMcw8_10Yg/hqdefault.jpg",
-            "publishedAt": "17/03/2026",
-            "timestamp": 1773763230.0,
-            "channelTitle": "CrashCourse",
-            "url": "https://www.youtube.com/watch?v=NaMcw8_10Yg"
         },
         {
             "title": "The Hidden Structure of Reality (11 Layers of Existence)",
@@ -556,6 +556,16 @@
         }
     ],
     "ingles_s": [
+        {
+            "title": "Artemis II Launch: What's Next?",
+            "videoId": "4uJxTo6N9cE",
+            "thumbnail": "https://img.youtube.com/vi/4uJxTo6N9cE/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/4uJxTo6N9cE/hqdefault.jpg",
+            "publishedAt": "02/04/2026",
+            "timestamp": 1775166072.0,
+            "channelTitle": "NASA",
+            "url": "https://www.youtube.com/shorts/4uJxTo6N9cE"
+        },
         {
             "title": "Big space events coming up in 2026 #shorts",
             "videoId": "F72c1mLi9DE",
