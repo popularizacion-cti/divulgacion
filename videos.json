@@ -1,14 +1,34 @@
 {
     "videos": [
         {
-            "title": "Lanzamiento Artemis II...  ¡¡A LA LUNA!!",
-            "videoId": "5tBB5pZYYjE",
-            "thumbnail": "https://img.youtube.com/vi/5tBB5pZYYjE/maxresdefault.jpg",
-            "backup_thumb": "https://img.youtube.com/vi/5tBB5pZYYjE/hqdefault.jpg",
-            "publishedAt": "02/04/2026",
-            "timestamp": 1775089223.0,
+            "title": "Nos quedamos sin antibióticos: ¿Hay solución?",
+            "videoId": "Sa5D0o_ZnoI",
+            "thumbnail": "https://img.youtube.com/vi/Sa5D0o_ZnoI/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/Sa5D0o_ZnoI/hqdefault.jpg",
+            "publishedAt": "03/04/2026",
+            "timestamp": 1775243366.0,
+            "channelTitle": "CdeCiencia",
+            "url": "https://www.youtube.com/watch?v=Sa5D0o_ZnoI"
+        },
+        {
+            "title": "¡Pasé 2 días en la NASA! 😬",
+            "videoId": "MBoPFSihj6w",
+            "thumbnail": "https://img.youtube.com/vi/MBoPFSihj6w/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/MBoPFSihj6w/hqdefault.jpg",
+            "publishedAt": "03/04/2026",
+            "timestamp": 1775238094.0,
+            "channelTitle": "El Robot de Platón",
+            "url": "https://www.youtube.com/watch?v=MBoPFSihj6w"
+        },
+        {
+            "title": "Artemis II: Un dia para la historia",
+            "videoId": "hNCaNxPSSQQ",
+            "thumbnail": "https://img.youtube.com/vi/hNCaNxPSSQQ/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/hNCaNxPSSQQ/hqdefault.jpg",
+            "publishedAt": "03/04/2026",
+            "timestamp": 1775232068.0,
             "channelTitle": "Date un Vlog",
-            "url": "https://www.youtube.com/watch?v=5tBB5pZYYjE"
+            "url": "https://www.youtube.com/watch?v=hNCaNxPSSQQ"
         },
         {
             "title": "La tripulación de Artemis II de la NASA despega hacia la Luna (Transmisión oficial)",
@@ -79,16 +99,6 @@
             "timestamp": 1774926241.0,
             "channelTitle": "jefillysh",
             "url": "https://www.youtube.com/watch?v=ynHn7JemqpE"
-        },
-        {
-            "title": "El Dilema de la Tierra PAPA",
-            "videoId": "elHMxJi9hCU",
-            "thumbnail": "https://img.youtube.com/vi/elHMxJi9hCU/maxresdefault.jpg",
-            "backup_thumb": "https://img.youtube.com/vi/elHMxJi9hCU/hqdefault.jpg",
-            "publishedAt": "30/03/2026",
-            "timestamp": 1774911942.0,
-            "channelTitle": "El Robot de Platón",
-            "url": "https://www.youtube.com/watch?v=elHMxJi9hCU"
         },
         {
             "title": "El libro que 'demuestra' a DIOS: ¿Fraude o Revolución?",
@@ -183,6 +193,26 @@
     ],
     "shorts": [
         {
+            "title": "Vivió en un árbol para que no lo talaran",
+            "videoId": "OdKQ_0RliFg",
+            "thumbnail": "https://img.youtube.com/vi/OdKQ_0RliFg/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/OdKQ_0RliFg/hqdefault.jpg",
+            "publishedAt": "03/04/2026",
+            "timestamp": 1775258942.0,
+            "channelTitle": "CdeCiencia",
+            "url": "https://www.youtube.com/shorts/OdKQ_0RliFg"
+        },
+        {
+            "title": "🥥 ¿Quién le mete agua al coco? | Biología Desde Cero",
+            "videoId": "1YOAX0Mi9js",
+            "thumbnail": "https://img.youtube.com/vi/1YOAX0Mi9js/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/1YOAX0Mi9js/hqdefault.jpg",
+            "publishedAt": "03/04/2026",
+            "timestamp": 1775239703.0,
+            "channelTitle": "Biología desde cero",
+            "url": "https://www.youtube.com/shorts/1YOAX0Mi9js"
+        },
+        {
             "title": "HOY humanos vuelven a la Luna",
             "videoId": "VM7c6Q5zzzY",
             "thumbnail": "https://img.youtube.com/vi/VM7c6Q5zzzY/maxresdefault.jpg",
@@ -201,26 +231,6 @@
             "timestamp": 1775169351.0,
             "channelTitle": "NASA en Español",
             "url": "https://www.youtube.com/shorts/2QtR95T6Fvg"
-        },
-        {
-            "title": "La araña que engaña a las luciérnagas",
-            "videoId": "2AUYwBoEEFc",
-            "thumbnail": "https://img.youtube.com/vi/2AUYwBoEEFc/maxresdefault.jpg",
-            "backup_thumb": "https://img.youtube.com/vi/2AUYwBoEEFc/hqdefault.jpg",
-            "publishedAt": "02/04/2026",
-            "timestamp": 1775158433.0,
-            "channelTitle": "CdeCiencia",
-            "url": "https://www.youtube.com/shorts/2AUYwBoEEFc"
-        },
-        {
-            "title": "Artemis II y el límite del cuerpo humano | Biología Desde Cero",
-            "videoId": "aoTldY3tOYY",
-            "thumbnail": "https://img.youtube.com/vi/aoTldY3tOYY/maxresdefault.jpg",
-            "backup_thumb": "https://img.youtube.com/vi/aoTldY3tOYY/hqdefault.jpg",
-            "publishedAt": "02/04/2026",
-            "timestamp": 1775154216.0,
-            "channelTitle": "Biología desde cero",
-            "url": "https://www.youtube.com/shorts/aoTldY3tOYY"
         },
         {
             "title": "¡Fui a la NASA a Ver el Lanzamiento de Artemis!",
@@ -355,14 +365,34 @@
     ],
     "ingles_v": [
         {
-            "title": "NASA’s Artemis II Daily News Conference (April 2, 2026)",
-            "videoId": "j3Pq35gm4qA",
-            "thumbnail": "https://img.youtube.com/vi/j3Pq35gm4qA/maxresdefault.jpg",
-            "backup_thumb": "https://img.youtube.com/vi/j3Pq35gm4qA/hqdefault.jpg",
+            "title": "NASA’s Artemis II Daily News Conference (April 3, 2026)",
+            "videoId": "z5PLvqX2q8w",
+            "thumbnail": "https://img.youtube.com/vi/z5PLvqX2q8w/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/z5PLvqX2q8w/hqdefault.jpg",
             "publishedAt": "03/04/2026",
-            "timestamp": 1775180570.0,
+            "timestamp": 1775248127.0,
             "channelTitle": "NASA",
-            "url": "https://www.youtube.com/watch?v=j3Pq35gm4qA"
+            "url": "https://www.youtube.com/watch?v=z5PLvqX2q8w"
+        },
+        {
+            "title": "When Predators Fight for Survival",
+            "videoId": "Nyhh95_Lo7M",
+            "thumbnail": "https://img.youtube.com/vi/Nyhh95_Lo7M/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/Nyhh95_Lo7M/hqdefault.jpg",
+            "publishedAt": "03/04/2026",
+            "timestamp": 1775243700.0,
+            "channelTitle": "Crazy Creatures",
+            "url": "https://www.youtube.com/watch?v=Nyhh95_Lo7M"
+        },
+        {
+            "title": "The Universe Is Accelerating...and No One Knows Why",
+            "videoId": "IWfb9FnCTvI",
+            "thumbnail": "https://img.youtube.com/vi/IWfb9FnCTvI/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/IWfb9FnCTvI/hqdefault.jpg",
+            "publishedAt": "03/04/2026",
+            "timestamp": 1775221226.0,
+            "channelTitle": "Arvin Ash",
+            "url": "https://www.youtube.com/watch?v=IWfb9FnCTvI"
         },
         {
             "title": "We thought we solved the Fermi Bubbles… then this happened",
@@ -455,16 +485,6 @@
             "url": "https://www.youtube.com/watch?v=0HlLwG2xN_c"
         },
         {
-            "title": "The Battle For Mozambique's Wildlife Against The Poachers",
-            "videoId": "31M3rlbMCNg",
-            "thumbnail": "https://img.youtube.com/vi/31M3rlbMCNg/maxresdefault.jpg",
-            "backup_thumb": "https://img.youtube.com/vi/31M3rlbMCNg/hqdefault.jpg",
-            "publishedAt": "27/03/2026",
-            "timestamp": 1774642501.0,
-            "channelTitle": "Crazy Creatures",
-            "url": "https://www.youtube.com/watch?v=31M3rlbMCNg"
-        },
-        {
             "title": "Gamma Ray Bursts, Cosmic Rays and the Sociology of Science – Álvaro de Rújula",
             "videoId": "sRLQF3WQ6R8",
             "thumbnail": "https://img.youtube.com/vi/sRLQF3WQ6R8/maxresdefault.jpg",
@@ -473,16 +493,6 @@
             "timestamp": 1773944641.0,
             "channelTitle": "Instituto de Física Teórica IFT",
             "url": "https://www.youtube.com/watch?v=sRLQF3WQ6R8"
-        },
-        {
-            "title": "The Hidden Structure of Reality (11 Layers of Existence)",
-            "videoId": "2ScfmNkk6A8",
-            "thumbnail": "https://img.youtube.com/vi/2ScfmNkk6A8/maxresdefault.jpg",
-            "backup_thumb": "https://img.youtube.com/vi/2ScfmNkk6A8/hqdefault.jpg",
-            "publishedAt": "14/03/2026",
-            "timestamp": 1773493209.0,
-            "channelTitle": "Arvin Ash",
-            "url": "https://www.youtube.com/watch?v=2ScfmNkk6A8"
         },
         {
             "title": "The Pi Song 4.0 (Memorize 400 Digits Of π)",
@@ -557,34 +567,64 @@
     ],
     "ingles_s": [
         {
-            "title": "Artemis II Launch: What's Next?",
-            "videoId": "4uJxTo6N9cE",
-            "thumbnail": "https://img.youtube.com/vi/4uJxTo6N9cE/maxresdefault.jpg",
-            "backup_thumb": "https://img.youtube.com/vi/4uJxTo6N9cE/hqdefault.jpg",
-            "publishedAt": "02/04/2026",
-            "timestamp": 1775166072.0,
-            "channelTitle": "NASA",
-            "url": "https://www.youtube.com/shorts/4uJxTo6N9cE"
-        },
-        {
-            "title": "Big space events coming up in 2026 #shorts",
-            "videoId": "F72c1mLi9DE",
-            "thumbnail": "https://img.youtube.com/vi/F72c1mLi9DE/maxresdefault.jpg",
-            "backup_thumb": "https://img.youtube.com/vi/F72c1mLi9DE/hqdefault.jpg",
-            "publishedAt": "01/04/2026",
-            "timestamp": 1775059754.0,
+            "title": "The 15 year mystery of the Milky Way's Fermi Bubbles #shorts",
+            "videoId": "n7SfxM_HYpc",
+            "thumbnail": "https://img.youtube.com/vi/n7SfxM_HYpc/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/n7SfxM_HYpc/hqdefault.jpg",
+            "publishedAt": "03/04/2026",
+            "timestamp": 1775250048.0,
             "channelTitle": "Dr. Becky",
-            "url": "https://www.youtube.com/shorts/F72c1mLi9DE"
+            "url": "https://www.youtube.com/shorts/n7SfxM_HYpc"
         },
         {
-            "title": "This Giant Machine Helps Find Aliens",
-            "videoId": "7Sr6-W02I2c",
-            "thumbnail": "https://img.youtube.com/vi/7Sr6-W02I2c/maxresdefault.jpg",
-            "backup_thumb": "https://img.youtube.com/vi/7Sr6-W02I2c/hqdefault.jpg",
-            "publishedAt": "01/04/2026",
-            "timestamp": 1775052707.0,
+            "title": "Artemis II crew's first images from space",
+            "videoId": "43mvpb1Ujpo",
+            "thumbnail": "https://img.youtube.com/vi/43mvpb1Ujpo/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/43mvpb1Ujpo/hqdefault.jpg",
+            "publishedAt": "03/04/2026",
+            "timestamp": 1775234700.0,
+            "channelTitle": "NASA",
+            "url": "https://www.youtube.com/shorts/43mvpb1Ujpo"
+        },
+        {
+            "title": "Testing Every Seat on a Log Ride",
+            "videoId": "GOmQwinZKtE",
+            "thumbnail": "https://img.youtube.com/vi/GOmQwinZKtE/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/GOmQwinZKtE/hqdefault.jpg",
+            "publishedAt": "03/04/2026",
+            "timestamp": 1775231321.0,
+            "channelTitle": "Mark Rober",
+            "url": "https://www.youtube.com/shorts/GOmQwinZKtE"
+        },
+        {
+            "title": "Strange things are happening in the Kuiper Belt…",
+            "videoId": "djSMLASp_1Q",
+            "thumbnail": "https://img.youtube.com/vi/djSMLASp_1Q/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/djSMLASp_1Q/hqdefault.jpg",
+            "publishedAt": "03/04/2026",
+            "timestamp": 1775228349.0,
+            "channelTitle": "Be Smart",
+            "url": "https://www.youtube.com/shorts/djSMLASp_1Q"
+        },
+        {
+            "title": "Is It Aliens? How NASA Would Confirm",
+            "videoId": "Q9RWh3Zaanc",
+            "thumbnail": "https://img.youtube.com/vi/Q9RWh3Zaanc/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/Q9RWh3Zaanc/hqdefault.jpg",
+            "publishedAt": "03/04/2026",
+            "timestamp": 1775227241.0,
             "channelTitle": "Cleo Abram",
-            "url": "https://www.youtube.com/shorts/7Sr6-W02I2c"
+            "url": "https://www.youtube.com/shorts/Q9RWh3Zaanc"
+        },
+        {
+            "title": "BREAKING the laws of physics!",
+            "videoId": "ld0DISNauQQ",
+            "thumbnail": "https://img.youtube.com/vi/ld0DISNauQQ/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/ld0DISNauQQ/hqdefault.jpg",
+            "publishedAt": "03/04/2026",
+            "timestamp": 1775221200.0,
+            "channelTitle": "Physics Girl",
+            "url": "https://www.youtube.com/shorts/ld0DISNauQQ"
         },
         {
             "title": "When you die, you don’t disappear ⭐ You transform",
@@ -607,16 +647,6 @@
             "url": "https://www.youtube.com/shorts/oy0e3uu6xYI"
         },
         {
-            "title": "My first science video in 3 years!",
-            "videoId": "kdKz4zuqlH8",
-            "thumbnail": "https://img.youtube.com/vi/kdKz4zuqlH8/maxresdefault.jpg",
-            "backup_thumb": "https://img.youtube.com/vi/kdKz4zuqlH8/hqdefault.jpg",
-            "publishedAt": "29/03/2026",
-            "timestamp": 1774817559.0,
-            "channelTitle": "Physics Girl",
-            "url": "https://www.youtube.com/shorts/kdKz4zuqlH8"
-        },
-        {
             "title": "How would AI destroy the world?",
             "videoId": "VH-Q37JloMM",
             "thumbnail": "https://img.youtube.com/vi/VH-Q37JloMM/maxresdefault.jpg",
@@ -635,16 +665,6 @@
             "timestamp": 1774444413.0,
             "channelTitle": "AsapSCIENCE",
             "url": "https://www.youtube.com/shorts/JQmwj80i_98"
-        },
-        {
-            "title": "Can you see these FORBIDDEN colors?!",
-            "videoId": "pRJWu481ETQ",
-            "thumbnail": "https://img.youtube.com/vi/pRJWu481ETQ/maxresdefault.jpg",
-            "backup_thumb": "https://img.youtube.com/vi/pRJWu481ETQ/hqdefault.jpg",
-            "publishedAt": "25/03/2026",
-            "timestamp": 1774444017.0,
-            "channelTitle": "Be Smart",
-            "url": "https://www.youtube.com/shorts/pRJWu481ETQ"
         },
         {
             "title": "Spaceships Powered by Nukes",
@@ -685,16 +705,6 @@
             "timestamp": 1773945729.0,
             "channelTitle": "NileRed",
             "url": "https://www.youtube.com/shorts/QNPrHtcn6nM"
-        },
-        {
-            "title": "The SECRET to Fighting Laundry Stains #TidePartner",
-            "videoId": "wJMrk69WOdw",
-            "thumbnail": "https://img.youtube.com/vi/wJMrk69WOdw/maxresdefault.jpg",
-            "backup_thumb": "https://img.youtube.com/vi/wJMrk69WOdw/hqdefault.jpg",
-            "publishedAt": "17/03/2026",
-            "timestamp": 1773759700.0,
-            "channelTitle": "Mark Rober",
-            "url": "https://www.youtube.com/shorts/wJMrk69WOdw"
         },
         {
             "title": "¿Los ricos cada vez son más ricos y los pobres, más pobres?",
