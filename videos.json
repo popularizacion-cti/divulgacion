@@ -11,7 +11,7 @@
             "url": "https://www.youtube.com/watch?v=Sa5D0o_ZnoI"
         },
         {
-            "title": "¡Pasé 2 días en la NASA! 😬",
+            "title": "¡Pasé 2 DÍAS en la NASA! 😬",
             "videoId": "MBoPFSihj6w",
             "thumbnail": "https://img.youtube.com/vi/MBoPFSihj6w/maxresdefault.jpg",
             "backup_thumb": "https://img.youtube.com/vi/MBoPFSihj6w/hqdefault.jpg",
@@ -193,24 +193,34 @@
     ],
     "shorts": [
         {
-            "title": "Ratas con empatía",
-            "videoId": "lHber5xmqD4",
-            "thumbnail": "https://img.youtube.com/vi/lHber5xmqD4/maxresdefault.jpg",
-            "backup_thumb": "https://img.youtube.com/vi/lHber5xmqD4/hqdefault.jpg",
-            "publishedAt": "04/04/2026",
-            "timestamp": 1775341617.0,
+            "title": "Cuando las hormigas se buguean",
+            "videoId": "tA3o_WNJHpc",
+            "thumbnail": "https://img.youtube.com/vi/tA3o_WNJHpc/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/tA3o_WNJHpc/hqdefault.jpg",
+            "publishedAt": "05/04/2026",
+            "timestamp": 1775424467.0,
             "channelTitle": "CdeCiencia",
-            "url": "https://www.youtube.com/shorts/lHber5xmqD4"
+            "url": "https://www.youtube.com/shorts/tA3o_WNJHpc"
         },
         {
-            "title": "🦀 Madre Cangrejo Protege a su Cría? 🤔",
-            "videoId": "6u3dEnk4ktk",
-            "thumbnail": "https://img.youtube.com/vi/6u3dEnk4ktk/maxresdefault.jpg",
-            "backup_thumb": "https://img.youtube.com/vi/6u3dEnk4ktk/hqdefault.jpg",
-            "publishedAt": "04/04/2026",
-            "timestamp": 1775318646.0,
+            "title": "Sí se puede “adelantar” a la luz (así funciona)",
+            "videoId": "8xpY1cJIglg",
+            "thumbnail": "https://img.youtube.com/vi/8xpY1cJIglg/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/8xpY1cJIglg/hqdefault.jpg",
+            "publishedAt": "05/04/2026",
+            "timestamp": 1775419205.0,
+            "channelTitle": "Date un Vlog",
+            "url": "https://www.youtube.com/shorts/8xpY1cJIglg"
+        },
+        {
+            "title": "¿Sabías esto del koala? 🐨 ¡Es un marsupial y así nacen!",
+            "videoId": "EZg-kJ6K3Yw",
+            "thumbnail": "https://img.youtube.com/vi/EZg-kJ6K3Yw/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/EZg-kJ6K3Yw/hqdefault.jpg",
+            "publishedAt": "05/04/2026",
+            "timestamp": 1775409562.0,
             "channelTitle": "Biología desde cero",
-            "url": "https://www.youtube.com/shorts/6u3dEnk4ktk"
+            "url": "https://www.youtube.com/shorts/EZg-kJ6K3Yw"
         },
         {
             "title": "#space #dct #artemisiii #moon",
@@ -221,16 +231,6 @@
             "timestamp": 1775315489.0,
             "channelTitle": "MXrioRD",
             "url": "https://www.youtube.com/shorts/R0esVTnRJEM"
-        },
-        {
-            "title": "HOY humanos vuelven a la Luna",
-            "videoId": "VM7c6Q5zzzY",
-            "thumbnail": "https://img.youtube.com/vi/VM7c6Q5zzzY/maxresdefault.jpg",
-            "backup_thumb": "https://img.youtube.com/vi/VM7c6Q5zzzY/hqdefault.jpg",
-            "publishedAt": "02/04/2026",
-            "timestamp": 1775172502.0,
-            "channelTitle": "Date un Vlog",
-            "url": "https://www.youtube.com/shorts/VM7c6Q5zzzY"
         },
         {
             "title": "#Artemis II: Reacciones desde el Centro Espacial Kennedy",
@@ -365,14 +365,14 @@
     ],
     "ingles_v": [
         {
-            "title": "NASA’s Artemis II Daily News Conference (April 4, 2026)",
-            "videoId": "O-KDKBCPrwA",
-            "thumbnail": "https://img.youtube.com/vi/O-KDKBCPrwA/maxresdefault.jpg",
-            "backup_thumb": "https://img.youtube.com/vi/O-KDKBCPrwA/hqdefault.jpg",
-            "publishedAt": "04/04/2026",
-            "timestamp": 1775341683.0,
+            "title": "NASA’s Artemis II Daily News Conference (April 5, 2026)",
+            "videoId": "46uxUxGpjtY",
+            "thumbnail": "https://img.youtube.com/vi/46uxUxGpjtY/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/46uxUxGpjtY/hqdefault.jpg",
+            "publishedAt": "05/04/2026",
+            "timestamp": 1775432255.0,
             "channelTitle": "NASA",
-            "url": "https://www.youtube.com/watch?v=O-KDKBCPrwA"
+            "url": "https://www.youtube.com/watch?v=46uxUxGpjtY"
         },
         {
             "title": "When Predators Fight for Survival",
@@ -567,14 +567,14 @@
     ],
     "ingles_s": [
         {
-            "title": "Artemis Daily Wrap: Flight Day 4",
-            "videoId": "RjL0pe97fuU",
-            "thumbnail": "https://img.youtube.com/vi/RjL0pe97fuU/maxresdefault.jpg",
-            "backup_thumb": "https://img.youtube.com/vi/RjL0pe97fuU/hqdefault.jpg",
+            "title": "Full Capsule",
+            "videoId": "zJxvUUIL4dg",
+            "thumbnail": "https://img.youtube.com/vi/zJxvUUIL4dg/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/zJxvUUIL4dg/hqdefault.jpg",
             "publishedAt": "05/04/2026",
-            "timestamp": 1775371450.0,
+            "timestamp": 1775429316.0,
             "channelTitle": "NASA",
-            "url": "https://www.youtube.com/shorts/RjL0pe97fuU"
+            "url": "https://www.youtube.com/shorts/zJxvUUIL4dg"
         },
         {
             "title": "The 15 year mystery of the Milky Way's Fermi Bubbles #shorts",
