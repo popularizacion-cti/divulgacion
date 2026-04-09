@@ -1,6 +1,16 @@
 {
     "videos": [
         {
+            "title": "La verdad OCULTA de la vuelta a la Luna",
+            "videoId": "WcWoEnRygp4",
+            "thumbnail": "https://img.youtube.com/vi/WcWoEnRygp4/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/WcWoEnRygp4/hqdefault.jpg",
+            "publishedAt": "08/04/2026",
+            "timestamp": 1775678406.0,
+            "channelTitle": "Date un Vlog",
+            "url": "https://www.youtube.com/watch?v=WcWoEnRygp4"
+        },
+        {
             "title": "La Misión Artemis 2 Finalmente llega a la Luna (Parte 2)",
             "videoId": "iiGPKwtLzHk",
             "thumbnail": "https://img.youtube.com/vi/iiGPKwtLzHk/maxresdefault.jpg",
@@ -9,16 +19,6 @@
             "timestamp": 1775527407.0,
             "channelTitle": "El Robot de Platón",
             "url": "https://www.youtube.com/watch?v=iiGPKwtLzHk"
-        },
-        {
-            "title": "Primeras imágenes desde la Luna | Reacciones en vivo | ARTEMIS II",
-            "videoId": "15fnxprtH-4",
-            "thumbnail": "https://img.youtube.com/vi/15fnxprtH-4/maxresdefault.jpg",
-            "backup_thumb": "https://img.youtube.com/vi/15fnxprtH-4/hqdefault.jpg",
-            "publishedAt": "07/04/2026",
-            "timestamp": 1775520697.0,
-            "channelTitle": "Date un Vlog",
-            "url": "https://www.youtube.com/watch?v=15fnxprtH-4"
         },
         {
             "title": "¿Puede la IA Generar NUEVO CONOCIMIENTO CIENTÍFICO?",
@@ -203,24 +203,24 @@
     ],
     "shorts": [
         {
-            "title": "La increíble regeneración del ajolote",
-            "videoId": "vDhctb1djKQ",
-            "thumbnail": "https://img.youtube.com/vi/vDhctb1djKQ/maxresdefault.jpg",
-            "backup_thumb": "https://img.youtube.com/vi/vDhctb1djKQ/hqdefault.jpg",
-            "publishedAt": "07/04/2026",
-            "timestamp": 1775590087.0,
+            "title": "El edificio que freía huevos",
+            "videoId": "r3jKN1nThAE",
+            "thumbnail": "https://img.youtube.com/vi/r3jKN1nThAE/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/r3jKN1nThAE/hqdefault.jpg",
+            "publishedAt": "08/04/2026",
+            "timestamp": 1775676323.0,
             "channelTitle": "CdeCiencia",
-            "url": "https://www.youtube.com/shorts/vDhctb1djKQ"
+            "url": "https://www.youtube.com/shorts/r3jKN1nThAE"
         },
         {
-            "title": "El Strike de Biología Desde Cero",
-            "videoId": "MijFCeOOXLE",
-            "thumbnail": "https://img.youtube.com/vi/MijFCeOOXLE/maxresdefault.jpg",
-            "backup_thumb": "https://img.youtube.com/vi/MijFCeOOXLE/hqdefault.jpg",
-            "publishedAt": "07/04/2026",
-            "timestamp": 1775584116.0,
+            "title": "¿Por qué los machos son Coloridos… y las hembras NO?",
+            "videoId": "BNZnzUNLri0",
+            "thumbnail": "https://img.youtube.com/vi/BNZnzUNLri0/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/BNZnzUNLri0/hqdefault.jpg",
+            "publishedAt": "08/04/2026",
+            "timestamp": 1775668032.0,
             "channelTitle": "Biología desde cero",
-            "url": "https://www.youtube.com/shorts/MijFCeOOXLE"
+            "url": "https://www.youtube.com/shorts/BNZnzUNLri0"
         },
         {
             "title": "Ayer 🥰 en el cora",
@@ -261,6 +261,16 @@
             "timestamp": 1775509208.0,
             "channelTitle": "En Teoría",
             "url": "https://www.youtube.com/shorts/90luR5RyWU0"
+        },
+        {
+            "title": "La tripulacion de Artemis II está en ruta a la luna!🌑 #artemis #terepaneque #nasa #ciencia",
+            "videoId": "guYUcSYbE5Q",
+            "thumbnail": "https://img.youtube.com/vi/guYUcSYbE5Q/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/guYUcSYbE5Q/hqdefault.jpg",
+            "publishedAt": "04/04/2026",
+            "timestamp": 1775322399.0,
+            "channelTitle": "Tere Paneque",
+            "url": "https://www.youtube.com/shorts/guYUcSYbE5Q"
         },
         {
             "title": "#space #dct #artemisiii #moon",
@@ -385,14 +395,34 @@
     ],
     "ingles_v": [
         {
-            "title": "NASA’s Artemis II Daily News Conference (April 7, 2026)",
-            "videoId": "5YWATA3d5dU",
-            "thumbnail": "https://img.youtube.com/vi/5YWATA3d5dU/maxresdefault.jpg",
-            "backup_thumb": "https://img.youtube.com/vi/5YWATA3d5dU/hqdefault.jpg",
-            "publishedAt": "07/04/2026",
-            "timestamp": 1775598467.0,
+            "title": "NASA’s Artemis II Daily News Conference (April 8, 2026)",
+            "videoId": "8ZFM9ywOpl0",
+            "thumbnail": "https://img.youtube.com/vi/8ZFM9ywOpl0/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/8ZFM9ywOpl0/hqdefault.jpg",
+            "publishedAt": "08/04/2026",
+            "timestamp": 1775685863.0,
             "channelTitle": "NASA",
-            "url": "https://www.youtube.com/watch?v=5YWATA3d5dU"
+            "url": "https://www.youtube.com/watch?v=8ZFM9ywOpl0"
+        },
+        {
+            "title": "The Fatal Problem with Time Travel",
+            "videoId": "0ht7uViR0ZI",
+            "thumbnail": "https://img.youtube.com/vi/0ht7uViR0ZI/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/0ht7uViR0ZI/hqdefault.jpg",
+            "publishedAt": "08/04/2026",
+            "timestamp": 1775681101.0,
+            "channelTitle": "StarTalk Plus",
+            "url": "https://www.youtube.com/watch?v=0ht7uViR0ZI"
+        },
+        {
+            "title": "The World's Deadliest Mushroom is Getting Deadlier",
+            "videoId": "PNL_C3j1C2A",
+            "thumbnail": "https://img.youtube.com/vi/PNL_C3j1C2A/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/PNL_C3j1C2A/hqdefault.jpg",
+            "publishedAt": "08/04/2026",
+            "timestamp": 1775667600.0,
+            "channelTitle": "SciShow",
+            "url": "https://www.youtube.com/watch?v=PNL_C3j1C2A"
         },
         {
             "title": "Exploring Hidden Dimensions with Brian Greene",
@@ -405,16 +435,6 @@
             "url": "https://www.youtube.com/watch?v=NxMMd5kMu7o"
         },
         {
-            "title": "These Petroglyphs Helped Humans Survive the Desert",
-            "videoId": "zghn9r7iLT4",
-            "thumbnail": "https://img.youtube.com/vi/zghn9r7iLT4/maxresdefault.jpg",
-            "backup_thumb": "https://img.youtube.com/vi/zghn9r7iLT4/hqdefault.jpg",
-            "publishedAt": "07/04/2026",
-            "timestamp": 1775581200.0,
-            "channelTitle": "SciShow",
-            "url": "https://www.youtube.com/watch?v=zghn9r7iLT4"
-        },
-        {
             "title": "The Hardest Problem AI Ever Solved, with Google DeepMind CEO",
             "videoId": "C0gErQtnNFE",
             "thumbnail": "https://img.youtube.com/vi/C0gErQtnNFE/maxresdefault.jpg",
@@ -425,14 +445,14 @@
             "url": "https://www.youtube.com/watch?v=C0gErQtnNFE"
         },
         {
-            "title": "Moon Impact Incoming?! What Happens Next",
-            "videoId": "a3J9b2ss3l0",
-            "thumbnail": "https://img.youtube.com/vi/a3J9b2ss3l0/maxresdefault.jpg",
-            "backup_thumb": "https://img.youtube.com/vi/a3J9b2ss3l0/hqdefault.jpg",
+            "title": "Smile's journey from launch to orbit",
+            "videoId": "cLnV9Ae8aGY",
+            "thumbnail": "https://img.youtube.com/vi/cLnV9Ae8aGY/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/cLnV9Ae8aGY/hqdefault.jpg",
             "publishedAt": "06/04/2026",
-            "timestamp": 1775508300.0,
-            "channelTitle": "StarTalk Plus",
-            "url": "https://www.youtube.com/watch?v=a3J9b2ss3l0"
+            "timestamp": 1775484062.0,
+            "channelTitle": "European Space Agency, ESA",
+            "url": "https://www.youtube.com/watch?v=cLnV9Ae8aGY"
         },
         {
             "title": "When Predators Fight for Survival",
@@ -597,6 +617,46 @@
     ],
     "ingles_s": [
         {
+            "title": "Is the Universe JERKING? #shorts",
+            "videoId": "ls1C3oBr-kQ",
+            "thumbnail": "https://img.youtube.com/vi/ls1C3oBr-kQ/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/ls1C3oBr-kQ/hqdefault.jpg",
+            "publishedAt": "08/04/2026",
+            "timestamp": 1775667665.0,
+            "channelTitle": "Dr. Becky",
+            "url": "https://www.youtube.com/shorts/ls1C3oBr-kQ"
+        },
+        {
+            "title": "We can’t get enough of these images 🥹",
+            "videoId": "BgywST9KckI",
+            "thumbnail": "https://img.youtube.com/vi/BgywST9KckI/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/BgywST9KckI/hqdefault.jpg",
+            "publishedAt": "08/04/2026",
+            "timestamp": 1775667615.0,
+            "channelTitle": "European Space Agency, ESA",
+            "url": "https://www.youtube.com/shorts/BgywST9KckI"
+        },
+        {
+            "title": "How much of a tree is ACTUALLY alive?",
+            "videoId": "isHSltGHFoM",
+            "thumbnail": "https://img.youtube.com/vi/isHSltGHFoM/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/isHSltGHFoM/hqdefault.jpg",
+            "publishedAt": "08/04/2026",
+            "timestamp": 1775663850.0,
+            "channelTitle": "Be Smart",
+            "url": "https://www.youtube.com/shorts/isHSltGHFoM"
+        },
+        {
+            "title": "The Scariest Part of Artemis II Hasn’t Happened Yet",
+            "videoId": "fv-IpmNzHBY",
+            "thumbnail": "https://img.youtube.com/vi/fv-IpmNzHBY/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/fv-IpmNzHBY/hqdefault.jpg",
+            "publishedAt": "08/04/2026",
+            "timestamp": 1775659798.0,
+            "channelTitle": "Cleo Abram",
+            "url": "https://www.youtube.com/shorts/fv-IpmNzHBY"
+        },
+        {
             "title": "Artemis Daily Wrap: Flight Day 7",
             "videoId": "zlYXVnaxtYM",
             "thumbnail": "https://img.youtube.com/vi/zlYXVnaxtYM/maxresdefault.jpg",
@@ -627,26 +687,6 @@
             "url": "https://www.youtube.com/shorts/C6y2Xuz3_HE"
         },
         {
-            "title": "The farthest away from home we’ve ever been 🌙 #shorts",
-            "videoId": "cfiKHfDi2Vc",
-            "thumbnail": "https://img.youtube.com/vi/cfiKHfDi2Vc/maxresdefault.jpg",
-            "backup_thumb": "https://img.youtube.com/vi/cfiKHfDi2Vc/hqdefault.jpg",
-            "publishedAt": "06/04/2026",
-            "timestamp": 1775499934.0,
-            "channelTitle": "Dr. Becky",
-            "url": "https://www.youtube.com/shorts/cfiKHfDi2Vc"
-        },
-        {
-            "title": "Why Are These Mysterious Tubes on Mars?",
-            "videoId": "A86Zlfz68iA",
-            "thumbnail": "https://img.youtube.com/vi/A86Zlfz68iA/maxresdefault.jpg",
-            "backup_thumb": "https://img.youtube.com/vi/A86Zlfz68iA/hqdefault.jpg",
-            "publishedAt": "06/04/2026",
-            "timestamp": 1775484913.0,
-            "channelTitle": "Cleo Abram",
-            "url": "https://www.youtube.com/shorts/A86Zlfz68iA"
-        },
-        {
             "title": "Testing Every Seat on a Log Ride",
             "videoId": "GOmQwinZKtE",
             "thumbnail": "https://img.youtube.com/vi/GOmQwinZKtE/maxresdefault.jpg",
@@ -655,16 +695,6 @@
             "timestamp": 1775231321.0,
             "channelTitle": "Mark Rober",
             "url": "https://www.youtube.com/shorts/GOmQwinZKtE"
-        },
-        {
-            "title": "Strange things are happening in the Kuiper Belt…",
-            "videoId": "djSMLASp_1Q",
-            "thumbnail": "https://img.youtube.com/vi/djSMLASp_1Q/maxresdefault.jpg",
-            "backup_thumb": "https://img.youtube.com/vi/djSMLASp_1Q/hqdefault.jpg",
-            "publishedAt": "03/04/2026",
-            "timestamp": 1775228349.0,
-            "channelTitle": "Be Smart",
-            "url": "https://www.youtube.com/shorts/djSMLASp_1Q"
         },
         {
             "title": "BREAKING the laws of physics!",
