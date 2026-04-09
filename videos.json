@@ -395,14 +395,14 @@
     ],
     "ingles_v": [
         {
-            "title": "NASA’s Artemis II Daily News Conference (April 8, 2026)",
-            "videoId": "8ZFM9ywOpl0",
-            "thumbnail": "https://img.youtube.com/vi/8ZFM9ywOpl0/maxresdefault.jpg",
-            "backup_thumb": "https://img.youtube.com/vi/8ZFM9ywOpl0/hqdefault.jpg",
-            "publishedAt": "08/04/2026",
-            "timestamp": 1775685863.0,
+            "title": "NASA's Artemis II Crew News Conference (April 8, 2026)",
+            "videoId": "kkyUSFYrsKM",
+            "thumbnail": "https://img.youtube.com/vi/kkyUSFYrsKM/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/kkyUSFYrsKM/hqdefault.jpg",
+            "publishedAt": "09/04/2026",
+            "timestamp": 1775704462.0,
             "channelTitle": "NASA",
-            "url": "https://www.youtube.com/watch?v=8ZFM9ywOpl0"
+            "url": "https://www.youtube.com/watch?v=kkyUSFYrsKM"
         },
         {
             "title": "The Fatal Problem with Time Travel",
@@ -433,6 +433,16 @@
             "timestamp": 1775592684.0,
             "channelTitle": "StarTalk",
             "url": "https://www.youtube.com/watch?v=NxMMd5kMu7o"
+        },
+        {
+            "title": "Dark matter, cosmic tensions, and the shape of the universe: a conversation with Glenn Starkman",
+            "videoId": "roTpRqkhVCQ",
+            "thumbnail": "https://img.youtube.com/vi/roTpRqkhVCQ/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/roTpRqkhVCQ/hqdefault.jpg",
+            "publishedAt": "07/04/2026",
+            "timestamp": 1775590321.0,
+            "channelTitle": "Instituto de Física Teórica IFT",
+            "url": "https://www.youtube.com/watch?v=roTpRqkhVCQ"
         },
         {
             "title": "The Hardest Problem AI Ever Solved, with Google DeepMind CEO",
@@ -525,16 +535,6 @@
             "url": "https://www.youtube.com/watch?v=h3DCdWyb0cc"
         },
         {
-            "title": "Gamma Ray Bursts, Cosmic Rays and the Sociology of Science – Álvaro de Rújula",
-            "videoId": "sRLQF3WQ6R8",
-            "thumbnail": "https://img.youtube.com/vi/sRLQF3WQ6R8/maxresdefault.jpg",
-            "backup_thumb": "https://img.youtube.com/vi/sRLQF3WQ6R8/hqdefault.jpg",
-            "publishedAt": "19/03/2026",
-            "timestamp": 1773944641.0,
-            "channelTitle": "Instituto de Física Teórica IFT",
-            "url": "https://www.youtube.com/watch?v=sRLQF3WQ6R8"
-        },
-        {
             "title": "7 Rules for Walking in Space",
             "videoId": "SdzNOGzfpQw",
             "thumbnail": "https://img.youtube.com/vi/SdzNOGzfpQw/maxresdefault.jpg",
@@ -617,6 +617,16 @@
     ],
     "ingles_s": [
         {
+            "title": "Artemis Daily Wrap: Flight Day 8",
+            "videoId": "vQuZQh2bbk0",
+            "thumbnail": "https://img.youtube.com/vi/vQuZQh2bbk0/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/vQuZQh2bbk0/hqdefault.jpg",
+            "publishedAt": "09/04/2026",
+            "timestamp": 1775720608.0,
+            "channelTitle": "NASA",
+            "url": "https://www.youtube.com/shorts/vQuZQh2bbk0"
+        },
+        {
             "title": "Is the Universe JERKING? #shorts",
             "videoId": "ls1C3oBr-kQ",
             "thumbnail": "https://img.youtube.com/vi/ls1C3oBr-kQ/maxresdefault.jpg",
@@ -655,16 +665,6 @@
             "timestamp": 1775659798.0,
             "channelTitle": "Cleo Abram",
             "url": "https://www.youtube.com/shorts/fv-IpmNzHBY"
-        },
-        {
-            "title": "Artemis Daily Wrap: Flight Day 7",
-            "videoId": "zlYXVnaxtYM",
-            "thumbnail": "https://img.youtube.com/vi/zlYXVnaxtYM/maxresdefault.jpg",
-            "backup_thumb": "https://img.youtube.com/vi/zlYXVnaxtYM/hqdefault.jpg",
-            "publishedAt": "08/04/2026",
-            "timestamp": 1775632981.0,
-            "channelTitle": "NASA",
-            "url": "https://www.youtube.com/shorts/zlYXVnaxtYM"
         },
         {
             "title": "¿Por qué ir a la Luna es (matemáticamente) tan difícil? La ECUACIÓN del cohete",
