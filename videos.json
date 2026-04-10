@@ -1,6 +1,86 @@
 {
     "videos": [
         {
+            "title": "El mundo de las ABEJAS",
+            "videoId": "Rk6MbjSmkU8",
+            "thumbnail": "https://img.youtube.com/vi/Rk6MbjSmkU8/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/Rk6MbjSmkU8/hqdefault.jpg",
+            "publishedAt": "09/04/2026",
+            "timestamp": 1775776506.0,
+            "channelTitle": "En Teoría",
+            "url": "https://www.youtube.com/watch?v=Rk6MbjSmkU8"
+        },
+        {
+            "title": "Artemis II, Pesticidas en la Fruta y Apuestas Milenarias - JEFINEWS 09 de Abril 2026",
+            "videoId": "D5UA--kOH14",
+            "thumbnail": "https://img.youtube.com/vi/D5UA--kOH14/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/D5UA--kOH14/hqdefault.jpg",
+            "publishedAt": "09/04/2026",
+            "timestamp": 1775766360.0,
+            "channelTitle": "jefillysh",
+            "url": "https://www.youtube.com/watch?v=D5UA--kOH14"
+        },
+        {
+            "title": "Artemis II: El regreso a casa",
+            "videoId": "z_CxX4gHVoI",
+            "thumbnail": "https://img.youtube.com/vi/z_CxX4gHVoI/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/z_CxX4gHVoI/hqdefault.jpg",
+            "publishedAt": "09/04/2026",
+            "timestamp": 1775763643.0,
+            "channelTitle": "NASA en Español",
+            "url": "https://www.youtube.com/watch?v=z_CxX4gHVoI"
+        },
+        {
+            "title": "La verdad OCULTA de la vuelta a la Luna",
+            "videoId": "WcWoEnRygp4",
+            "thumbnail": "https://img.youtube.com/vi/WcWoEnRygp4/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/WcWoEnRygp4/hqdefault.jpg",
+            "publishedAt": "08/04/2026",
+            "timestamp": 1775678406.0,
+            "channelTitle": "Date un Vlog",
+            "url": "https://www.youtube.com/watch?v=WcWoEnRygp4"
+        },
+        {
+            "title": "La Misión Artemis 2 Finalmente llega a la Luna (Parte 2)",
+            "videoId": "iiGPKwtLzHk",
+            "thumbnail": "https://img.youtube.com/vi/iiGPKwtLzHk/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/iiGPKwtLzHk/hqdefault.jpg",
+            "publishedAt": "07/04/2026",
+            "timestamp": 1775527407.0,
+            "channelTitle": "El Robot de Platón",
+            "url": "https://www.youtube.com/watch?v=iiGPKwtLzHk"
+        },
+        {
+            "title": "¿Puede la IA Generar NUEVO CONOCIMIENTO CIENTÍFICO?",
+            "videoId": "GOhMh__Z4xI",
+            "thumbnail": "https://img.youtube.com/vi/GOhMh__Z4xI/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/GOhMh__Z4xI/hqdefault.jpg",
+            "publishedAt": "06/04/2026",
+            "timestamp": 1775488794.0,
+            "channelTitle": "Dot CSV",
+            "url": "https://www.youtube.com/watch?v=GOhMh__Z4xI"
+        },
+        {
+            "title": "Nos quedamos sin antibióticos: ¿Hay solución?",
+            "videoId": "Sa5D0o_ZnoI",
+            "thumbnail": "https://img.youtube.com/vi/Sa5D0o_ZnoI/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/Sa5D0o_ZnoI/hqdefault.jpg",
+            "publishedAt": "03/04/2026",
+            "timestamp": 1775243366.0,
+            "channelTitle": "CdeCiencia",
+            "url": "https://www.youtube.com/watch?v=Sa5D0o_ZnoI"
+        },
+        {
+            "title": "¿Por qué Queremos Volver a la Luna?",
+            "videoId": "U4EMQIN6Yoo",
+            "thumbnail": "https://img.youtube.com/vi/U4EMQIN6Yoo/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/U4EMQIN6Yoo/hqdefault.jpg",
+            "publishedAt": "01/04/2026",
+            "timestamp": 1775083732.0,
+            "channelTitle": "QuantumFracture",
+            "url": "https://www.youtube.com/watch?v=U4EMQIN6Yoo"
+        },
+        {
             "title": "Astrofísicos Afirman que la Materia Oscura Podría No Ser Una Sola Cosa",
             "videoId": "iqV1Yddolhw",
             "thumbnail": "https://img.youtube.com/vi/iqV1Yddolhw/maxresdefault.jpg",
@@ -9,9 +89,189 @@
             "timestamp": 1775067981.0,
             "channelTitle": "Noticias Robotitus",
             "url": "https://www.youtube.com/watch?v=iqV1Yddolhw"
+        },
+        {
+            "title": "¿Qué se vería cuando se forma un agujero negro?",
+            "videoId": "0y-kncyzBSU",
+            "thumbnail": "https://img.youtube.com/vi/0y-kncyzBSU/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/0y-kncyzBSU/hqdefault.jpg",
+            "publishedAt": "01/04/2026",
+            "timestamp": 1775044377.0,
+            "channelTitle": "ScienceClic Español",
+            "url": "https://www.youtube.com/watch?v=0y-kncyzBSU"
+        },
+        {
+            "title": "Internet Estaba A Semanas Del Desastre y Nadie Lo Sabía",
+            "videoId": "a62HpQpVBh8",
+            "thumbnail": "https://img.youtube.com/vi/a62HpQpVBh8/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/a62HpQpVBh8/hqdefault.jpg",
+            "publishedAt": "31/03/2026",
+            "timestamp": 1774998000.0,
+            "channelTitle": "Veritasium en español",
+            "url": "https://www.youtube.com/watch?v=a62HpQpVBh8"
+        },
+        {
+            "title": "Esto le hacen los ESTEROIDES a tu CUERPO",
+            "videoId": "44ET0ayllU0",
+            "thumbnail": "https://img.youtube.com/vi/44ET0ayllU0/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/44ET0ayllU0/hqdefault.jpg",
+            "publishedAt": "31/03/2026",
+            "timestamp": 1774975900.0,
+            "channelTitle": "La Hiperactina",
+            "url": "https://www.youtube.com/watch?v=44ET0ayllU0"
+        },
+        {
+            "title": "El libro que 'demuestra' a DIOS: ¿Fraude o Revolución?",
+            "videoId": "yV9i5C-cglY",
+            "thumbnail": "https://img.youtube.com/vi/yV9i5C-cglY/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/yV9i5C-cglY/hqdefault.jpg",
+            "publishedAt": "30/03/2026",
+            "timestamp": 1774890908.0,
+            "channelTitle": "La gata de Schrödinger",
+            "url": "https://www.youtube.com/watch?v=yV9i5C-cglY"
+        },
+        {
+            "title": "🟢 Biología Desde Cero Manqueando en el Hollow Knight - Silksong🟢",
+            "videoId": "nH51ftPU7cY",
+            "thumbnail": "https://img.youtube.com/vi/nH51ftPU7cY/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/nH51ftPU7cY/hqdefault.jpg",
+            "publishedAt": "28/03/2026",
+            "timestamp": 1774713316.0,
+            "channelTitle": "Biología desde cero",
+            "url": "https://www.youtube.com/watch?v=nH51ftPU7cY"
+        },
+        {
+            "title": "Así se creó el primer plástico de la historia: la Baquelita",
+            "videoId": "wRYP79P0arU",
+            "thumbnail": "https://img.youtube.com/vi/wRYP79P0arU/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/wRYP79P0arU/hqdefault.jpg",
+            "publishedAt": "15/03/2026",
+            "timestamp": 1773602106.0,
+            "channelTitle": "Reacciona Explota",
+            "url": "https://www.youtube.com/watch?v=wRYP79P0arU"
+        },
+        {
+            "title": "La FÓRMULA CUADRÁTICA: una joya milenaria en nuestras aulas",
+            "videoId": "CoEFmRQiEaI",
+            "thumbnail": "https://img.youtube.com/vi/CoEFmRQiEaI/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/CoEFmRQiEaI/hqdefault.jpg",
+            "publishedAt": "18/02/2026",
+            "timestamp": 1771430426.0,
+            "channelTitle": "Derivando",
+            "url": "https://www.youtube.com/watch?v=CoEFmRQiEaI"
+        },
+        {
+            "title": "Factor de Potencia Explicado - La Pérdida en su Factura de Electricidad",
+            "videoId": "wpubuxVCJtE",
+            "thumbnail": "https://img.youtube.com/vi/wpubuxVCJtE/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/wpubuxVCJtE/hqdefault.jpg",
+            "publishedAt": "13/01/2026",
+            "timestamp": 1768336214.0,
+            "channelTitle": "Mentalidad De Ingeniería",
+            "url": "https://www.youtube.com/watch?v=wpubuxVCJtE"
+        },
+        {
+            "title": "Somos inmunes a todas las enfermedades",
+            "videoId": "bDRVjoVn0Fg",
+            "thumbnail": "https://img.youtube.com/vi/bDRVjoVn0Fg/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/bDRVjoVn0Fg/hqdefault.jpg",
+            "publishedAt": "08/01/2026",
+            "timestamp": 1767884471.0,
+            "channelTitle": "En Pocas Palabras – Kurzgesagt",
+            "url": "https://www.youtube.com/watch?v=bDRVjoVn0Fg"
+        },
+        {
+            "title": "Reserva cognitiva: qué es y cómo fortalece nuestro cerebro",
+            "videoId": "OPIMBj2FRSw",
+            "thumbnail": "https://img.youtube.com/vi/OPIMBj2FRSw/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/OPIMBj2FRSw/hqdefault.jpg",
+            "publishedAt": "03/08/2025",
+            "timestamp": 1754237711.0,
+            "channelTitle": "Cerebrotes",
+            "url": "https://www.youtube.com/watch?v=OPIMBj2FRSw"
+        },
+        {
+            "title": "Re-imaginando la Tabla Periódica",
+            "videoId": "YEwlM0BrRbk",
+            "thumbnail": "https://img.youtube.com/vi/YEwlM0BrRbk/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/YEwlM0BrRbk/hqdefault.jpg",
+            "publishedAt": "04/12/2022",
+            "timestamp": 1670164574.0,
+            "channelTitle": "MinutoDeFísica",
+            "url": "https://www.youtube.com/watch?v=YEwlM0BrRbk"
         }
     ],
     "shorts": [
+        {
+            "title": "Por qué estas botellas atraían escarabajos",
+            "videoId": "CYtvXy6ZIJ4",
+            "thumbnail": "https://img.youtube.com/vi/CYtvXy6ZIJ4/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/CYtvXy6ZIJ4/hqdefault.jpg",
+            "publishedAt": "09/04/2026",
+            "timestamp": 1775774857.0,
+            "channelTitle": "CdeCiencia",
+            "url": "https://www.youtube.com/shorts/CYtvXy6ZIJ4"
+        },
+        {
+            "title": "El Misterio de las Raices que se Mueven | RESUELTO!!",
+            "videoId": "TYY9884H6C8",
+            "thumbnail": "https://img.youtube.com/vi/TYY9884H6C8/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/TYY9884H6C8/hqdefault.jpg",
+            "publishedAt": "09/04/2026",
+            "timestamp": 1775751664.0,
+            "channelTitle": "Biología desde cero",
+            "url": "https://www.youtube.com/shorts/TYY9884H6C8"
+        },
+        {
+            "title": "CUIDADO con los SPRAYS NASALES 🤧👃⚠️",
+            "videoId": "8-SmuH-Uwig",
+            "thumbnail": "https://img.youtube.com/vi/8-SmuH-Uwig/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/8-SmuH-Uwig/hqdefault.jpg",
+            "publishedAt": "09/04/2026",
+            "timestamp": 1775750400.0,
+            "channelTitle": "La Hiperactina",
+            "url": "https://www.youtube.com/shorts/8-SmuH-Uwig"
+        },
+        {
+            "title": "Ayer 🥰 en el cora",
+            "videoId": "CKS0zhOBR60",
+            "thumbnail": "https://img.youtube.com/vi/CKS0zhOBR60/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/CKS0zhOBR60/hqdefault.jpg",
+            "publishedAt": "07/04/2026",
+            "timestamp": 1775583891.0,
+            "channelTitle": "Date un Vlog",
+            "url": "https://www.youtube.com/shorts/CKS0zhOBR60"
+        },
+        {
+            "title": "El James Webb Detectó Estos Puntos Rojos... ¿Qué Son?",
+            "videoId": "zbLEaawfbZ4",
+            "thumbnail": "https://img.youtube.com/vi/zbLEaawfbZ4/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/zbLEaawfbZ4/hqdefault.jpg",
+            "publishedAt": "07/04/2026",
+            "timestamp": 1775566921.0,
+            "channelTitle": "QuantumFracture",
+            "url": "https://www.youtube.com/shorts/zbLEaawfbZ4"
+        },
+        {
+            "title": "#ArtemisII: Un mensaje para la Tierra desde la Luna",
+            "videoId": "qfSL6J-M5QM",
+            "thumbnail": "https://img.youtube.com/vi/qfSL6J-M5QM/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/qfSL6J-M5QM/hqdefault.jpg",
+            "publishedAt": "07/04/2026",
+            "timestamp": 1775522050.0,
+            "channelTitle": "NASA en Español",
+            "url": "https://www.youtube.com/shorts/qfSL6J-M5QM"
+        },
+        {
+            "title": "Un solo ancestro, para todos🐞🌱Darwin planteó que todo lo que tiene vida nació de un único punto",
+            "videoId": "90luR5RyWU0",
+            "thumbnail": "https://img.youtube.com/vi/90luR5RyWU0/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/90luR5RyWU0/hqdefault.jpg",
+            "publishedAt": "06/04/2026",
+            "timestamp": 1775509208.0,
+            "channelTitle": "En Teoría",
+            "url": "https://www.youtube.com/shorts/90luR5RyWU0"
+        },
         {
             "title": "La tripulacion de Artemis II está en ruta a la luna!🌑 #artemis #terepaneque #nasa #ciencia",
             "videoId": "guYUcSYbE5Q",
@@ -33,6 +293,26 @@
             "url": "https://www.youtube.com/shorts/R0esVTnRJEM"
         },
         {
+            "title": "¡Fui a la NASA a Ver el Lanzamiento de Artemis!",
+            "videoId": "gWoTPtfpbvA",
+            "thumbnail": "https://img.youtube.com/vi/gWoTPtfpbvA/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/gWoTPtfpbvA/hqdefault.jpg",
+            "publishedAt": "02/04/2026",
+            "timestamp": 1775134957.0,
+            "channelTitle": "El Robot de Platón",
+            "url": "https://www.youtube.com/shorts/gWoTPtfpbvA"
+        },
+        {
+            "title": "Noelia Castillo, Videntes y estafadores se aprovechan de su m*erte",
+            "videoId": "e4onMyTa8Aw",
+            "thumbnail": "https://img.youtube.com/vi/e4onMyTa8Aw/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/e4onMyTa8Aw/hqdefault.jpg",
+            "publishedAt": "31/03/2026",
+            "timestamp": 1774981128.0,
+            "channelTitle": "La gata de Schrödinger",
+            "url": "https://www.youtube.com/shorts/e4onMyTa8Aw"
+        },
+        {
             "title": "¡Encuentran Vivos a Marsupiales que se Creían Extintos ￼Hace 6000 Años! 🤯",
             "videoId": "2cPlJrIloC8",
             "thumbnail": "https://img.youtube.com/vi/2cPlJrIloC8/maxresdefault.jpg",
@@ -41,9 +321,89 @@
             "timestamp": 1774735864.0,
             "channelTitle": "Noticias Robotitus",
             "url": "https://www.youtube.com/shorts/2cPlJrIloC8"
+        },
+        {
+            "title": "Qué Pasa con Este Caracol 😨",
+            "videoId": "o-ZdDG8Kat4",
+            "thumbnail": "https://img.youtube.com/vi/o-ZdDG8Kat4/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/o-ZdDG8Kat4/hqdefault.jpg",
+            "publishedAt": "28/03/2026",
+            "timestamp": 1774734133.0,
+            "channelTitle": "El Robot de Linneo",
+            "url": "https://www.youtube.com/shorts/o-ZdDG8Kat4"
+        },
+        {
+            "title": "Este es el mejor ESCUDO anti radiación",
+            "videoId": "mMy_aFoXtQo",
+            "thumbnail": "https://img.youtube.com/vi/mMy_aFoXtQo/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/mMy_aFoXtQo/hqdefault.jpg",
+            "publishedAt": "24/03/2026",
+            "timestamp": 1774377067.0,
+            "channelTitle": "Reacciona Explota",
+            "url": "https://www.youtube.com/shorts/mMy_aFoXtQo"
+        },
+        {
+            "title": "Falta más ciencia sobre mujeres",
+            "videoId": "zepLQoRae7A",
+            "thumbnail": "https://img.youtube.com/vi/zepLQoRae7A/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/zepLQoRae7A/hqdefault.jpg",
+            "publishedAt": "08/03/2026",
+            "timestamp": 1773011244.0,
+            "channelTitle": "jefillysh",
+            "url": "https://www.youtube.com/shorts/zepLQoRae7A"
+        },
+        {
+            "title": "Este Es El PROBLEMA Con Estos Bioquímicos",
+            "videoId": "US5zfb18CDI",
+            "thumbnail": "https://img.youtube.com/vi/US5zfb18CDI/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/US5zfb18CDI/hqdefault.jpg",
+            "publishedAt": "21/11/2025",
+            "timestamp": 1763758837.0,
+            "channelTitle": "Veritasium en español",
+            "url": "https://www.youtube.com/shorts/US5zfb18CDI"
+        },
+        {
+            "title": "¿Qué es una resistencia? #electrónica #eléctrico #ingeniería #electricidad",
+            "videoId": "jjgxWxrjFso",
+            "thumbnail": "https://img.youtube.com/vi/jjgxWxrjFso/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/jjgxWxrjFso/hqdefault.jpg",
+            "publishedAt": "19/02/2025",
+            "timestamp": 1739923236.0,
+            "channelTitle": "Mentalidad De Ingeniería",
+            "url": "https://www.youtube.com/shorts/jjgxWxrjFso"
+        },
+        {
+            "title": "¿Conoces al Número e? #matematicas #derivando #curiosidades",
+            "videoId": "Jfdmgs3dg4M",
+            "thumbnail": "https://img.youtube.com/vi/Jfdmgs3dg4M/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/Jfdmgs3dg4M/hqdefault.jpg",
+            "publishedAt": "08/12/2024",
+            "timestamp": 1733677226.0,
+            "channelTitle": "Derivando",
+            "url": "https://www.youtube.com/shorts/Jfdmgs3dg4M"
+        },
+        {
+            "title": "✈️ Aeropuertos del cerebro 🧠 #cerebrotes #neurociencia",
+            "videoId": "BSQ8-bhHqAA",
+            "thumbnail": "https://img.youtube.com/vi/BSQ8-bhHqAA/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/BSQ8-bhHqAA/hqdefault.jpg",
+            "publishedAt": "07/10/2024",
+            "timestamp": 1728338277.0,
+            "channelTitle": "Cerebrotes",
+            "url": "https://www.youtube.com/shorts/BSQ8-bhHqAA"
         }
     ],
     "ingles_v": [
+        {
+            "title": "Moon Joy, Courtesy of NASA's Artemis II Astronauts",
+            "videoId": "LHUvedAssyE",
+            "thumbnail": "https://img.youtube.com/vi/LHUvedAssyE/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/LHUvedAssyE/hqdefault.jpg",
+            "publishedAt": "10/04/2026",
+            "timestamp": 1775797312.0,
+            "channelTitle": "NASA",
+            "url": "https://www.youtube.com/watch?v=LHUvedAssyE"
+        },
         {
             "title": "Why the Moon is Spiraling Away From Us",
             "videoId": "akgGfeQ84WM",
@@ -65,6 +425,106 @@
             "url": "https://www.youtube.com/watch?v=JeUBLd_4O0Y"
         },
         {
+            "title": "El Higgs revela un ENTRELAZAMIENTO cuántico INEXPLORADO",
+            "videoId": "hO4zktZ0m9E",
+            "thumbnail": "https://img.youtube.com/vi/hO4zktZ0m9E/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/hO4zktZ0m9E/hqdefault.jpg",
+            "publishedAt": "09/04/2026",
+            "timestamp": 1775754063.0,
+            "channelTitle": "Instituto de Física Teórica IFT",
+            "url": "https://www.youtube.com/watch?v=hO4zktZ0m9E"
+        },
+        {
+            "title": "50 Years Later & Scientists Still Don't Know Why These Exist",
+            "videoId": "5LWkgXxEtx0",
+            "thumbnail": "https://img.youtube.com/vi/5LWkgXxEtx0/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/5LWkgXxEtx0/hqdefault.jpg",
+            "publishedAt": "09/04/2026",
+            "timestamp": 1775754000.0,
+            "channelTitle": "SciShow",
+            "url": "https://www.youtube.com/watch?v=5LWkgXxEtx0"
+        },
+        {
+            "title": "Intro to Geology: Crash Course Geology #1",
+            "videoId": "ypH6dR7YGfU",
+            "thumbnail": "https://img.youtube.com/vi/ypH6dR7YGfU/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/ypH6dR7YGfU/hqdefault.jpg",
+            "publishedAt": "09/04/2026",
+            "timestamp": 1775750504.0,
+            "channelTitle": "CrashCourse",
+            "url": "https://www.youtube.com/watch?v=ypH6dR7YGfU"
+        },
+        {
+            "title": "The Fatal Problem with Time Travel",
+            "videoId": "0ht7uViR0ZI",
+            "thumbnail": "https://img.youtube.com/vi/0ht7uViR0ZI/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/0ht7uViR0ZI/hqdefault.jpg",
+            "publishedAt": "08/04/2026",
+            "timestamp": 1775681101.0,
+            "channelTitle": "StarTalk Plus",
+            "url": "https://www.youtube.com/watch?v=0ht7uViR0ZI"
+        },
+        {
+            "title": "The Hardest Problem AI Ever Solved, with Google DeepMind CEO",
+            "videoId": "C0gErQtnNFE",
+            "thumbnail": "https://img.youtube.com/vi/C0gErQtnNFE/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/C0gErQtnNFE/hqdefault.jpg",
+            "publishedAt": "07/04/2026",
+            "timestamp": 1775567342.0,
+            "channelTitle": "Cleo Abram",
+            "url": "https://www.youtube.com/watch?v=C0gErQtnNFE"
+        },
+        {
+            "title": "Smile's journey from launch to orbit",
+            "videoId": "cLnV9Ae8aGY",
+            "thumbnail": "https://img.youtube.com/vi/cLnV9Ae8aGY/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/cLnV9Ae8aGY/hqdefault.jpg",
+            "publishedAt": "06/04/2026",
+            "timestamp": 1775484062.0,
+            "channelTitle": "European Space Agency, ESA",
+            "url": "https://www.youtube.com/watch?v=cLnV9Ae8aGY"
+        },
+        {
+            "title": "When Predators Fight for Survival",
+            "videoId": "Nyhh95_Lo7M",
+            "thumbnail": "https://img.youtube.com/vi/Nyhh95_Lo7M/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/Nyhh95_Lo7M/hqdefault.jpg",
+            "publishedAt": "03/04/2026",
+            "timestamp": 1775243700.0,
+            "channelTitle": "Crazy Creatures",
+            "url": "https://www.youtube.com/watch?v=Nyhh95_Lo7M"
+        },
+        {
+            "title": "The Universe Is Accelerating...and No One Knows Why",
+            "videoId": "IWfb9FnCTvI",
+            "thumbnail": "https://img.youtube.com/vi/IWfb9FnCTvI/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/IWfb9FnCTvI/hqdefault.jpg",
+            "publishedAt": "03/04/2026",
+            "timestamp": 1775221226.0,
+            "channelTitle": "Arvin Ash",
+            "url": "https://www.youtube.com/watch?v=IWfb9FnCTvI"
+        },
+        {
+            "title": "There’s Really Only One Way To Die",
+            "videoId": "5i1AGIJghZg",
+            "thumbnail": "https://img.youtube.com/vi/5i1AGIJghZg/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/5i1AGIJghZg/hqdefault.jpg",
+            "publishedAt": "01/04/2026",
+            "timestamp": 1775061152.0,
+            "channelTitle": "MinuteEarth",
+            "url": "https://www.youtube.com/watch?v=5i1AGIJghZg"
+        },
+        {
+            "title": "You've Been Lied to About DNA Evidence",
+            "videoId": "9okaPzpVhmM",
+            "thumbnail": "https://img.youtube.com/vi/9okaPzpVhmM/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/9okaPzpVhmM/hqdefault.jpg",
+            "publishedAt": "31/03/2026",
+            "timestamp": 1774967682.0,
+            "channelTitle": "Be Smart",
+            "url": "https://www.youtube.com/watch?v=9okaPzpVhmM"
+        },
+        {
             "title": "The Most Insane Megaproject You Never Heard About",
             "videoId": "h3DCdWyb0cc",
             "thumbnail": "https://img.youtube.com/vi/h3DCdWyb0cc/maxresdefault.jpg",
@@ -73,6 +533,16 @@
             "timestamp": 1774879212.0,
             "channelTitle": "Kurzgesagt – In a Nutshell",
             "url": "https://www.youtube.com/watch?v=h3DCdWyb0cc"
+        },
+        {
+            "title": "7 Rules for Walking in Space",
+            "videoId": "SdzNOGzfpQw",
+            "thumbnail": "https://img.youtube.com/vi/SdzNOGzfpQw/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/SdzNOGzfpQw/hqdefault.jpg",
+            "publishedAt": "16/03/2026",
+            "timestamp": 1773666437.0,
+            "channelTitle": "Learn With NASA",
+            "url": "https://www.youtube.com/watch?v=SdzNOGzfpQw"
         },
         {
             "title": "The Pi Song 4.0 (Memorize 400 Digits Of π)",
@@ -113,9 +583,49 @@
             "timestamp": 1772546414.0,
             "channelTitle": "Physics Girl",
             "url": "https://www.youtube.com/watch?v=B3m3AMRlYfc"
+        },
+        {
+            "title": "Engineers vs Junkyard RC Car Death Match",
+            "videoId": "Xg1ro-zG7AM",
+            "thumbnail": "https://img.youtube.com/vi/Xg1ro-zG7AM/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/Xg1ro-zG7AM/hqdefault.jpg",
+            "publishedAt": "21/02/2026",
+            "timestamp": 1771689628.0,
+            "channelTitle": "Mark Rober",
+            "url": "https://www.youtube.com/watch?v=Xg1ro-zG7AM"
+        },
+        {
+            "title": "Coke Just Revolutionized Coke",
+            "videoId": "UC6bv6Ies3A",
+            "thumbnail": "https://img.youtube.com/vi/UC6bv6Ies3A/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/UC6bv6Ies3A/hqdefault.jpg",
+            "publishedAt": "02/02/2026",
+            "timestamp": 1770052036.0,
+            "channelTitle": "Reactions",
+            "url": "https://www.youtube.com/watch?v=UC6bv6Ies3A"
+        },
+        {
+            "title": "Making liquid nitrogen from scratch (an absurd amount)",
+            "videoId": "GmwaJnj6pfY",
+            "thumbnail": "https://img.youtube.com/vi/GmwaJnj6pfY/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/GmwaJnj6pfY/hqdefault.jpg",
+            "publishedAt": "23/10/2025",
+            "timestamp": 1761261107.0,
+            "channelTitle": "NileRed",
+            "url": "https://www.youtube.com/watch?v=GmwaJnj6pfY"
         }
     ],
     "ingles_s": [
+        {
+            "title": "Our European Service Module is driving the Artemis II crew back to Earth 🌍",
+            "videoId": "ZcCp8yGHPVE",
+            "thumbnail": "https://img.youtube.com/vi/ZcCp8yGHPVE/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/ZcCp8yGHPVE/hqdefault.jpg",
+            "publishedAt": "09/04/2026",
+            "timestamp": 1775754751.0,
+            "channelTitle": "European Space Agency, ESA",
+            "url": "https://www.youtube.com/shorts/ZcCp8yGHPVE"
+        },
         {
             "title": "Why are we going back to the moon?",
             "videoId": "n9hwIrTEBYk",
@@ -137,6 +647,16 @@
             "url": "https://www.youtube.com/shorts/onFj_RD75nA"
         },
         {
+            "title": "Artemis Daily Wrap: Flight Day 8",
+            "videoId": "vQuZQh2bbk0",
+            "thumbnail": "https://img.youtube.com/vi/vQuZQh2bbk0/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/vQuZQh2bbk0/hqdefault.jpg",
+            "publishedAt": "09/04/2026",
+            "timestamp": 1775720608.0,
+            "channelTitle": "NASA",
+            "url": "https://www.youtube.com/shorts/vQuZQh2bbk0"
+        },
+        {
             "title": "Is the Universe JERKING? #shorts",
             "videoId": "ls1C3oBr-kQ",
             "thumbnail": "https://img.youtube.com/vi/ls1C3oBr-kQ/maxresdefault.jpg",
@@ -147,6 +667,56 @@
             "url": "https://www.youtube.com/shorts/ls1C3oBr-kQ"
         },
         {
+            "title": "How much of a tree is ACTUALLY alive?",
+            "videoId": "isHSltGHFoM",
+            "thumbnail": "https://img.youtube.com/vi/isHSltGHFoM/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/isHSltGHFoM/hqdefault.jpg",
+            "publishedAt": "08/04/2026",
+            "timestamp": 1775663850.0,
+            "channelTitle": "Be Smart",
+            "url": "https://www.youtube.com/shorts/isHSltGHFoM"
+        },
+        {
+            "title": "The Scariest Part of Artemis II Hasn’t Happened Yet",
+            "videoId": "fv-IpmNzHBY",
+            "thumbnail": "https://img.youtube.com/vi/fv-IpmNzHBY/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/fv-IpmNzHBY/hqdefault.jpg",
+            "publishedAt": "08/04/2026",
+            "timestamp": 1775659798.0,
+            "channelTitle": "Cleo Abram",
+            "url": "https://www.youtube.com/shorts/fv-IpmNzHBY"
+        },
+        {
+            "title": "¿Por qué ir a la Luna es (matemáticamente) tan difícil? La ECUACIÓN del cohete",
+            "videoId": "yxG2BH7Gz4s",
+            "thumbnail": "https://img.youtube.com/vi/yxG2BH7Gz4s/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/yxG2BH7Gz4s/hqdefault.jpg",
+            "publishedAt": "07/04/2026",
+            "timestamp": 1775599933.0,
+            "channelTitle": "Instituto de Física Teórica IFT",
+            "url": "https://www.youtube.com/shorts/yxG2BH7Gz4s"
+        },
+        {
+            "title": "it's called pykrete",
+            "videoId": "C6y2Xuz3_HE",
+            "thumbnail": "https://img.youtube.com/vi/C6y2Xuz3_HE/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/C6y2Xuz3_HE/hqdefault.jpg",
+            "publishedAt": "07/04/2026",
+            "timestamp": 1775593966.0,
+            "channelTitle": "Reactions",
+            "url": "https://www.youtube.com/shorts/C6y2Xuz3_HE"
+        },
+        {
+            "title": "Testing Every Seat on a Log Ride",
+            "videoId": "GOmQwinZKtE",
+            "thumbnail": "https://img.youtube.com/vi/GOmQwinZKtE/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/GOmQwinZKtE/hqdefault.jpg",
+            "publishedAt": "03/04/2026",
+            "timestamp": 1775231321.0,
+            "channelTitle": "Mark Rober",
+            "url": "https://www.youtube.com/shorts/GOmQwinZKtE"
+        },
+        {
             "title": "BREAKING the laws of physics!",
             "videoId": "ld0DISNauQQ",
             "thumbnail": "https://img.youtube.com/vi/ld0DISNauQQ/maxresdefault.jpg",
@@ -155,6 +725,26 @@
             "timestamp": 1775221200.0,
             "channelTitle": "Physics Girl",
             "url": "https://www.youtube.com/shorts/ld0DISNauQQ"
+        },
+        {
+            "title": "“If God needs me to fight this battle, I can’t serve that God”",
+            "videoId": "oy0e3uu6xYI",
+            "thumbnail": "https://img.youtube.com/vi/oy0e3uu6xYI/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/oy0e3uu6xYI/hqdefault.jpg",
+            "publishedAt": "30/03/2026",
+            "timestamp": 1774892706.0,
+            "channelTitle": "StarTalk Plus",
+            "url": "https://www.youtube.com/shorts/oy0e3uu6xYI"
+        },
+        {
+            "title": "How would AI destroy the world?",
+            "videoId": "VH-Q37JloMM",
+            "thumbnail": "https://img.youtube.com/vi/VH-Q37JloMM/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/VH-Q37JloMM/hqdefault.jpg",
+            "publishedAt": "26/03/2026",
+            "timestamp": 1774545302.0,
+            "channelTitle": "MinuteEarth",
+            "url": "https://www.youtube.com/shorts/VH-Q37JloMM"
         },
         {
             "title": "Are you one of the lucky 50% that experience it?",
@@ -175,6 +765,36 @@
             "timestamp": 1774112400.0,
             "channelTitle": "minutephysics",
             "url": "https://www.youtube.com/shorts/i45dfK7wYvA"
+        },
+        {
+            "title": "These metals melt when pushed together",
+            "videoId": "QNPrHtcn6nM",
+            "thumbnail": "https://img.youtube.com/vi/QNPrHtcn6nM/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/QNPrHtcn6nM/hqdefault.jpg",
+            "publishedAt": "19/03/2026",
+            "timestamp": 1773945729.0,
+            "channelTitle": "NileRed",
+            "url": "https://www.youtube.com/shorts/QNPrHtcn6nM"
+        },
+        {
+            "title": "How To \"cut\" an atom with Scissors! #physics #mindblown",
+            "videoId": "DaZ8GShFibc",
+            "thumbnail": "https://img.youtube.com/vi/DaZ8GShFibc/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/DaZ8GShFibc/hqdefault.jpg",
+            "publishedAt": "28/01/2026",
+            "timestamp": 1769624222.0,
+            "channelTitle": "Arvin Ash",
+            "url": "https://www.youtube.com/shorts/DaZ8GShFibc"
+        },
+        {
+            "title": "How Does Fire Behave in Space?",
+            "videoId": "jGgUGAL6mds",
+            "thumbnail": "https://img.youtube.com/vi/jGgUGAL6mds/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/jGgUGAL6mds/hqdefault.jpg",
+            "publishedAt": "26/01/2026",
+            "timestamp": 1769430880.0,
+            "channelTitle": "Learn With NASA",
+            "url": "https://www.youtube.com/shorts/jGgUGAL6mds"
         }
     ]
 }
