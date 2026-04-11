@@ -193,14 +193,14 @@
     ],
     "shorts": [
         {
-            "title": "#ArtemisII: Amerizaje",
-            "videoId": "T53f4NvO0wQ",
-            "thumbnail": "https://img.youtube.com/vi/T53f4NvO0wQ/maxresdefault.jpg",
-            "backup_thumb": "https://img.youtube.com/vi/T53f4NvO0wQ/hqdefault.jpg",
+            "title": "#ArtemisII: Los cuatro astronautas que llevaron consigo los sueños de la humanidad",
+            "videoId": "eo3zcbyUPKQ",
+            "thumbnail": "https://img.youtube.com/vi/eo3zcbyUPKQ/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/eo3zcbyUPKQ/hqdefault.jpg",
             "publishedAt": "11/04/2026",
-            "timestamp": 1775868210.0,
+            "timestamp": 1775876364.0,
             "channelTitle": "NASA en Español",
-            "url": "https://www.youtube.com/shorts/T53f4NvO0wQ"
+            "url": "https://www.youtube.com/shorts/eo3zcbyUPKQ"
         },
         {
             "title": "El experimento de la mano de goma",
@@ -385,7 +385,17 @@
     ],
     "ingles_v": [
         {
-            "title": "Why Information Is More Important Than You Think",
+            "title": "NASA’s Northrop Grumman Commercial Resupply Services 24 Launch",
+            "videoId": "2i9YcxVP3yw",
+            "thumbnail": "https://img.youtube.com/vi/2i9YcxVP3yw/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/2i9YcxVP3yw/hqdefault.jpg",
+            "publishedAt": "11/04/2026",
+            "timestamp": 1775908880.0,
+            "channelTitle": "NASA",
+            "url": "https://www.youtube.com/watch?v=2i9YcxVP3yw"
+        },
+        {
+            "title": "This Is What Information Actually Is",
             "videoId": "hJHaeRJnQuA",
             "thumbnail": "https://img.youtube.com/vi/hJHaeRJnQuA/maxresdefault.jpg",
             "backup_thumb": "https://img.youtube.com/vi/hJHaeRJnQuA/hqdefault.jpg",
@@ -403,16 +413,6 @@
             "timestamp": 1775848500.0,
             "channelTitle": "Crazy Creatures",
             "url": "https://www.youtube.com/watch?v=5dOoZSa-Z0o"
-        },
-        {
-            "title": "Space-to-Space Call: NASA's Artemis II Astronauts and the International Space Station",
-            "videoId": "yfmG9qmZn6Y",
-            "thumbnail": "https://img.youtube.com/vi/yfmG9qmZn6Y/maxresdefault.jpg",
-            "backup_thumb": "https://img.youtube.com/vi/yfmG9qmZn6Y/hqdefault.jpg",
-            "publishedAt": "10/04/2026",
-            "timestamp": 1775835989.0,
-            "channelTitle": "NASA",
-            "url": "https://www.youtube.com/watch?v=yfmG9qmZn6Y"
         },
         {
             "title": "Why the Moon is Spiraling Away From Us",
@@ -607,6 +607,16 @@
     ],
     "ingles_s": [
         {
+            "title": "Artemis II Is HOME! Here’s What They Did.",
+            "videoId": "qtTA9-ZJuro",
+            "thumbnail": "https://img.youtube.com/vi/qtTA9-ZJuro/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/qtTA9-ZJuro/hqdefault.jpg",
+            "publishedAt": "11/04/2026",
+            "timestamp": 1775869016.0,
+            "channelTitle": "Cleo Abram",
+            "url": "https://www.youtube.com/shorts/qtTA9-ZJuro"
+        },
+        {
             "title": "Does the Universe expand faster than light? #shorts",
             "videoId": "IDJjppuZw1Q",
             "thumbnail": "https://img.youtube.com/vi/IDJjppuZw1Q/maxresdefault.jpg",
@@ -635,16 +645,6 @@
             "timestamp": 1775839500.0,
             "channelTitle": "StarTalk",
             "url": "https://www.youtube.com/shorts/32XJlaPDbo0"
-        },
-        {
-            "title": "What Time Is It In Antarctica?",
-            "videoId": "Hsz5zpoS2Uo",
-            "thumbnail": "https://img.youtube.com/vi/Hsz5zpoS2Uo/maxresdefault.jpg",
-            "backup_thumb": "https://img.youtube.com/vi/Hsz5zpoS2Uo/hqdefault.jpg",
-            "publishedAt": "10/04/2026",
-            "timestamp": 1775828760.0,
-            "channelTitle": "Cleo Abram",
-            "url": "https://www.youtube.com/shorts/Hsz5zpoS2Uo"
         },
         {
             "title": "Our European Service Module is driving the Artemis II crew back to Earth 🌍",
