@@ -203,24 +203,24 @@
     ],
     "shorts": [
         {
-            "title": "La Guerra de chimpancés que está impactando al mundo 🐒⚔️",
-            "videoId": "V-0Fl_72mcc",
-            "thumbnail": "https://img.youtube.com/vi/V-0Fl_72mcc/maxresdefault.jpg",
-            "backup_thumb": "https://img.youtube.com/vi/V-0Fl_72mcc/hqdefault.jpg",
-            "publishedAt": "11/04/2026",
-            "timestamp": 1775943891.0,
-            "channelTitle": "Biología desde cero",
-            "url": "https://www.youtube.com/shorts/V-0Fl_72mcc"
+            "title": "El experimento de la sopa infinita",
+            "videoId": "VkiTBlRHp0A",
+            "thumbnail": "https://img.youtube.com/vi/VkiTBlRHp0A/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/VkiTBlRHp0A/hqdefault.jpg",
+            "publishedAt": "12/04/2026",
+            "timestamp": 1776028094.0,
+            "channelTitle": "CdeCiencia",
+            "url": "https://www.youtube.com/shorts/VkiTBlRHp0A"
         },
         {
-            "title": "El experimento de la madre sin expresión",
-            "videoId": "K60kWfOYvzo",
-            "thumbnail": "https://img.youtube.com/vi/K60kWfOYvzo/maxresdefault.jpg",
-            "backup_thumb": "https://img.youtube.com/vi/K60kWfOYvzo/hqdefault.jpg",
-            "publishedAt": "11/04/2026",
-            "timestamp": 1775943489.0,
-            "channelTitle": "CdeCiencia",
-            "url": "https://www.youtube.com/shorts/K60kWfOYvzo"
+            "title": "¿Por qué se Mueve esta Carne? | Explicación Desde Cero",
+            "videoId": "2-hH9vh9Ncw",
+            "thumbnail": "https://img.youtube.com/vi/2-hH9vh9Ncw/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/2-hH9vh9Ncw/hqdefault.jpg",
+            "publishedAt": "12/04/2026",
+            "timestamp": 1776018328.0,
+            "channelTitle": "Biología desde cero",
+            "url": "https://www.youtube.com/shorts/2-hH9vh9Ncw"
         },
         {
             "title": "Fue la primera física de México y casi no acepta el título 🔬",
@@ -395,14 +395,14 @@
     ],
     "ingles_v": [
         {
-            "title": "NASA's Artemis II Crew Return to Houston",
-            "videoId": "DYY4nnfxKbU",
-            "thumbnail": "https://img.youtube.com/vi/DYY4nnfxKbU/maxresdefault.jpg",
-            "backup_thumb": "https://img.youtube.com/vi/DYY4nnfxKbU/hqdefault.jpg",
-            "publishedAt": "11/04/2026",
-            "timestamp": 1775942765.0,
+            "title": "Artemis II Moon Mission Complete!",
+            "videoId": "IfRqrrBbT-Y",
+            "thumbnail": "https://img.youtube.com/vi/IfRqrrBbT-Y/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/IfRqrrBbT-Y/hqdefault.jpg",
+            "publishedAt": "12/04/2026",
+            "timestamp": 1776024202.0,
             "channelTitle": "NASA",
-            "url": "https://www.youtube.com/watch?v=DYY4nnfxKbU"
+            "url": "https://www.youtube.com/watch?v=IfRqrrBbT-Y"
         },
         {
             "title": "Scientists Who Got In Trouble for Being Right, with Matt Kaplan",
@@ -617,6 +617,16 @@
     ],
     "ingles_s": [
         {
+            "title": "Partículas virtuales y entrelazamiento: lo que ATLAS ha visto",
+            "videoId": "6IKQEs5UCko",
+            "thumbnail": "https://img.youtube.com/vi/6IKQEs5UCko/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/6IKQEs5UCko/hqdefault.jpg",
+            "publishedAt": "12/04/2026",
+            "timestamp": 1776013207.0,
+            "channelTitle": "Instituto de Física Teórica IFT",
+            "url": "https://www.youtube.com/shorts/6IKQEs5UCko"
+        },
+        {
             "title": "Who thought leeches were a good idea for medical treatment?",
             "videoId": "kHKM-a4AYag",
             "thumbnail": "https://img.youtube.com/vi/kHKM-a4AYag/maxresdefault.jpg",
@@ -705,16 +715,6 @@
             "timestamp": 1775663850.0,
             "channelTitle": "Be Smart",
             "url": "https://www.youtube.com/shorts/isHSltGHFoM"
-        },
-        {
-            "title": "¿Por qué ir a la Luna es (matemáticamente) tan difícil? La ECUACIÓN del cohete",
-            "videoId": "yxG2BH7Gz4s",
-            "thumbnail": "https://img.youtube.com/vi/yxG2BH7Gz4s/maxresdefault.jpg",
-            "backup_thumb": "https://img.youtube.com/vi/yxG2BH7Gz4s/hqdefault.jpg",
-            "publishedAt": "07/04/2026",
-            "timestamp": 1775599933.0,
-            "channelTitle": "Instituto de Física Teórica IFT",
-            "url": "https://www.youtube.com/shorts/yxG2BH7Gz4s"
         },
         {
             "title": "it's called pykrete",
