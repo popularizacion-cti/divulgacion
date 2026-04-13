@@ -1,6 +1,16 @@
 {
     "videos": [
         {
+            "title": "Artemis II lo cambió TODO - CIENCIA SIMPLIFICADA EP#75",
+            "videoId": "Um2azk-_cvQ",
+            "thumbnail": "https://img.youtube.com/vi/Um2azk-_cvQ/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/Um2azk-_cvQ/hqdefault.jpg",
+            "publishedAt": "13/04/2026",
+            "timestamp": 1776044160.0,
+            "channelTitle": "jefillysh",
+            "url": "https://www.youtube.com/watch?v=Um2azk-_cvQ"
+        },
+        {
             "title": "La GUERRA de los CHIMPANCÉS en UGANDA🙈💥",
             "videoId": "KPQtZAL3BG8",
             "thumbnail": "https://img.youtube.com/vi/KPQtZAL3BG8/maxresdefault.jpg",
@@ -39,16 +49,6 @@
             "timestamp": 1775776506.0,
             "channelTitle": "En Teoría",
             "url": "https://www.youtube.com/watch?v=Rk6MbjSmkU8"
-        },
-        {
-            "title": "Artemis II, Pesticidas en la Fruta y Apuestas Milenarias - JEFINEWS 09 de Abril 2026",
-            "videoId": "D5UA--kOH14",
-            "thumbnail": "https://img.youtube.com/vi/D5UA--kOH14/maxresdefault.jpg",
-            "backup_thumb": "https://img.youtube.com/vi/D5UA--kOH14/hqdefault.jpg",
-            "publishedAt": "09/04/2026",
-            "timestamp": 1775766360.0,
-            "channelTitle": "jefillysh",
-            "url": "https://www.youtube.com/watch?v=D5UA--kOH14"
         },
         {
             "title": "Artemis II: El regreso a casa",
@@ -395,6 +395,16 @@
     ],
     "ingles_v": [
         {
+            "title": "Artemis II: Around the Moon in 10 days",
+            "videoId": "n7HNhsNu4Xc",
+            "thumbnail": "https://img.youtube.com/vi/n7HNhsNu4Xc/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/n7HNhsNu4Xc/hqdefault.jpg",
+            "publishedAt": "13/04/2026",
+            "timestamp": 1776080508.0,
+            "channelTitle": "European Space Agency, ESA",
+            "url": "https://www.youtube.com/watch?v=n7HNhsNu4Xc"
+        },
+        {
             "title": "Artemis II Moon Mission Complete!",
             "videoId": "IfRqrrBbT-Y",
             "thumbnail": "https://img.youtube.com/vi/IfRqrrBbT-Y/maxresdefault.jpg",
@@ -503,16 +513,6 @@
             "timestamp": 1775567342.0,
             "channelTitle": "Cleo Abram",
             "url": "https://www.youtube.com/watch?v=C0gErQtnNFE"
-        },
-        {
-            "title": "Smile's journey from launch to orbit",
-            "videoId": "cLnV9Ae8aGY",
-            "thumbnail": "https://img.youtube.com/vi/cLnV9Ae8aGY/maxresdefault.jpg",
-            "backup_thumb": "https://img.youtube.com/vi/cLnV9Ae8aGY/hqdefault.jpg",
-            "publishedAt": "06/04/2026",
-            "timestamp": 1775484062.0,
-            "channelTitle": "European Space Agency, ESA",
-            "url": "https://www.youtube.com/watch?v=cLnV9Ae8aGY"
         },
         {
             "title": "The Universe Is Accelerating...and No One Knows Why",
