@@ -1,6 +1,56 @@
 {
     "videos": [
         {
+            "title": "Guerra Civil, Efectos de la Meditación y VIH - Jefinews Abril 15",
+            "videoId": "el_o-WdXas4",
+            "thumbnail": "https://img.youtube.com/vi/el_o-WdXas4/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/el_o-WdXas4/hqdefault.jpg",
+            "publishedAt": "16/04/2026",
+            "timestamp": 1776300318.0,
+            "channelTitle": "jefillysh",
+            "url": "https://www.youtube.com/watch?v=el_o-WdXas4"
+        },
+        {
+            "title": "Esta Paradoja Divide A Las Personas Inteligentes En Un 50/50",
+            "videoId": "DEpe7VdDfpY",
+            "thumbnail": "https://img.youtube.com/vi/DEpe7VdDfpY/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/DEpe7VdDfpY/hqdefault.jpg",
+            "publishedAt": "15/04/2026",
+            "timestamp": 1776290413.0,
+            "channelTitle": "Veritasium en español",
+            "url": "https://www.youtube.com/watch?v=DEpe7VdDfpY"
+        },
+        {
+            "title": "Todo lo que Nos Entregó Artemis 2",
+            "videoId": "8xCpY5IobrA",
+            "thumbnail": "https://img.youtube.com/vi/8xCpY5IobrA/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/8xCpY5IobrA/hqdefault.jpg",
+            "publishedAt": "15/04/2026",
+            "timestamp": 1776277226.0,
+            "channelTitle": "El Robot de Platón",
+            "url": "https://www.youtube.com/watch?v=8xCpY5IobrA"
+        },
+        {
+            "title": "Refutando el libro que “demuestra” que JESÚS es DIOS | Sábana Santa, milagros y profecías",
+            "videoId": "yNYKWEifVIo",
+            "thumbnail": "https://img.youtube.com/vi/yNYKWEifVIo/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/yNYKWEifVIo/hqdefault.jpg",
+            "publishedAt": "15/04/2026",
+            "timestamp": 1776274706.0,
+            "channelTitle": "La gata de Schrödinger",
+            "url": "https://www.youtube.com/watch?v=yNYKWEifVIo"
+        },
+        {
+            "title": "Las mil caras de la Luna: Mayas, Incas, Olmecas...",
+            "videoId": "zCmsDUNGjEs",
+            "thumbnail": "https://img.youtube.com/vi/zCmsDUNGjEs/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/zCmsDUNGjEs/hqdefault.jpg",
+            "publishedAt": "15/04/2026",
+            "timestamp": 1776272183.0,
+            "channelTitle": "Date un Vlog",
+            "url": "https://www.youtube.com/watch?v=zCmsDUNGjEs"
+        },
+        {
             "title": "🦛 Eutanasia para los Hipopótamos de Pablo Escobar | Biología Desde Cero",
             "videoId": "UpWT8mmOKNA",
             "thumbnail": "https://img.youtube.com/vi/UpWT8mmOKNA/maxresdefault.jpg",
@@ -31,26 +81,6 @@
             "url": "https://www.youtube.com/watch?v=8KQg1T0-Blo"
         },
         {
-            "title": "Artemis II lo cambió TODO - CIENCIA SIMPLIFICADA EP#75",
-            "videoId": "Um2azk-_cvQ",
-            "thumbnail": "https://img.youtube.com/vi/Um2azk-_cvQ/maxresdefault.jpg",
-            "backup_thumb": "https://img.youtube.com/vi/Um2azk-_cvQ/hqdefault.jpg",
-            "publishedAt": "13/04/2026",
-            "timestamp": 1776044160.0,
-            "channelTitle": "jefillysh",
-            "url": "https://www.youtube.com/watch?v=Um2azk-_cvQ"
-        },
-        {
-            "title": "¡La Tripulación de Artemis 2 Regresa a la Tierra!",
-            "videoId": "rSN3Mlq7B8w",
-            "thumbnail": "https://img.youtube.com/vi/rSN3Mlq7B8w/maxresdefault.jpg",
-            "backup_thumb": "https://img.youtube.com/vi/rSN3Mlq7B8w/hqdefault.jpg",
-            "publishedAt": "11/04/2026",
-            "timestamp": 1775867905.0,
-            "channelTitle": "El Robot de Platón",
-            "url": "https://www.youtube.com/watch?v=rSN3Mlq7B8w"
-        },
-        {
             "title": "El mundo de las ABEJAS",
             "videoId": "Rk6MbjSmkU8",
             "thumbnail": "https://img.youtube.com/vi/Rk6MbjSmkU8/maxresdefault.jpg",
@@ -69,16 +99,6 @@
             "timestamp": 1775763643.0,
             "channelTitle": "NASA en Español",
             "url": "https://www.youtube.com/watch?v=z_CxX4gHVoI"
-        },
-        {
-            "title": "La verdad OCULTA de la vuelta a la Luna",
-            "videoId": "WcWoEnRygp4",
-            "thumbnail": "https://img.youtube.com/vi/WcWoEnRygp4/maxresdefault.jpg",
-            "backup_thumb": "https://img.youtube.com/vi/WcWoEnRygp4/hqdefault.jpg",
-            "publishedAt": "08/04/2026",
-            "timestamp": 1775678406.0,
-            "channelTitle": "Date un Vlog",
-            "url": "https://www.youtube.com/watch?v=WcWoEnRygp4"
         },
         {
             "title": "¿Puede la IA Generar NUEVO CONOCIMIENTO CIENTÍFICO?",
@@ -121,16 +141,6 @@
             "url": "https://www.youtube.com/watch?v=0y-kncyzBSU"
         },
         {
-            "title": "Internet Estaba A Semanas Del Desastre y Nadie Lo Sabía",
-            "videoId": "a62HpQpVBh8",
-            "thumbnail": "https://img.youtube.com/vi/a62HpQpVBh8/maxresdefault.jpg",
-            "backup_thumb": "https://img.youtube.com/vi/a62HpQpVBh8/hqdefault.jpg",
-            "publishedAt": "31/03/2026",
-            "timestamp": 1774998000.0,
-            "channelTitle": "Veritasium en español",
-            "url": "https://www.youtube.com/watch?v=a62HpQpVBh8"
-        },
-        {
             "title": "Esto le hacen los ESTEROIDES a tu CUERPO",
             "videoId": "44ET0ayllU0",
             "thumbnail": "https://img.youtube.com/vi/44ET0ayllU0/maxresdefault.jpg",
@@ -139,16 +149,6 @@
             "timestamp": 1774975900.0,
             "channelTitle": "La Hiperactina",
             "url": "https://www.youtube.com/watch?v=44ET0ayllU0"
-        },
-        {
-            "title": "El libro que 'demuestra' a DIOS: ¿Fraude o Revolución?",
-            "videoId": "yV9i5C-cglY",
-            "thumbnail": "https://img.youtube.com/vi/yV9i5C-cglY/maxresdefault.jpg",
-            "backup_thumb": "https://img.youtube.com/vi/yV9i5C-cglY/hqdefault.jpg",
-            "publishedAt": "30/03/2026",
-            "timestamp": 1774890908.0,
-            "channelTitle": "La gata de Schrödinger",
-            "url": "https://www.youtube.com/watch?v=yV9i5C-cglY"
         },
         {
             "title": "Así se creó el primer plástico de la historia: la Baquelita",
@@ -203,14 +203,44 @@
     ],
     "shorts": [
         {
-            "title": "Te sabes la diferencia entre #Brisa, #Viento y #Aire ? #science #fblifestyle",
-            "videoId": "qdT27kgV_RY",
-            "thumbnail": "https://img.youtube.com/vi/qdT27kgV_RY/maxresdefault.jpg",
-            "backup_thumb": "https://img.youtube.com/vi/qdT27kgV_RY/hqdefault.jpg",
-            "publishedAt": "14/04/2026",
-            "timestamp": 1776205212.0,
+            "title": "Cómo una mosca hizo el baño más limpio",
+            "videoId": "cBNfbOa7Q-U",
+            "thumbnail": "https://img.youtube.com/vi/cBNfbOa7Q-U/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/cBNfbOa7Q-U/hqdefault.jpg",
+            "publishedAt": "15/04/2026",
+            "timestamp": 1776278081.0,
+            "channelTitle": "CdeCiencia",
+            "url": "https://www.youtube.com/shorts/cBNfbOa7Q-U"
+        },
+        {
+            "title": "Y si esterilizamos los Hipopótamos? 🤔",
+            "videoId": "8PGauNqZC9E",
+            "thumbnail": "https://img.youtube.com/vi/8PGauNqZC9E/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/8PGauNqZC9E/hqdefault.jpg",
+            "publishedAt": "15/04/2026",
+            "timestamp": 1776271043.0,
+            "channelTitle": "Biología desde cero",
+            "url": "https://www.youtube.com/shorts/8PGauNqZC9E"
+        },
+        {
+            "title": "Granizo, Por qué cae hielo del cielo? #weather #science #climatechange #dct #decaminoaltrabajo",
+            "videoId": "vP_UfMsFlHE",
+            "thumbnail": "https://img.youtube.com/vi/vP_UfMsFlHE/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/vP_UfMsFlHE/hqdefault.jpg",
+            "publishedAt": "15/04/2026",
+            "timestamp": 1776268734.0,
             "channelTitle": "MXrioRD",
-            "url": "https://www.youtube.com/shorts/qdT27kgV_RY"
+            "url": "https://www.youtube.com/shorts/vP_UfMsFlHE"
+        },
+        {
+            "title": "NUEVO PODCAST: Hablando en rata 🐀🐁",
+            "videoId": "dsomVW8Wdlc",
+            "thumbnail": "https://img.youtube.com/vi/dsomVW8Wdlc/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/dsomVW8Wdlc/hqdefault.jpg",
+            "publishedAt": "15/04/2026",
+            "timestamp": 1776241523.0,
+            "channelTitle": "La Hiperactina",
+            "url": "https://www.youtube.com/shorts/dsomVW8Wdlc"
         },
         {
             "title": "¿ABEJAS CONTRA EL CAMBIO CLIMÁTICO?  🌎",
@@ -223,26 +253,6 @@
             "url": "https://www.youtube.com/shorts/RJNJfpaMtvo"
         },
         {
-            "title": "El experimento del investigador perdido",
-            "videoId": "sEFjR1VQj30",
-            "thumbnail": "https://img.youtube.com/vi/sEFjR1VQj30/maxresdefault.jpg",
-            "backup_thumb": "https://img.youtube.com/vi/sEFjR1VQj30/hqdefault.jpg",
-            "publishedAt": "14/04/2026",
-            "timestamp": 1776197235.0,
-            "channelTitle": "CdeCiencia",
-            "url": "https://www.youtube.com/shorts/sEFjR1VQj30"
-        },
-        {
-            "title": "Los Hipopótamos de Pablo Escobar | Biología Desde Cero",
-            "videoId": "AtnuhiZ24tQ",
-            "thumbnail": "https://img.youtube.com/vi/AtnuhiZ24tQ/maxresdefault.jpg",
-            "backup_thumb": "https://img.youtube.com/vi/AtnuhiZ24tQ/hqdefault.jpg",
-            "publishedAt": "14/04/2026",
-            "timestamp": 1776180914.0,
-            "channelTitle": "Biología desde cero",
-            "url": "https://www.youtube.com/shorts/AtnuhiZ24tQ"
-        },
-        {
             "title": "La Prueba Matemática de que... ¿Dios Puede Crear el Mundo de la Nada?",
             "videoId": "RPKUleg8Zi0",
             "thumbnail": "https://img.youtube.com/vi/RPKUleg8Zi0/maxresdefault.jpg",
@@ -251,16 +261,6 @@
             "timestamp": 1776170844.0,
             "channelTitle": "QuantumFracture",
             "url": "https://www.youtube.com/shorts/RPKUleg8Zi0"
-        },
-        {
-            "title": "¿Sirve de algo tomar colágeno? 💊👀",
-            "videoId": "OVcz9JldfZc",
-            "thumbnail": "https://img.youtube.com/vi/OVcz9JldfZc/maxresdefault.jpg",
-            "backup_thumb": "https://img.youtube.com/vi/OVcz9JldfZc/hqdefault.jpg",
-            "publishedAt": "13/04/2026",
-            "timestamp": 1776096000.0,
-            "channelTitle": "La Hiperactina",
-            "url": "https://www.youtube.com/shorts/OVcz9JldfZc"
         },
         {
             "title": "#ArtemisII: Los cuatro astronautas que llevaron consigo los sueños de la humanidad",
@@ -395,7 +395,67 @@
     ],
     "ingles_v": [
         {
-            "title": "I Wrote a NEW Story with Project Hail Mary Author",
+            "title": "What Reality Looks Like Inside a Black Hole",
+            "videoId": "KNOmek9YzTs",
+            "thumbnail": "https://img.youtube.com/vi/KNOmek9YzTs/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/KNOmek9YzTs/hqdefault.jpg",
+            "publishedAt": "15/04/2026",
+            "timestamp": 1776285009.0,
+            "channelTitle": "StarTalk Plus",
+            "url": "https://www.youtube.com/watch?v=KNOmek9YzTs"
+        },
+        {
+            "title": "Planetary Defense at NASA",
+            "videoId": "6dLfcsEE0Cg",
+            "thumbnail": "https://img.youtube.com/vi/6dLfcsEE0Cg/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/6dLfcsEE0Cg/hqdefault.jpg",
+            "publishedAt": "15/04/2026",
+            "timestamp": 1776283618.0,
+            "channelTitle": "Learn With NASA",
+            "url": "https://www.youtube.com/watch?v=6dLfcsEE0Cg"
+        },
+        {
+            "title": "Official Static Feed: NASA's Mobile Launcher on the Move (April 16, 2026)",
+            "videoId": "KQ3YB0woUbY",
+            "thumbnail": "https://img.youtube.com/vi/KQ3YB0woUbY/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/KQ3YB0woUbY/hqdefault.jpg",
+            "publishedAt": "15/04/2026",
+            "timestamp": 1776280137.0,
+            "channelTitle": "NASA",
+            "url": "https://www.youtube.com/watch?v=KQ3YB0woUbY"
+        },
+        {
+            "title": "Is Perfect Prediction Possible?",
+            "videoId": "8wDha-G35KA",
+            "thumbnail": "https://img.youtube.com/vi/8wDha-G35KA/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/8wDha-G35KA/hqdefault.jpg",
+            "publishedAt": "15/04/2026",
+            "timestamp": 1776275947.0,
+            "channelTitle": "minutephysics",
+            "url": "https://www.youtube.com/watch?v=8wDha-G35KA"
+        },
+        {
+            "title": "6 Things Ancient Coins Taught Us",
+            "videoId": "bISWSp63RPs",
+            "thumbnail": "https://img.youtube.com/vi/bISWSp63RPs/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/bISWSp63RPs/hqdefault.jpg",
+            "publishedAt": "15/04/2026",
+            "timestamp": 1776272400.0,
+            "channelTitle": "SciShow",
+            "url": "https://www.youtube.com/watch?v=bISWSp63RPs"
+        },
+        {
+            "title": "Why Bees Mostly Ignore The Waggle Dance",
+            "videoId": "MBs04y-vFgU",
+            "thumbnail": "https://img.youtube.com/vi/MBs04y-vFgU/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/MBs04y-vFgU/hqdefault.jpg",
+            "publishedAt": "15/04/2026",
+            "timestamp": 1776270910.0,
+            "channelTitle": "MinuteEarth",
+            "url": "https://www.youtube.com/watch?v=MBs04y-vFgU"
+        },
+        {
+            "title": "How He Wrote the Biggest Sci-Fi Movie of the Year",
             "videoId": "0g97kzzldgw",
             "thumbnail": "https://img.youtube.com/vi/0g97kzzldgw/maxresdefault.jpg",
             "backup_thumb": "https://img.youtube.com/vi/0g97kzzldgw/hqdefault.jpg",
@@ -413,36 +473,6 @@
             "timestamp": 1776191523.0,
             "channelTitle": "StarTalk",
             "url": "https://www.youtube.com/watch?v=IsoTRExywcM"
-        },
-        {
-            "title": "The BONKERS Physics of Animal Swarms (Not Clickbait)",
-            "videoId": "9WeYlTmqViQ",
-            "thumbnail": "https://img.youtube.com/vi/9WeYlTmqViQ/maxresdefault.jpg",
-            "backup_thumb": "https://img.youtube.com/vi/9WeYlTmqViQ/hqdefault.jpg",
-            "publishedAt": "14/04/2026",
-            "timestamp": 1776186000.0,
-            "channelTitle": "SciShow",
-            "url": "https://www.youtube.com/watch?v=9WeYlTmqViQ"
-        },
-        {
-            "title": "Why Supervillains Might Be Better Than Superheroes",
-            "videoId": "lu96pPQ8sO8",
-            "thumbnail": "https://img.youtube.com/vi/lu96pPQ8sO8/maxresdefault.jpg",
-            "backup_thumb": "https://img.youtube.com/vi/lu96pPQ8sO8/hqdefault.jpg",
-            "publishedAt": "13/04/2026",
-            "timestamp": 1776112222.0,
-            "channelTitle": "StarTalk Plus",
-            "url": "https://www.youtube.com/watch?v=lu96pPQ8sO8"
-        },
-        {
-            "title": "NASA's Northrop Grumman Commercial Resupply Services 24 Rendezvous & Capture",
-            "videoId": "EnNGVjOy33U",
-            "thumbnail": "https://img.youtube.com/vi/EnNGVjOy33U/maxresdefault.jpg",
-            "backup_thumb": "https://img.youtube.com/vi/EnNGVjOy33U/hqdefault.jpg",
-            "publishedAt": "13/04/2026",
-            "timestamp": 1776101584.0,
-            "channelTitle": "NASA",
-            "url": "https://www.youtube.com/watch?v=EnNGVjOy33U"
         },
         {
             "title": "Artemis II: Around the Moon in 10 days",
@@ -525,16 +555,6 @@
             "url": "https://www.youtube.com/watch?v=IWfb9FnCTvI"
         },
         {
-            "title": "There’s Really Only One Way To Die",
-            "videoId": "5i1AGIJghZg",
-            "thumbnail": "https://img.youtube.com/vi/5i1AGIJghZg/maxresdefault.jpg",
-            "backup_thumb": "https://img.youtube.com/vi/5i1AGIJghZg/hqdefault.jpg",
-            "publishedAt": "01/04/2026",
-            "timestamp": 1775061152.0,
-            "channelTitle": "MinuteEarth",
-            "url": "https://www.youtube.com/watch?v=5i1AGIJghZg"
-        },
-        {
             "title": "You've Been Lied to About DNA Evidence",
             "videoId": "9okaPzpVhmM",
             "thumbnail": "https://img.youtube.com/vi/9okaPzpVhmM/maxresdefault.jpg",
@@ -555,16 +575,6 @@
             "url": "https://www.youtube.com/watch?v=h3DCdWyb0cc"
         },
         {
-            "title": "7 Rules for Walking in Space",
-            "videoId": "SdzNOGzfpQw",
-            "thumbnail": "https://img.youtube.com/vi/SdzNOGzfpQw/maxresdefault.jpg",
-            "backup_thumb": "https://img.youtube.com/vi/SdzNOGzfpQw/hqdefault.jpg",
-            "publishedAt": "16/03/2026",
-            "timestamp": 1773666437.0,
-            "channelTitle": "Learn With NASA",
-            "url": "https://www.youtube.com/watch?v=SdzNOGzfpQw"
-        },
-        {
             "title": "The Pi Song 4.0 (Memorize 400 Digits Of π)",
             "videoId": "q-9PXV0UfkA",
             "thumbnail": "https://img.youtube.com/vi/q-9PXV0UfkA/maxresdefault.jpg",
@@ -573,16 +583,6 @@
             "timestamp": 1773360064.0,
             "channelTitle": "AsapSCIENCE",
             "url": "https://www.youtube.com/watch?v=q-9PXV0UfkA"
-        },
-        {
-            "title": "Do *you* understand ISO?",
-            "videoId": "ZWSvHBG7X0w",
-            "thumbnail": "https://img.youtube.com/vi/ZWSvHBG7X0w/maxresdefault.jpg",
-            "backup_thumb": "https://img.youtube.com/vi/ZWSvHBG7X0w/hqdefault.jpg",
-            "publishedAt": "11/03/2026",
-            "timestamp": 1773255813.0,
-            "channelTitle": "minutephysics",
-            "url": "https://www.youtube.com/watch?v=ZWSvHBG7X0w"
         },
         {
             "title": "My first science video in 3 years",
@@ -616,6 +616,16 @@
         }
     ],
     "ingles_s": [
+        {
+            "title": "Creating an alien species for Project Hail Mary",
+            "videoId": "JJB1io9tr1o",
+            "thumbnail": "https://img.youtube.com/vi/JJB1io9tr1o/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/JJB1io9tr1o/hqdefault.jpg",
+            "publishedAt": "15/04/2026",
+            "timestamp": 1776274204.0,
+            "channelTitle": "StarTalk",
+            "url": "https://www.youtube.com/shorts/JJB1io9tr1o"
+        },
         {
             "title": "Tidying up the Columbus module 🧹",
             "videoId": "wLUFoWZ5MmU",
@@ -655,16 +665,6 @@
             "timestamp": 1776173419.0,
             "channelTitle": "Dr. Becky",
             "url": "https://www.youtube.com/shorts/Jl9vSJC8j8c"
-        },
-        {
-            "title": "You existing is actually statistically absurd🤯",
-            "videoId": "irNwWqDIZS4",
-            "thumbnail": "https://img.youtube.com/vi/irNwWqDIZS4/maxresdefault.jpg",
-            "backup_thumb": "https://img.youtube.com/vi/irNwWqDIZS4/hqdefault.jpg",
-            "publishedAt": "13/04/2026",
-            "timestamp": 1776103255.0,
-            "channelTitle": "StarTalk",
-            "url": "https://www.youtube.com/shorts/irNwWqDIZS4"
         },
         {
             "title": "How Caffeine Works",
