@@ -1,6 +1,8 @@
 import pandas as pd
 import feedparser
 import json
+import requests  # <--- NUEVO
+import time      # <--- NUEVO
 from datetime import datetime
 
 # CONFIGURACIÓN
@@ -13,8 +15,22 @@ def get_channel_data(channel_id):
     
     channel_id = channel_id.strip()
     feed_url = f"https://www.youtube.com/feeds/videos.xml?channel_id={channel_id}"
-    feed = feedparser.parse(feed_url)
+
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+    }
     
+    try:
+        # Hacemos la petición simulando ser un navegador
+        response = requests.get(feed_url, headers=headers, timeout=10)
+        response.raise_for_status() # Lanza error si YouTube nos bloquea
+        feed = feedparser.parse(response.content)
+    except Exception as e:
+        print(f"Error al obtener el feed del canal {channel_id}: {e}")
+        return None, None
+    
+    feed = feedparser.parse(feed_url)
+      
     if not feed.entries:
         return None, None
 
@@ -65,6 +81,8 @@ def main():
         else:
             if v: res["videos"].append(v)
             if s: res["shorts"].append(s)
+
+    time.sleep(2) # Espera 1 segundo antes del siguiente canal
 
     # Ordenar todas las listas
     for key in res:
