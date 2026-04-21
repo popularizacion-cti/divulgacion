@@ -82,7 +82,7 @@ def main():
             if v: res["videos"].append(v)
             if s: res["shorts"].append(s)
 
-        time.sleep(1) # Espera 1 segundo antes del siguiente canal
+        time.sleep(25) # Espera 1 segundo antes del siguiente canal
 
     # Ordenar todas las listas
     for key in res:
