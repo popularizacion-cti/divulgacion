@@ -1,151 +1,31 @@
 {
     "videos": [
         {
-            "title": "Un Nuevo Mecanismo Podría Explicar Parte del Autismo",
-            "videoId": "0Zcbm_m3zHM",
-            "thumbnail": "https://img.youtube.com/vi/0Zcbm_m3zHM/maxresdefault.jpg",
-            "backup_thumb": "https://img.youtube.com/vi/0Zcbm_m3zHM/hqdefault.jpg",
-            "publishedAt": "27/09/2026",
-            "timestamp": 1790535382.0,
+            "title": "Modelos de IA Pueden Herir Humanos si con eso \"Calman su Dolor Interno\"",
+            "videoId": "Y8urFuQJa0Q",
+            "thumbnail": "https://img.youtube.com/vi/Y8urFuQJa0Q/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/Y8urFuQJa0Q/hqdefault.jpg",
+            "publishedAt": "03/10/2026",
+            "timestamp": 1791060961.0,
             "channelTitle": "Noticias Robotitus",
-            "url": "https://www.youtube.com/watch?v=0Zcbm_m3zHM"
-        },
-        {
-            "title": "¿Por Qué YA NO ENTENDEMOS a la IA?",
-            "videoId": "yB3KGqChTAA",
-            "thumbnail": "https://img.youtube.com/vi/yB3KGqChTAA/maxresdefault.jpg",
-            "backup_thumb": "https://img.youtube.com/vi/yB3KGqChTAA/hqdefault.jpg",
-            "publishedAt": "25/09/2026",
-            "timestamp": 1790362825.0,
-            "channelTitle": "El Robot de Platón",
-            "url": "https://www.youtube.com/watch?v=yB3KGqChTAA"
-        },
-        {
-            "title": "TODOS tenemos esto en Nuestro Cerebro - CIENCIA SIMPLIFICADA EP#92",
-            "videoId": "F7PE0jiGw1c",
-            "thumbnail": "https://img.youtube.com/vi/F7PE0jiGw1c/maxresdefault.jpg",
-            "backup_thumb": "https://img.youtube.com/vi/F7PE0jiGw1c/hqdefault.jpg",
-            "publishedAt": "24/09/2026",
-            "timestamp": 1790280904.0,
-            "channelTitle": "jefillysh",
-            "url": "https://www.youtube.com/watch?v=F7PE0jiGw1c"
-        },
-        {
-            "title": "Qué Pasa con los Albatros - Mini Documental",
-            "videoId": "lrau7oha86g",
-            "thumbnail": "https://img.youtube.com/vi/lrau7oha86g/maxresdefault.jpg",
-            "backup_thumb": "https://img.youtube.com/vi/lrau7oha86g/hqdefault.jpg",
-            "publishedAt": "21/09/2026",
-            "timestamp": 1790010017.0,
-            "channelTitle": "El Robot de Linneo",
-            "url": "https://www.youtube.com/watch?v=lrau7oha86g"
-        },
-        {
-            "title": "¿Y si todo es MENTIRA?",
-            "videoId": "MC2DubQU32g",
-            "thumbnail": "https://img.youtube.com/vi/MC2DubQU32g/maxresdefault.jpg",
-            "backup_thumb": "https://img.youtube.com/vi/MC2DubQU32g/hqdefault.jpg",
-            "publishedAt": "20/09/2026",
-            "timestamp": 1789931456.0,
-            "channelTitle": "Date un Vlog",
-            "url": "https://www.youtube.com/watch?v=MC2DubQU32g"
-        },
-        {
-            "title": "Somos inmunes a todas las enfermedades",
-            "videoId": "bDRVjoVn0Fg",
-            "thumbnail": "https://img.youtube.com/vi/bDRVjoVn0Fg/maxresdefault.jpg",
-            "backup_thumb": "https://img.youtube.com/vi/bDRVjoVn0Fg/hqdefault.jpg",
-            "publishedAt": "08/01/2026",
-            "timestamp": 1767884471.0,
-            "channelTitle": "En Pocas Palabras – Kurzgesagt",
-            "url": "https://www.youtube.com/watch?v=bDRVjoVn0Fg"
+            "url": "https://www.youtube.com/watch?v=Y8urFuQJa0Q"
         }
     ],
     "shorts": [
         {
-            "title": "La Oruga Más Asquerosa 🤢",
-            "videoId": "b3i2B72Nn3Y",
-            "thumbnail": "https://img.youtube.com/vi/b3i2B72Nn3Y/maxresdefault.jpg",
-            "backup_thumb": "https://img.youtube.com/vi/b3i2B72Nn3Y/hqdefault.jpg",
-            "publishedAt": "27/09/2026",
-            "timestamp": 1790544890.0,
-            "channelTitle": "El Robot de Linneo",
-            "url": "https://www.youtube.com/shorts/b3i2B72Nn3Y"
-        },
-        {
-            "title": "E=mc² NO Es la Verdadera Ecuación de Einstein",
-            "videoId": "Z5vLOY_AKyo",
-            "thumbnail": "https://img.youtube.com/vi/Z5vLOY_AKyo/maxresdefault.jpg",
-            "backup_thumb": "https://img.youtube.com/vi/Z5vLOY_AKyo/hqdefault.jpg",
-            "publishedAt": "26/09/2026",
-            "timestamp": 1790434800.0,
-            "channelTitle": "Date un Vlog",
-            "url": "https://www.youtube.com/shorts/Z5vLOY_AKyo"
-        },
-        {
-            "title": "¿Descubren que Tenemos 2 Cerebros?",
-            "videoId": "aXTAIuxQ3PA",
-            "thumbnail": "https://img.youtube.com/vi/aXTAIuxQ3PA/maxresdefault.jpg",
-            "backup_thumb": "https://img.youtube.com/vi/aXTAIuxQ3PA/hqdefault.jpg",
-            "publishedAt": "25/09/2026",
-            "timestamp": 1790374336.0,
+            "title": "Ameba Rompe el Récord de Resistencia al Calor 😱",
+            "videoId": "Ai9JZuXENlA",
+            "thumbnail": "https://img.youtube.com/vi/Ai9JZuXENlA/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/Ai9JZuXENlA/hqdefault.jpg",
+            "publishedAt": "02/10/2026",
+            "timestamp": 1790972754.0,
             "channelTitle": "Noticias Robotitus",
-            "url": "https://www.youtube.com/shorts/aXTAIuxQ3PA"
-        },
-        {
-            "title": "Por qué NO Entendemos a las IAs",
-            "videoId": "bQ5ZE3FyjNw",
-            "thumbnail": "https://img.youtube.com/vi/bQ5ZE3FyjNw/maxresdefault.jpg",
-            "backup_thumb": "https://img.youtube.com/vi/bQ5ZE3FyjNw/hqdefault.jpg",
-            "publishedAt": "25/09/2026",
-            "timestamp": 1790373656.0,
-            "channelTitle": "El Robot de Platón",
-            "url": "https://www.youtube.com/shorts/bQ5ZE3FyjNw"
+            "url": "https://www.youtube.com/shorts/Ai9JZuXENlA"
         }
     ],
     "ingles_v": [
         {
-            "title": "Why Humans May Never Leave the Solar System, with Charles Liu",
-            "videoId": "0zNnJ2AzmA4",
-            "thumbnail": "https://img.youtube.com/vi/0zNnJ2AzmA4/maxresdefault.jpg",
-            "backup_thumb": "https://img.youtube.com/vi/0zNnJ2AzmA4/hqdefault.jpg",
-            "publishedAt": "26/09/2026",
-            "timestamp": 1790436600.0,
-            "channelTitle": "StarTalk",
-            "url": "https://www.youtube.com/watch?v=0zNnJ2AzmA4"
-        },
-        {
-            "title": "Hank Green Asks a Volcanologist Anything",
-            "videoId": "Fbxn6OBOkg4",
-            "thumbnail": "https://img.youtube.com/vi/Fbxn6OBOkg4/maxresdefault.jpg",
-            "backup_thumb": "https://img.youtube.com/vi/Fbxn6OBOkg4/hqdefault.jpg",
-            "publishedAt": "25/09/2026",
-            "timestamp": 1790355634.0,
-            "channelTitle": "SciShow",
-            "url": "https://www.youtube.com/watch?v=Fbxn6OBOkg4"
-        },
-        {
-            "title": "A DECAGON shaped storm raging on Saturn | Night Sky News September 2026",
-            "videoId": "ESCKJyi3Xu8",
-            "thumbnail": "https://img.youtube.com/vi/ESCKJyi3Xu8/maxresdefault.jpg",
-            "backup_thumb": "https://img.youtube.com/vi/ESCKJyi3Xu8/hqdefault.jpg",
-            "publishedAt": "24/09/2026",
-            "timestamp": 1790276591.0,
-            "channelTitle": "Dr. Becky",
-            "url": "https://www.youtube.com/watch?v=ESCKJyi3Xu8"
-        },
-        {
-            "title": "This Is What a Godlike Civilization Would Look Like",
-            "videoId": "QW_jlUn4gA8",
-            "thumbnail": "https://img.youtube.com/vi/QW_jlUn4gA8/maxresdefault.jpg",
-            "backup_thumb": "https://img.youtube.com/vi/QW_jlUn4gA8/hqdefault.jpg",
-            "publishedAt": "22/09/2026",
-            "timestamp": 1790085601.0,
-            "channelTitle": "Kurzgesagt – In a Nutshell",
-            "url": "https://www.youtube.com/watch?v=QW_jlUn4gA8"
-        },
-        {
-            "title": "Last Cheater Standing Wins $10,000!",
+            "title": "Last Cheater Standing Wins $10,000",
             "videoId": "_L1Rim7-IPo",
             "thumbnail": "https://img.youtube.com/vi/_L1Rim7-IPo/maxresdefault.jpg",
             "backup_thumb": "https://img.youtube.com/vi/_L1Rim7-IPo/hqdefault.jpg",
@@ -155,96 +35,36 @@
             "url": "https://www.youtube.com/watch?v=_L1Rim7-IPo"
         },
         {
-            "title": "How Can Tiny Molecules Hold SO MUCH Energy?",
-            "videoId": "fSbUXgmmNs0",
-            "thumbnail": "https://img.youtube.com/vi/fSbUXgmmNs0/maxresdefault.jpg",
-            "backup_thumb": "https://img.youtube.com/vi/fSbUXgmmNs0/hqdefault.jpg",
-            "publishedAt": "12/09/2026",
-            "timestamp": 1789218011.0,
-            "channelTitle": "Arvin Ash",
-            "url": "https://www.youtube.com/watch?v=fSbUXgmmNs0"
-        },
-        {
-            "title": "Drop Testing \"Unbreakable\" Ice (Pykrete)",
-            "videoId": "Nt4yHwIK9GE",
-            "thumbnail": "https://img.youtube.com/vi/Nt4yHwIK9GE/maxresdefault.jpg",
-            "backup_thumb": "https://img.youtube.com/vi/Nt4yHwIK9GE/hqdefault.jpg",
-            "publishedAt": "05/06/2026",
-            "timestamp": 1780678640.0,
-            "channelTitle": "Reactions",
-            "url": "https://www.youtube.com/watch?v=Nt4yHwIK9GE"
+            "title": "This Weird Pattern Will Let Us Reshape Matter",
+            "videoId": "w6hK2PML6Uc",
+            "thumbnail": "https://img.youtube.com/vi/w6hK2PML6Uc/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/w6hK2PML6Uc/hqdefault.jpg",
+            "publishedAt": "15/09/2026",
+            "timestamp": 1789484975.0,
+            "channelTitle": "Be Smart",
+            "url": "https://www.youtube.com/watch?v=w6hK2PML6Uc"
         }
     ],
     "ingles_s": [
         {
-            "title": "Are We Too Small to Understand the Universe? 🌌",
-            "videoId": "z2RV0xZh3os",
-            "thumbnail": "https://img.youtube.com/vi/z2RV0xZh3os/maxresdefault.jpg",
-            "backup_thumb": "https://img.youtube.com/vi/z2RV0xZh3os/hqdefault.jpg",
-            "publishedAt": "27/09/2026",
-            "timestamp": 1790524822.0,
-            "channelTitle": "StarTalk",
-            "url": "https://www.youtube.com/shorts/z2RV0xZh3os"
+            "title": "Why don’t you feel your clothes?",
+            "videoId": "lotjFwfnWN8",
+            "thumbnail": "https://img.youtube.com/vi/lotjFwfnWN8/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/lotjFwfnWN8/hqdefault.jpg",
+            "publishedAt": "01/10/2026",
+            "timestamp": 1790883265.0,
+            "channelTitle": "Be Smart",
+            "url": "https://www.youtube.com/shorts/lotjFwfnWN8"
         },
         {
-            "title": "This Storm Is Twice the Size of Earth",
-            "videoId": "mJJuJiQew68",
-            "thumbnail": "https://img.youtube.com/vi/mJJuJiQew68/maxresdefault.jpg",
-            "backup_thumb": "https://img.youtube.com/vi/mJJuJiQew68/hqdefault.jpg",
-            "publishedAt": "26/09/2026",
-            "timestamp": 1790442707.0,
-            "channelTitle": "Cleo Abram",
-            "url": "https://www.youtube.com/shorts/mJJuJiQew68"
-        },
-        {
-            "title": "Humans Can Regrow an Organ",
-            "videoId": "oNTaHYXQ4MM",
-            "thumbnail": "https://img.youtube.com/vi/oNTaHYXQ4MM/maxresdefault.jpg",
-            "backup_thumb": "https://img.youtube.com/vi/oNTaHYXQ4MM/hqdefault.jpg",
-            "publishedAt": "26/09/2026",
-            "timestamp": 1790431211.0,
-            "channelTitle": "Kurzgesagt – In a Nutshell",
-            "url": "https://www.youtube.com/shorts/oNTaHYXQ4MM"
-        },
-        {
-            "title": "A decagon on Saturn?! #shorts",
-            "videoId": "sP9R9nuqe80",
-            "thumbnail": "https://img.youtube.com/vi/sP9R9nuqe80/maxresdefault.jpg",
-            "backup_thumb": "https://img.youtube.com/vi/sP9R9nuqe80/hqdefault.jpg",
-            "publishedAt": "25/09/2026",
-            "timestamp": 1790355608.0,
-            "channelTitle": "Dr. Becky",
-            "url": "https://www.youtube.com/shorts/sP9R9nuqe80"
-        },
-        {
-            "title": "is bacon-fuel a renewable resource?",
-            "videoId": "nc-JMJ55NJc",
-            "thumbnail": "https://img.youtube.com/vi/nc-JMJ55NJc/maxresdefault.jpg",
-            "backup_thumb": "https://img.youtube.com/vi/nc-JMJ55NJc/hqdefault.jpg",
-            "publishedAt": "18/09/2026",
-            "timestamp": 1789756909.0,
-            "channelTitle": "Reactions",
-            "url": "https://www.youtube.com/shorts/nc-JMJ55NJc"
-        },
-        {
-            "title": "Chivalry or Engineering?",
-            "videoId": "NUVkpWAD548",
-            "thumbnail": "https://img.youtube.com/vi/NUVkpWAD548/maxresdefault.jpg",
-            "backup_thumb": "https://img.youtube.com/vi/NUVkpWAD548/hqdefault.jpg",
-            "publishedAt": "18/09/2026",
-            "timestamp": 1789736402.0,
+            "title": "You Have Spiders on Your Face RIGHT NOW!",
+            "videoId": "tbWTiZlwJ3M",
+            "thumbnail": "https://img.youtube.com/vi/tbWTiZlwJ3M/maxresdefault.jpg",
+            "backup_thumb": "https://img.youtube.com/vi/tbWTiZlwJ3M/hqdefault.jpg",
+            "publishedAt": "30/09/2026",
+            "timestamp": 1790773214.0,
             "channelTitle": "Mark Rober",
-            "url": "https://www.youtube.com/shorts/NUVkpWAD548"
-        },
-        {
-            "title": "Are Quantum Fields \"AEther?\" #aether",
-            "videoId": "omdXdnVo9Ng",
-            "thumbnail": "https://img.youtube.com/vi/omdXdnVo9Ng/maxresdefault.jpg",
-            "backup_thumb": "https://img.youtube.com/vi/omdXdnVo9Ng/hqdefault.jpg",
-            "publishedAt": "06/07/2026",
-            "timestamp": 1783353610.0,
-            "channelTitle": "Arvin Ash",
-            "url": "https://www.youtube.com/shorts/omdXdnVo9Ng"
+            "url": "https://www.youtube.com/shorts/tbWTiZlwJ3M"
         }
     ]
 }
